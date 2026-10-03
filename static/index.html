@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eventos Región del Biobío</title>
+  <meta name="description" content="Agenda local de eventos públicos presenciales en las 33 comunas de la Región del Biobío.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <h1>Eventos Región del Biobío</h1>
+        <p class="tagline">Cultura, música, teatro, deporte, ferias y comunidad en las 33 comunas.</p>
+      </div>
+      <p id="honesty-line" class="honesty" aria-live="polite">Cargando estado…</p>
+    </div>
+    <nav class="wrap tabs" role="tablist" aria-label="Secciones">
+      <button role="tab" data-view="agenda" class="tab active">Agenda</button>
+      <button role="tab" data-view="calendar" class="tab">Calendario</button>
+      <button role="tab" data-view="map" class="tab">GeoMapa</button>
+      <button role="tab" data-view="saved" class="tab">Guardados <span id="saved-count" class="pill-count">0</span></button>
+      <button role="tab" data-view="submit" class="tab">Publica tu evento</button>
+      <button role="tab" data-view="admin" class="tab">Administración</button>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section id="filters" class="filters" aria-label="Filtros"></section>
+
+    <section id="view-agenda" class="view active" aria-label="Agenda">
+      <div class="view-toolbar">
+        <div class="segmented" role="group" aria-label="Modo de agenda">
+          <button data-mode="list" class="seg active">Lista</button>
+          <button data-mode="cards" class="seg">Tarjetas</button>
+        </div>
+        <span id="result-count" class="muted"></span>
+      </div>
+      <div id="agenda"></div>
+    </section>
+
+    <section id="view-calendar" class="view" aria-label="Calendario">
+      <div class="view-toolbar">
+        <button id="cal-prev" class="btn ghost" aria-label="Mes anterior">‹</button>
+        <h2 id="cal-title" class="cal-title"></h2>
+        <button id="cal-next" class="btn ghost" aria-label="Mes siguiente">›</button>
+        <button id="cal-today" class="btn ghost">Hoy</button>
+      </div>
+      <div id="calendar" class="calendar"></div>
+      <div id="calendar-day"></div>
+    </section>
+
+    <section id="view-map" class="view" aria-label="Mapa">
+      <div class="view-toolbar">
+        <span id="map-mode" class="muted"></span>
+      </div>
+      <div id="map" class="map"></div>
+      <div class="legend">
+        <span><i class="dot cultura"></i>Cultura</span>
+        <span><i class="dot comunidad"></i>Comunidad</span>
+        <span><i class="dot empresarial"></i>Empresarial</span>
+        <span><i class="dot none"></i>Sin eventos cargados</span>
+      </div>
+    </section>
+
+    <section id="view-saved" class="view" aria-label="Guardados">
+      <p class="muted">Tus eventos guardados se almacenan solo en este navegador (sin cuentas ni login).</p>
+      <div id="saved"></div>
+    </section>
+
+    <section id="view-submit" class="view" aria-label="Publica tu evento"></section>
+    <section id="view-admin" class="view" aria-label="Administración"></section>
+  </main>
+
+  <dialog id="details" class="modal" aria-labelledby="details-title"></dialog>
+
+  <footer class="wrap site-footer">
+    <p>App local. Los datos provienen de fuentes públicas citadas en cada ficha; verifica siempre con el organizador.
+      Las imágenes mostradas son solo las que publica la propia fuente.</p>
+  </footer>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

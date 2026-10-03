@@ -1,0 +1,23 @@
+EVENTOS REGIÓN DEL BIOBÍO — CÓMO EMPEZAR
+========================================
+
+1. Necesitas Python 3.9 o superior (https://www.python.org/downloads/).
+   En Windows, al instalar, marca "Add Python to PATH".
+   No hay que instalar nada más: no se usa pip.
+
+2. Inicia la app:
+   - Windows: doble clic en  iniciar_windows.bat
+   - Mac / Linux: doble clic o en terminal:  ./iniciar_mac_linux.sh
+   Se abrirá el navegador en http://127.0.0.1:8765 (u otro puerto libre).
+
+3. Para cerrar: cierra la ventana negra (consola) o presiona Ctrl+C.
+
+QUÉ TRAE HOY (estado real al 2026-10-03)
+- 5 eventos semilla verificados solo por búsqueda web (4 vigentes, 1 ya pasado),
+  en 2 comunas (Concepción y Tomé). Cada uno cita su fuente.
+- 60 fuentes configuradas, 45 habilitadas, 0 verificadas en vivo: el entorno donde
+  se construyó no tenía salida a internet hacia esos sitios.
+- La primera vez que pulses "Actualizar fuentes ahora" (pestaña Administración)
+  con internet, se verá cuántas fuentes responden de verdad.
+
+Lee README.md para más detalles y limitaciones.
