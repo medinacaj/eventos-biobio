@@ -571,3 +571,70 @@ def is_new(ev, days=3):
         return datetime.fromisoformat(ev["discovered_at"]) >= datetime.now() - timedelta(days=days)
     except (TypeError, ValueError, KeyError):
         return False
+
+
+# ---------------------------------------------------------------- snapshot rastreado
+# data/crawled_events.json lo genera actualizar.py (p. ej. desde una rutina en la
+# nube) y se versiona en git; la app local lo carga al arrancar.
+
+EXPORT_FIELDS = ("title", "description", "date", "end_date", "time", "end_time", "venue",
+                 "address", "commune", "category", "audience", "access", "price_value",
+                 "price_status", "status", "source", "source_url", "source_type",
+                 "source_priority", "official", "image_url", "discovered_at", "changed_at")
+
+
+def export_crawled(conn, keep_days_past=30):
+    """Eventos rastreados (origin='crawl') aún relevantes, con fuentes e historial."""
+    cutoff = (date.today() - timedelta(days=keep_days_past)).isoformat()
+    out = []
+    for r in conn.execute("SELECT * FROM events WHERE origin = 'crawl' AND COALESCE(end_date, date) >= ?"
+                          " ORDER BY date, time, title", (cutoff,)):
+        e = {k: r[k] for k in EXPORT_FIELDS}
+        e["official"] = bool(e["official"])
+        e["tags"] = json.loads(r["tags"] or "[]")
+        e["sources"] = json.loads(r["sources_json"] or "[]")
+        e["changes"] = [dict(c) for c in conn.execute(
+            "SELECT field, old_value, new_value, source, source_url, changed_at FROM event_changes"
+            " WHERE event_id = ? ORDER BY id", (r["id"],))]
+        out.append(e)
+    return out
+
+
+def load_crawled(conn, path, communes):
+    """Carga el snapshot rastreado. Idempotente: usa la misma deduplicación."""
+    counts = {"inserted": 0, "merged": 0, "unchanged": 0, "runs": 0}
+    if not os.path.exists(path):
+        return counts
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    for ev in data.get("events", []):
+        ev = dict(ev)
+        ev["origin"] = "crawl"
+        extra = [s for s in ev.pop("sources", []) if s.get("url") != ev.get("source_url")]
+        ev["extra_sources"] = extra
+        changes = ev.pop("changes", [])
+        eid, action = upsert_event(conn, ev, communes)
+        counts[action] += 1
+        if action == "inserted":
+            with _write_lock:
+                if ev.get("discovered_at"):
+                    conn.execute("UPDATE events SET discovered_at = ?, changed_at = ? WHERE id = ?",
+                                 (ev["discovered_at"], ev.get("changed_at"), eid))
+                for c in changes:
+                    conn.execute(
+                        "INSERT INTO event_changes (event_id, field, old_value, new_value, source,"
+                        " source_url, changed_at) VALUES (?,?,?,?,?,?,?)",
+                        (eid, c.get("field"), c.get("old_value"), c.get("new_value"), c.get("source"),
+                         c.get("source_url"), c.get("changed_at") or now_iso()))
+                conn.commit()
+    for run in data.get("runs", []):
+        exists = conn.execute("SELECT 1 FROM source_runs WHERE source_name = ? AND started_at = ?",
+                              (run.get("source_name"), run.get("started_at"))).fetchone()
+        if not exists:
+            record_run(conn, run)
+            counts["runs"] += 1
+    for pe in data.get("possible_events", []):
+        add_possible_event(conn, pe)
+    for sc in data.get("source_candidates", []):
+        add_source_candidate(conn, sc["url"], sc.get("domain"), sc.get("found_on"), sc.get("reason"))
+    return counts

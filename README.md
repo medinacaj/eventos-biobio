@@ -60,10 +60,31 @@ Verifícalos con el organizador antes de difundirlos.
 
 No se hace scraping de Instagram (requiere login; no se evade login, CAPTCHA ni se usan cookies). Si hace falta contenido de Instagram, quien administre el proyecto debe aportar capturas de pantalla y cargarlas manualmente, por ejemplo con el formulario «Publica tu evento».
 
+## Actualizar desde la nube (o desde cualquier equipo)
+
+`python3 actualizar.py` rastrea las fuentes habilitadas sin abrir la interfaz y escribe dos archivos **versionables**:
+
+- `data/crawled_events.json`: eventos rastreados con sus fuentes e historial de cambios, el resultado de cada fuente en la corrida, posibles eventos pendientes y fuentes candidatas.
+- `config/sources.json`: `verified_live` y `last_live_check` según lo que respondió **de verdad** cada fuente en esa corrida. Si una fuente antes verificada ahora falla, vuelve a `false`.
+
+Al arrancar, la app local carga `data/crawled_events.json` con la misma deduplicación que el resto de los datos (no se duplica aunque arranque muchas veces).
+
+El flujo previsto es este: una rutina en la nube ejecuta `actualizar.py`, hace commit y push de esos dos archivos, y tú haces `git pull` o descargas el repositorio para verlos en tu app local.
+
+Requisitos para que funcione en la nube:
+
+1. **Acceso a la red del entorno:** en el menú del entorno → *Edit* → *Network access*, elige acceso completo o *Custom* con los dominios de `config/sources.json` (<https://code.claude.com/docs/en/cloud-environments#network-access>). Sin esto, todas las fuentes fallan con «Tunnel connection failed: 403», como ocurrió el 2026-10-03.
+2. **Una rutina programada** (por ejemplo, diaria) con una instrucción como esta:
+
+   > En el repo medinacaj/eventos-biobio, rama claude/eventos-biobio-v1: ejecuta `python3 actualizar.py` y luego `python3 -m unittest discover -s tests -t .`. Si respondieron 0 fuentes, no hagas commit: informa el error. Si los tests pasan y alguna fuente respondió, haz commit de `data/crawled_events.json` y `config/sources.json` con el resumen que imprimió `actualizar.py`, y súbelo.
+
+`actualizar.py` no usa red en los tests (`tests/test_actualizar.py` usa un fetcher falso). **Al 2026-10-03 todavía no existe `data/crawled_events.json`**, porque no ha habido ninguna corrida con acceso a internet.
+
 ## Arquitectura
 
 ```
 app.py            ThreadingHTTPServer + API JSON sobre SQLite
+actualizar.py     rastreo sin interfaz -> data/crawled_events.json (para rutinas en la nube)
 launcher.py       puerto libre + abre navegador
 db.py             esquema SQLite, dedupe, consultas, cifras de estado/cobertura
 metadata.py       parsing de fecha/hora/precio en español, comuna, categoría
@@ -124,7 +145,7 @@ node --check static/*.js   # opcional, solo desarrollo
 
 Cubren el esquema e inserción, la deduplicación (incluidos los dos casos límite), el parsing de fecha, hora y precio, la extracción de imagen, los scrapers con HTML/XML de ejemplo y un fetcher falso, la configuración, y un smoke test end-to-end que levanta el servidor real en un puerto local y prueba la API con `urllib`. Ninguno usa la red externa.
 
-Resultado de la última ejecución (2026-10-03): **61 tests, 61 OK, 0 fallos**.
+Resultado de la última ejecución (2026-10-03): **66 tests, 66 OK, 0 fallos**.
 
 ## Limitaciones conocidas
 

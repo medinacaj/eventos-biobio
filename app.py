@@ -20,6 +20,7 @@ from scrapers import runner
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 SEED_PATH = os.path.join(BASE_DIR, "data", "seed_events.json")
+CRAWLED_PATH = os.path.join(BASE_DIR, "data", "crawled_events.json")
 MAX_BODY = 64 * 1024
 
 
@@ -44,6 +45,8 @@ class AppContext:
         self.sources = discovery.load_sources()
         self.commune_names = {c["name"] for c in self.communes}
         self.seed_result = db.load_seed(self.conn, SEED_PATH, self.communes) if load_seed else None
+        self.crawled_result = (db.load_crawled(self.conn, CRAWLED_PATH, self.communes)
+                               if load_seed else None)
 
 
 def _valid_date(s):

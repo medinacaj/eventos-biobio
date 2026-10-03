@@ -21,3 +21,8 @@ QUÉ TRAE HOY (estado real al 2026-10-03)
   con internet, se verá cuántas fuentes responden de verdad.
 
 Lee README.md para más detalles y limitaciones.
+
+ACTUALIZAR SIN ABRIR LA APP
+- python3 actualizar.py  (o "py -3 actualizar.py" en Windows) rastrea las fuentes y guarda
+  data/crawled_events.json, que la app carga al iniciar. Pensado para una rutina en la nube
+  que haga commit del resultado; ver README.md, sección "Actualizar desde la nube".

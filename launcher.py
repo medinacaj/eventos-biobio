@@ -47,6 +47,7 @@ def main():
     print(" Eventos Región del Biobío")
     print(" Abierto en: " + url)
     print(" Semilla cargada: %s" % httpd.ctx.seed_result)
+    print(" Rastreo (data/crawled_events.json): %s" % httpd.ctx.crawled_result)
     print(" Cierra esta ventana o presiona Ctrl+C para detener.")
     print("=" * 60)
     if wait_health(url) and not no_browser:
