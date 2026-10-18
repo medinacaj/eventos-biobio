@@ -18,7 +18,7 @@ class SnapshotGateTests(unittest.TestCase):
                 ],"events":[]
             }), encoding="utf8")
             result=check(path/"snap.json",path/"communes.json")
-            self.assertIn("1/1",result.replace("Comunas con eventos rastreados: **0/1**","1/1"))
+            self.assertIn("Comunas con eventos rastreados: **0/1**", result)
 
     def test_rejects_no_live_sources(self):
         with tempfile.TemporaryDirectory() as temp:
