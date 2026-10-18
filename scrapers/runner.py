@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import db
 import discovery
 from scrapers import deep_crawler, rss
+from scrapers.quality import review_reason
 from scrapers.common import fetch
 
 _state = {"running": False, "started_at": None, "finished_at": None, "summary": None}
@@ -43,7 +44,7 @@ def refresh(conn, sources=None, communes=None, fetcher=fetch, max_workers=6, onl
         _state.update(running=True, started_at=db.now_iso(), finished_at=None, summary=None)
     summary = {"sources_attempted": len(todo), "sources_ok": 0, "sources_failed": 0,
                "events_found": 0, "events_inserted": 0, "events_merged": 0,
-               "possible_events": 0, "candidates": 0, "errors": []}
+               "possible_events": 0, "quarantined_candidates": 0, "candidates": 0, "errors": []}
     try:
         with ThreadPoolExecutor(max_workers=max_workers) as pool:
             futs = {pool.submit(_run_source, s, communes, fetcher): (s, db.now_iso()) for s in todo}
@@ -55,24 +56,39 @@ def refresh(conn, sources=None, communes=None, fetcher=fetch, max_workers=6, onl
                 except Exception as exc:  # error inesperado del parser
                     res = deep_crawler.CrawlResult()
                     res.error = "%s: %s" % (type(exc).__name__, exc)
-                ins = mer = 0
+                ins = mer = published = quarantined = 0
                 for ev in res.events:
+                    reason = review_reason(ev, s)
+                    if reason:
+                        quarantined += 1
+                        db.add_possible_event(conn, {
+                            "title": ev.get("title") or "Sin título",
+                            "raw_text": ev.get("description") or ev.get("venue") or "",
+                            "date": ev.get("date"),
+                            "commune": ev.get("commune"),
+                            "source": ev.get("source") or s["name"],
+                            "source_url": ev.get("source_url") or s["url"],
+                            "reason": reason,
+                        })
+                        continue
                     try:
                         _, action = db.upsert_event(conn, dict(ev, origin="crawl"), communes)
                     except ValueError:
                         continue
+                    published += 1
                     ins += action == "inserted"
                     mer += action == "merged"
                 pos = sum(db.add_possible_event(conn, p) for p in res.possibles)
                 cand = discovery.register_candidates(conn, res.candidates, sources)
                 ok = res.error is None
                 run.update(finished_at=db.now_iso(), ok=1 if ok else 0, http_status=res.http_status,
-                           pages_fetched=res.pages, events_found=len(res.events),
+                           pages_fetched=res.pages, events_found=published,
                            events_inserted=ins, events_merged=mer, possible_found=pos,
                            error=res.error)
                 db.record_run(conn, run)
                 summary["sources_ok" if ok else "sources_failed"] += 1
-                summary["events_found"] += len(res.events)
+                summary["events_found"] += published
+                summary["quarantined_candidates"] += quarantined
                 summary["events_inserted"] += ins
                 summary["events_merged"] += mer
                 summary["possible_events"] += pos
