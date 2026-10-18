@@ -39,6 +39,14 @@ y el snapshot versionado. Un HTTP 200 no garantiza que una agenda publique
 eventos estructurados. Si GitHub Actions no logra acceder a ninguna fuente,
 el flujo aparecerá con error y no habrá nueva publicación.
 
+### Primera verificación real y revisión de calidad (18-10-2026)
+
+La primera corrida de GitHub Actions obtuvo **37/45 fuentes con respuesta HTTP 2xx**, 8 fallidas. El recolector detectó inicialmente 12 fichas en el snapshot (de 36 detecciones brutas); la revisión encontró 9 convocatorias electorales administrativas y 3 fichas de ticketing nacional sin garantía geográfica, incluidas referencias a La Florida de Santiago clasificadas erróneamente como Florida, Biobío. Esas 12 fichas quedaron **pendientes de revisión**, no publicadas.
+
+Esto significa **0 eventos del primer snapshot validados para publicación tras aplicar el filtro estricto**, aunque 37 fuentes sí respondieron correctamente. El resultado no se reemplaza por datos de ejemplo. La cobertura real validada del catálogo será recalculada en cada corrida; se requieren más fuentes oficiales con calendario público para las 33 comunas.
+
+El filtro en `scrapers/quality.py` impide publicar convocatorias administrativas internas y eventos obtenidos de ticketeras nacionales sin comuna de origen verificable. El resto pasa a candidatos pendientes de revisión; no se elimina el enlace original ni se usa IA para inventar ciudad, recinto u horario. Para reactivar ticketing regional, incorporar prueba territorial y tests antes de quitar el bloqueo.
+
 ## Estado real del proyecto (2026-10-03)
 
 > Las cifras de esta sección vienen de ejecutar el código, no de estimaciones.
