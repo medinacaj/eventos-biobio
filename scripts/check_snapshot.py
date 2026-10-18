@@ -46,6 +46,7 @@ def check(snapshot_path, communes_path):
         f"- Respuestas HTTP 2xx verificadas: **{len(ok)}**",
         f"- Fuentes fallidas: **{summary.get('sources_failed', 0)}**",
         f"- Eventos en snapshot: **{len(events)}**",
+        f"- Candidatos derivados a revisión editorial: **{summary.get('quarantined_candidates', 0)}**",
         f"- Comunas con eventos rastreados: **{covered}/{len(names)}**",
         "",
         "Una respuesta HTTP exitosa no implica que se extrajeran eventos válidos.",
