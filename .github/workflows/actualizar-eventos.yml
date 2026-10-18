@@ -15,6 +15,7 @@ on:
       - 'db.py'
       - 'tests/**'
       - 'scripts/check_snapshot.py'
+      - 'scripts/report_coverage.py'
       - '.github/workflows/actualizar-eventos.yml'
 
 permissions:
@@ -45,12 +46,14 @@ jobs:
         run: python3 actualizar.py --workers 4
       - name: Exigir evidencia de respuestas HTTP verificables
         run: python3 scripts/check_snapshot.py data/crawled_events.json config/communes.json
+      - name: Auditoría de cobertura de las 33 comunas
+        run: python3 scripts/report_coverage.py data/crawled_events.json config/communes.json config/sources.json reports/coverage.md
       - name: Registrar solo datos validados
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/crawled_events.json config/sources.json
+          git add -- data/crawled_events.json config/sources.json reports/coverage.md
           if ! git diff --cached --quiet; then
             git commit -m "data: rastreo real de eventos Biobío [skip ci]"
             git push

@@ -29,7 +29,7 @@ HTTP 2xx verificable: no se publican snapshots ni estados inventados.
 Si al menos una fuente respondió, se versionan solo
 `data/crawled_events.json` y `config/sources.json`. La pestaña Actions
 registra fuentes consultadas, fuentes HTTP válidas, fallos, eventos y comunas cubiertas.
-La cifra de comunas cubiertas se basa en eventos realmente extraídos,
+La [matriz de cobertura por comuna](reports/coverage.md) se publica con cada corrida válida e indica cuántas fuentes locales respondieron y cuántos candidatos requieren revisión. La cifra de comunas cubiertas se basa en eventos realmente extraídos,
 no en URLs de municipios configuradas. GitHub Pages no se usa para este proyecto: la
 app sigue siendo local y descarga el JSON versionado al actualizar el repositorio.
 
