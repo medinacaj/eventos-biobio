@@ -1,5 +1,5 @@
 {
-  "_notes": "Generado por actualizar.py. Solo contiene lo que las fuentes publicaron en esta corrida y en corridas anteriores; nada se completa a mano.",
+  "_notes": "Snapshot real generado por actualizar.py; revisión editorial posterior del 18-10-2026 retiró candidatos sin prueba de evento público regional. No es una nueva corrida.",
   "generated_at": "2026-10-18T12:55:55",
   "summary": {
     "sources_attempted": 45,
@@ -45,460 +45,7 @@
       }
     ]
   },
-  "events": [
-    {
-      "title": "?Unete a la Famiglia! ? Campana de Abonados Audax Italiano",
-      "description": "¡Únete a la Famiglia! – Campaña de Abonados Audax Italiano, Estadio Bicentenario de La Florida - Enrique Olivares 1003, La Florida, Chile, 11/06/2025",
-      "date": "2025-06-11",
-      "end_date": "2026-12-31",
-      "time": "11:00",
-      "end_time": null,
-      "venue": "Estadio Bicentenario de La Florida",
-      "address": "Enrique Olivares, 1003, La Florida, Región Metropolitana",
-      "commune": "Florida",
-      "category": "Cultura",
-      "audience": null,
-      "access": null,
-      "price_value": 51201,
-      "price_status": "paid",
-      "status": "Confirmado",
-      "source": "Ticketplus — Región del Biobío",
-      "source_url": "https://ticketplus.cl/events/abono-famiglia-audina",
-      "source_type": "ticketing",
-      "source_priority": 2,
-      "official": false,
-      "image_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/9c4663b0d96818cd4ae7f41c1771bf520bfcdc7c.jpeg?1750113749",
-      "discovered_at": "2026-10-18T12:53:32",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Ticketplus — Región del Biobío",
-          "url": "https://ticketplus.cl/events/abono-famiglia-audina",
-          "type": "ticketing",
-          "priority": 2,
-          "official": false,
-          "seen_at": "2026-10-18T12:53:32"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "Abonados Basquet UdeC 2026",
-      "description": "Abonados Basquet UdeC 2026 , Casa del Deporte UdeC, Concepción, Chile, 11/03/2026",
-      "date": "2026-03-11",
-      "end_date": "2026-12-31",
-      "time": "14:05",
-      "end_time": null,
-      "venue": "Casa del Deporte",
-      "address": "Concepción, Bío Bío",
-      "commune": "Concepción",
-      "category": "Comunidad",
-      "audience": null,
-      "access": null,
-      "price_value": 100000,
-      "price_status": "paid",
-      "status": "Confirmado",
-      "source": "Ticketplus — Región del Biobío",
-      "source_url": "https://ticketplus.cl/events/abonados-basket-udec-2026",
-      "source_type": "ticketing",
-      "source_priority": 2,
-      "official": false,
-      "image_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/eb564ac80d7d45cd357be8b9147972ed8386d85c.jpeg?1773693328",
-      "discovered_at": "2026-10-18T12:53:32",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Ticketplus — Región del Biobío",
-          "url": "https://ticketplus.cl/events/abonados-basket-udec-2026",
-          "type": "ticketing",
-          "priority": 2,
-          "official": false,
-          "seen_at": "2026-10-18T12:53:32"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN COMITÉ API ARAUCO",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-22",
-      "end_date": null,
-      "time": "10:00",
-      "end_time": "14:00",
-      "venue": "PASAJE TENIENTE MEDINO N°360. OFICINA INDAP 2° PISO, ARAUCO. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Cultura",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN AGRUPACIÓN SOCIAL DE TRADICIONES CAMPESINAS LOS BUENOS AMIGOS",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-24",
-      "end_date": null,
-      "time": "15:00",
-      "end_time": "16:00",
-      "venue": "CENTINELA, (CASA PARTICULAR DE LUISA). &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Cultura",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN AGRUPACIÓN DE MUJERES MARISCADORAS DE ORILLA PERLAS DE LA COSTA",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-26",
-      "end_date": null,
-      "time": "14:00",
-      "end_time": "15:00",
-      "venue": "SEDE SOL NACIENTE. TUBUL. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Cultura",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN TALLER LABORAL REFLEJO DE MAR",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-27",
-      "end_date": null,
-      "time": "11:00",
-      "end_time": "23:00",
-      "venue": "IGLESIA MISIÓN DEL SEÑOR,  TUBUL S/N. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Comunidad",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        },
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar-2/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN JUNTA DE VECINOS SOL NACIENTE, TUBUL.",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-30",
-      "end_date": null,
-      "time": "16:00",
-      "end_time": "19:00",
-      "venue": "SEDE JUNTA DE VECINOS SOL NACIENTE, TUBUL. CALLE LA UNIÓN N°332. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Comunidad",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN CLUB DEPORTIVO LLICO",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-31",
-      "end_date": null,
-      "time": "03:00",
-      "end_time": "17:00",
-      "venue": "SEDE CLUB DEPORTIVO LLICO. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Cultura",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "Circo Pastelito y Tachuela Chico en Mall Cenco Florida",
-      "description": "Compra tus entradas para Circo Pastelito y Tachuela Chico en PuntoTicket.com",
-      "date": "2026-11-01",
-      "end_date": null,
-      "time": "19:30",
-      "end_time": null,
-      "venue": "Mall Cenco Florida",
-      "address": "Av. Vicuña Mackenna Ote. 6100, La Florida",
-      "commune": "Florida",
-      "category": "Cultura",
-      "audience": null,
-      "access": null,
-      "price_value": 11500,
-      "price_status": "paid",
-      "status": "Confirmado",
-      "source": "PuntoTicket — todos los eventos",
-      "source_url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
-      "source_type": "ticketing",
-      "source_priority": 2,
-      "official": false,
-      "image_url": "https://static.ptocdn.net/images/eventos/cir020_rs.jpg",
-      "discovered_at": "2026-10-18T12:53:59",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "PuntoTicket — todos los eventos",
-          "url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
-          "type": "ticketing",
-          "priority": 2,
-          "official": false,
-          "seen_at": "2026-10-18T12:53:59"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN «CGPA JARDIN INFANTIL CECI YANI»",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-11-03",
-      "end_date": null,
-      "time": "10:00",
-      "end_time": "12:00",
-      "venue": "ESCUELA G -740 ALTO YANI S/N. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Comunidad",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN JUNTA DE VECINOS PUNTA CARAMPANGUE",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-11-08",
-      "end_date": null,
-      "time": "09:00",
-      "end_time": "14:00",
-      "venue": "FRONTIS CAPILLA NUESTRA SEÑORA DE LOS LOURDES, PUNTA CARAMPANGUE   &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Comunidad",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    },
-    {
-      "title": "ELECCIÓN JUNTA DE VECINOS VILLA EL BOSQUE",
-      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-11-08",
-      "end_date": null,
-      "time": "16:00",
-      "end_time": "19:00",
-      "venue": "SEDE SOCIAL JUNTA DE VECINOS VILLA EL BOSQUE S/N, LARAQUETE. &#8211;",
-      "address": null,
-      "commune": "Arauco",
-      "category": "Comunidad",
-      "audience": null,
-      "access": null,
-      "price_value": null,
-      "price_status": "pending",
-      "status": "Confirmado",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
-      "source_type": "municipal",
-      "source_priority": 1,
-      "official": true,
-      "image_url": null,
-      "discovered_at": "2026-10-18T12:53:41",
-      "changed_at": null,
-      "tags": [],
-      "sources": [
-        {
-          "name": "Municipalidad de Arauco",
-          "url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
-          "type": "municipal",
-          "priority": 1,
-          "official": true,
-          "seen_at": "2026-10-18T12:53:41"
-        }
-      ],
-      "changes": []
-    }
-  ],
+  "events": [],
   "runs": [
     {
       "source_name": "BioBioChile — Región del Biobío",
@@ -2733,6 +2280,114 @@
       "source": "Diario Concepción — Cultura",
       "source_url": "https://www.diarioconcepcion.cl/ciudad/2026/07/26/rescates-en-montana-asi-funcionan-los-protocolos-ante-un-sistema-frontal.html",
       "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "?Unete a la Famiglia! ? Campana de Abonados Audax Italiano",
+      "raw_text": "¡Únete a la Famiglia! – Campaña de Abonados Audax Italiano, Estadio Bicentenario de La Florida - Enrique Olivares 1003, La Florida, Chile, 11/06/2025",
+      "date": "2025-06-11",
+      "commune": "Florida",
+      "source": "Ticketplus — Región del Biobío",
+      "source_url": "https://ticketplus.cl/events/abono-famiglia-audina",
+      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
+    },
+    {
+      "title": "Abonados Basquet UdeC 2026",
+      "raw_text": "Abonados Basquet UdeC 2026 , Casa del Deporte UdeC, Concepción, Chile, 11/03/2026",
+      "date": "2026-03-11",
+      "commune": "Concepción",
+      "source": "Ticketplus — Región del Biobío",
+      "source_url": "https://ticketplus.cl/events/abonados-basket-udec-2026",
+      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
+    },
+    {
+      "title": "ELECCIÓN COMITÉ API ARAUCO",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-22",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN AGRUPACIÓN SOCIAL DE TRADICIONES CAMPESINAS LOS BUENOS AMIGOS",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-24",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN AGRUPACIÓN DE MUJERES MARISCADORAS DE ORILLA PERLAS DE LA COSTA",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-26",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN TALLER LABORAL REFLEJO DE MAR",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-27",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS SOL NACIENTE, TUBUL.",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-30",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN CLUB DEPORTIVO LLICO",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-31",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "Circo Pastelito y Tachuela Chico en Mall Cenco Florida",
+      "raw_text": "Compra tus entradas para Circo Pastelito y Tachuela Chico en PuntoTicket.com",
+      "date": "2026-11-01",
+      "commune": "Florida",
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
+      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
+    },
+    {
+      "title": "ELECCIÓN «CGPA JARDIN INFANTIL CECI YANI»",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-03",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS PUNTA CARAMPANGUE",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-08",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS VILLA EL BOSQUE",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-08",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
     }
   ],
   "source_candidates": [
@@ -3042,5 +2697,11 @@
       "found_on": "https://g5noticias.cl/2026/10/16/siete-panoramas-para-celebrar-el-dia-de-los-cerros-2026-en-la-region-de-valparaiso/",
       "reason": "Enlace externo con pinta de agenda/eventos"
     }
-  ]
+  ],
+  "quality_review": {
+    "date": "2026-10-18",
+    "reason": "Filtro conservador: avisos electorales internos y ticketing nacional sin evidencia regional",
+    "moved_to_review": 12,
+    "original_generated_at": "2026-10-18T12:55:55"
+  }
 }
