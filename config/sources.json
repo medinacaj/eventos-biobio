@@ -1,5 +1,5 @@
 {
-  "_notes": "verified_live=true solo si la URL respondió a una petición HTTP real hecha por este proyecto. Al 2026-10-03 ninguna lo está: el entorno de construcción bloquea la salida a internet. url_evidence indica de dónde salió la URL.",
+  "_notes": "verified_live=true solo si la URL respondió (HTTP 2xx) a una petición real hecha por actualizar.py en su última corrida; ver last_live_check. url_evidence indica de dónde salió la URL.",
   "sources": [
     {
       "name": "Municipalidad de Concepción",
@@ -16,9 +16,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 3 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:20",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Talcahuano",
@@ -37,7 +43,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Sección /actividades observada en búsqueda."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl,c:1010)>. Dominio observado en resultados de búsqueda web el 2026-10-03. Sección /actividades observada en búsqueda.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:10",
+        "ok": false,
+        "http_status": null,
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      }
     },
     {
       "name": "Municipalidad de Hualpén",
@@ -54,9 +66,15 @@
       "commune": "Hualpén",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "resumen_de_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. URL obtenida de un resumen de búsqueda, no de un resultado directo; confianza baja."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 18 página(s), 0 evento(s)). URL obtenida de un resumen de búsqueda, no de un resultado directo; confianza baja.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:31",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de San Pedro de la Paz",
@@ -92,9 +110,15 @@
       "commune": "Chiguayante",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 5 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:08",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Penco",
@@ -113,7 +137,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: HTTP 403. Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:08",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "Municipalidad de Tomé",
@@ -132,7 +162,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Existe sección /eventos/ según resultados de búsqueda."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: HTTP 403. Dominio observado en resultados de búsqueda web el 2026-10-03. Existe sección /eventos/ según resultados de búsqueda.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:09",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "Municipalidad de Coronel",
@@ -149,9 +185,15 @@
       "commune": "Coronel",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 4 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:22",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Lota",
@@ -168,9 +210,15 @@
       "commune": "Lota",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:26",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Hualqui",
@@ -225,9 +273,15 @@
       "commune": "Florida",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 3 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:28",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Arauco",
@@ -244,9 +298,15 @@
       "commune": "Arauco",
       "province": "Arauco",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 33 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:41",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Cañete",
@@ -263,9 +323,15 @@
       "commune": "Cañete",
       "province": "Arauco",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 11 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:45",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Contulmo",
@@ -282,9 +348,15 @@
       "commune": "Contulmo",
       "province": "Arauco",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 1 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:34",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Curanilahue",
@@ -322,7 +394,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Sección /eventos/ observada; incluye eventos de años anteriores."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: HTTP 403. Dominio observado en resultados de búsqueda web el 2026-10-03. Sección /eventos/ observada; incluye eventos de años anteriores.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:31",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "Municipalidad de Los Álamos",
@@ -341,7 +419,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: HTTP 403. Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:31",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "Municipalidad de Tirúa",
@@ -377,9 +461,15 @@
       "commune": "Los Ángeles",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 1 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:36",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Antuco",
@@ -415,9 +505,15 @@
       "commune": "Cabrero",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 2 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:37",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Laja",
@@ -453,9 +549,15 @@
       "commune": "Mulchén",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 4 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:42",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Nacimiento",
@@ -472,9 +574,15 @@
       "commune": "Nacimiento",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Sección /actividades observada en búsqueda."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 24 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Sección /actividades observada en búsqueda.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:48",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Negrete",
@@ -491,9 +599,15 @@
       "commune": "Negrete",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 9 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:12",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Quilaco",
@@ -529,9 +643,15 @@
       "commune": "Quilleco",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Dominio visto solo en documentos de transparencia."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 1 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Dominio visto solo en documentos de transparencia.",
+      "last_live_check": {
+        "at": "2026-10-18T12:52:49",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de San Rosendo",
@@ -567,9 +687,15 @@
       "commune": "Santa Bárbara",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 10 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:08",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Tucapel",
@@ -605,9 +731,15 @@
       "commune": "Yumbel",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 4 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:06",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Municipalidad de Alto Biobío",
@@ -624,9 +756,15 @@
       "commune": "Alto Biobío",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 21 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03.",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:11",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Teatro Biobío",
@@ -645,7 +783,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Las fichas de evento (p.ej. /inarbolece/) se ven en resultados de búsqueda con fecha, hora, sala y precio. Venta de entradas vía Ticketplus."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: URLError: <urlopen error timed out>. Dominio observado en resultados de búsqueda web el 2026-10-03. Las fichas de evento (p.ej. /inarbolece/) se ven en resultados de búsqueda con fecha, hora, sala y precio. Venta de entradas vía Ticketplus.",
+      "last_live_check": {
+        "at": "2026-10-18T12:55:55",
+        "ok": false,
+        "http_status": null,
+        "error": "URLError: <urlopen error timed out>"
+      }
     },
     {
       "name": "Teatro Biobío — Ticketplus",
@@ -662,9 +806,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "ticketing",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Página de empresa en Ticketplus observada en búsqueda."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 1 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Página de empresa en Ticketplus observada en búsqueda.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:13",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Corcudec / Teatro Universidad de Concepción — Ticketplus",
@@ -681,9 +831,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "ticketing",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Observada en búsqueda."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 1 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Observada en búsqueda.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:13",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Corcudec (Teatro UdeC)",
@@ -700,9 +856,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Sitio citado por prensa como web oficial del Teatro UdeC."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 8 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Sitio citado por prensa como web oficial del Teatro UdeC.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:20",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Festival Internacional de Teatro del Biobío (FTB)",
@@ -719,9 +881,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. No se encontraron fechas confirmadas de la edición 2026."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 15 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. No se encontraron fechas confirmadas de la edición 2026.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:27",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Ticketplus — Región del Biobío",
@@ -738,9 +906,15 @@
       "commune": null,
       "province": null,
       "parser": "ticketing",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Listado regional de Ticketplus observado en búsqueda. La comuna se infiere desde el recinto/dirección."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 30 página(s), 2 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Listado regional de Ticketplus observado en búsqueda. La comuna se infiere desde el recinto/dirección.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:32",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "PuntoTicket — todos los eventos",
@@ -757,9 +931,15 @@
       "commune": null,
       "province": null,
       "parser": "ticketing",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Catálogo nacional; solo se guardan eventos cuyo recinto/dirección menciona una comuna del Biobío."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 30 página(s), 1 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Catálogo nacional; solo se guardan eventos cuyo recinto/dirección menciona una comuna del Biobío.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:59",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Passline",
@@ -778,7 +958,13 @@
       "parser": "ticketing",
       "verified_live": false,
       "url_evidence": "conocimiento_previo",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Catálogo nacional; no se encontró URL de filtro regional."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: HTTP 403. Catálogo nacional; no se encontró URL de filtro regional.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:41",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "TuAcceso",
@@ -797,7 +983,13 @@
       "parser": "ticketing",
       "verified_live": false,
       "url_evidence": "conocimiento_previo",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. No se encontró URL de filtro regional."
+      "notes": "Última verificación en vivo 2026-10-18: falló. Error: HTTP 403. No se encontró URL de filtro regional.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:45",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "PrimeTicket",
@@ -814,9 +1006,15 @@
       "commune": null,
       "province": null,
       "parser": "ticketing",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "conocimiento_previo",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. No se encontró URL de filtro regional."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 16 página(s), 0 evento(s)). No se encontró URL de filtro regional.",
+      "last_live_check": {
+        "at": "2026-10-18T12:53:52",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Noticias UdeC",
@@ -833,9 +1031,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Portal de noticias UdeC (observado). Se usa como radar: genera 'posibles eventos' para revisión, no eventos publicados."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 8 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Portal de noticias UdeC (observado). Se usa como radar: genera 'posibles eventos' para revisión, no eventos publicados.",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:00",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Extensión Universidad del Bío-Bío",
@@ -852,9 +1056,15 @@
       "commune": "Concepción",
       "province": "Concepción",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Publica boletines mensuales en PDF (observados); el parser HTML no lee PDF."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Publica boletines mensuales en PDF (observados); el parser HTML no lee PDF.",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:31",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "UCSC — Extensión Artística y Cultural",
@@ -890,9 +1100,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Publica notas regionales del Biobío (observado)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 21 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Publica notas regionales del Biobío (observado).",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:27",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "BioBioChile — Región del Biobío",
@@ -909,9 +1125,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado (sección exacta no confirmada) en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 0 evento(s)). Dominio observado (sección exacta no confirmada) en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:51",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Diario Concepción — Cultura",
@@ -928,9 +1150,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:47",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Sabes.cl",
@@ -947,9 +1175,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:40",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "G5 Noticias",
@@ -966,9 +1200,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 12 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:55:03",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "TVU Prensa",
@@ -985,9 +1225,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 25 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:55:03",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "La Tribuna (Los Ángeles)",
@@ -1004,9 +1250,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 9 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:52",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "El Contraste (Los Ángeles)",
@@ -1023,9 +1275,15 @@
       "commune": "Los Ángeles",
       "province": "Biobío",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 5 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:54:55",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Radio UdeC",
@@ -1042,9 +1300,15 @@
       "commune": null,
       "province": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana)."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 16 página(s), 0 evento(s)). Dominio observado en resultados de búsqueda web el 2026-10-03. Medio regional: solo radar (posibles eventos para revisión humana).",
+      "last_live_check": {
+        "at": "2026-10-18T12:55:22",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Biobío Cultura (Seremi) — RSS",
@@ -1061,9 +1325,15 @@
       "commune": null,
       "province": null,
       "parser": "rss",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "conocimiento_previo",
-      "notes": "No verificada en vivo: el entorno de construcción (2026-10-03) bloquea las peticiones HTTP salientes a este dominio (proxy 403); el scraper NUNCA se ejecutó contra esta URL. Supone un feed WordPress estándar en /feed/; sin confirmar."
+      "notes": "Verificada en vivo el 2026-10-18 (HTTP 200; 1 página(s), 0 evento(s)). Supone un feed WordPress estándar en /feed/; sin confirmar.",
+      "last_live_check": {
+        "at": "2026-10-18T12:55:04",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "CPC Biobío (Cámara de la Producción y del Comercio)",

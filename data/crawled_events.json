@@ -1,0 +1,3046 @@
+{
+  "_notes": "Generado por actualizar.py. Solo contiene lo que las fuentes publicaron en esta corrida y en corridas anteriores; nada se completa a mano.",
+  "generated_at": "2026-10-18T12:55:55",
+  "summary": {
+    "sources_attempted": 45,
+    "sources_ok": 37,
+    "sources_failed": 8,
+    "events_found": 36,
+    "events_inserted": 35,
+    "events_merged": 1,
+    "possible_events": 205,
+    "candidates": 51,
+    "errors": [
+      {
+        "source": "Municipalidad de Penco",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "Municipalidad de Tomé",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "Municipalidad de Talcahuano",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      },
+      {
+        "source": "Municipalidad de Lebu",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "Municipalidad de Los Álamos",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "Passline",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "TuAcceso",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "Teatro Biobío",
+        "error": "URLError: <urlopen error timed out>"
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "?Unete a la Famiglia! ? Campana de Abonados Audax Italiano",
+      "description": "¡Únete a la Famiglia! – Campaña de Abonados Audax Italiano, Estadio Bicentenario de La Florida - Enrique Olivares 1003, La Florida, Chile, 11/06/2025",
+      "date": "2025-06-11",
+      "end_date": "2026-12-31",
+      "time": "11:00",
+      "end_time": null,
+      "venue": "Estadio Bicentenario de La Florida",
+      "address": "Enrique Olivares, 1003, La Florida, Región Metropolitana",
+      "commune": "Florida",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": 51201,
+      "price_status": "paid",
+      "status": "Confirmado",
+      "source": "Ticketplus — Región del Biobío",
+      "source_url": "https://ticketplus.cl/events/abono-famiglia-audina",
+      "source_type": "ticketing",
+      "source_priority": 2,
+      "official": false,
+      "image_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/9c4663b0d96818cd4ae7f41c1771bf520bfcdc7c.jpeg?1750113749",
+      "discovered_at": "2026-10-18T12:53:32",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Ticketplus — Región del Biobío",
+          "url": "https://ticketplus.cl/events/abono-famiglia-audina",
+          "type": "ticketing",
+          "priority": 2,
+          "official": false,
+          "seen_at": "2026-10-18T12:53:32"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "Abonados Basquet UdeC 2026",
+      "description": "Abonados Basquet UdeC 2026 , Casa del Deporte UdeC, Concepción, Chile, 11/03/2026",
+      "date": "2026-03-11",
+      "end_date": "2026-12-31",
+      "time": "14:05",
+      "end_time": null,
+      "venue": "Casa del Deporte",
+      "address": "Concepción, Bío Bío",
+      "commune": "Concepción",
+      "category": "Comunidad",
+      "audience": null,
+      "access": null,
+      "price_value": 100000,
+      "price_status": "paid",
+      "status": "Confirmado",
+      "source": "Ticketplus — Región del Biobío",
+      "source_url": "https://ticketplus.cl/events/abonados-basket-udec-2026",
+      "source_type": "ticketing",
+      "source_priority": 2,
+      "official": false,
+      "image_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/eb564ac80d7d45cd357be8b9147972ed8386d85c.jpeg?1773693328",
+      "discovered_at": "2026-10-18T12:53:32",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Ticketplus — Región del Biobío",
+          "url": "https://ticketplus.cl/events/abonados-basket-udec-2026",
+          "type": "ticketing",
+          "priority": 2,
+          "official": false,
+          "seen_at": "2026-10-18T12:53:32"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN COMITÉ API ARAUCO",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-22",
+      "end_date": null,
+      "time": "10:00",
+      "end_time": "14:00",
+      "venue": "PASAJE TENIENTE MEDINO N°360. OFICINA INDAP 2° PISO, ARAUCO. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN AGRUPACIÓN SOCIAL DE TRADICIONES CAMPESINAS LOS BUENOS AMIGOS",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-24",
+      "end_date": null,
+      "time": "15:00",
+      "end_time": "16:00",
+      "venue": "CENTINELA, (CASA PARTICULAR DE LUISA). &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN AGRUPACIÓN DE MUJERES MARISCADORAS DE ORILLA PERLAS DE LA COSTA",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-26",
+      "end_date": null,
+      "time": "14:00",
+      "end_time": "15:00",
+      "venue": "SEDE SOL NACIENTE. TUBUL. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN TALLER LABORAL REFLEJO DE MAR",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-27",
+      "end_date": null,
+      "time": "11:00",
+      "end_time": "23:00",
+      "venue": "IGLESIA MISIÓN DEL SEÑOR,  TUBUL S/N. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Comunidad",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        },
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar-2/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS SOL NACIENTE, TUBUL.",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-30",
+      "end_date": null,
+      "time": "16:00",
+      "end_time": "19:00",
+      "venue": "SEDE JUNTA DE VECINOS SOL NACIENTE, TUBUL. CALLE LA UNIÓN N°332. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Comunidad",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN CLUB DEPORTIVO LLICO",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-31",
+      "end_date": null,
+      "time": "03:00",
+      "end_time": "17:00",
+      "venue": "SEDE CLUB DEPORTIVO LLICO. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "Circo Pastelito y Tachuela Chico en Mall Cenco Florida",
+      "description": "Compra tus entradas para Circo Pastelito y Tachuela Chico en PuntoTicket.com",
+      "date": "2026-11-01",
+      "end_date": null,
+      "time": "19:30",
+      "end_time": null,
+      "venue": "Mall Cenco Florida",
+      "address": "Av. Vicuña Mackenna Ote. 6100, La Florida",
+      "commune": "Florida",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": 11500,
+      "price_status": "paid",
+      "status": "Confirmado",
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
+      "source_type": "ticketing",
+      "source_priority": 2,
+      "official": false,
+      "image_url": "https://static.ptocdn.net/images/eventos/cir020_rs.jpg",
+      "discovered_at": "2026-10-18T12:53:59",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "PuntoTicket — todos los eventos",
+          "url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
+          "type": "ticketing",
+          "priority": 2,
+          "official": false,
+          "seen_at": "2026-10-18T12:53:59"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN «CGPA JARDIN INFANTIL CECI YANI»",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-03",
+      "end_date": null,
+      "time": "10:00",
+      "end_time": "12:00",
+      "venue": "ESCUELA G -740 ALTO YANI S/N. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Comunidad",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS PUNTA CARAMPANGUE",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-08",
+      "end_date": null,
+      "time": "09:00",
+      "end_time": "14:00",
+      "venue": "FRONTIS CAPILLA NUESTRA SEÑORA DE LOS LOURDES, PUNTA CARAMPANGUE   &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Comunidad",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS VILLA EL BOSQUE",
+      "description": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-08",
+      "end_date": null,
+      "time": "16:00",
+      "end_time": "19:00",
+      "venue": "SEDE SOCIAL JUNTA DE VECINOS VILLA EL BOSQUE S/N, LARAQUETE. &#8211;",
+      "address": null,
+      "commune": "Arauco",
+      "category": "Comunidad",
+      "audience": null,
+      "access": null,
+      "price_value": null,
+      "price_status": "pending",
+      "status": "Confirmado",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
+      "source_type": "municipal",
+      "source_priority": 1,
+      "official": true,
+      "image_url": null,
+      "discovered_at": "2026-10-18T12:53:41",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Municipalidad de Arauco",
+          "url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
+          "type": "municipal",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-18T12:53:41"
+        }
+      ],
+      "changes": []
+    }
+  ],
+  "runs": [
+    {
+      "source_name": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/lista/categorias/region-del-bio-bio",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:51",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 23,
+      "error": null
+    },
+    {
+      "source_name": "Biobío Cultura (Seremi) — RSS",
+      "source_url": "https://www.cultura.gob.cl/feed/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:55:04",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Corcudec (Teatro UdeC)",
+      "source_url": "https://www.corcudec.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:20",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 8,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Corcudec / Teatro Universidad de Concepción — Ticketplus",
+      "source_url": "https://ticketplus.cl/c/corporacion-cultural-universidad-de-concepcion",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:13",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Diario Concepción — Cultura",
+      "source_url": "https://www.diarioconcepcion.cl/cultura",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:47",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 3,
+      "error": null
+    },
+    {
+      "source_name": "El Contraste (Los Ángeles)",
+      "source_url": "https://elcontraste.cl/los_angeles/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:55",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 5,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 3,
+      "error": null
+    },
+    {
+      "source_name": "Extensión Universidad del Bío-Bío",
+      "source_url": "https://extension.ubiobio.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:31",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 2,
+      "error": null
+    },
+    {
+      "source_name": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:27",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 15,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 25,
+      "error": null
+    },
+    {
+      "source_name": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:55:03",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 12,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 5,
+      "error": null
+    },
+    {
+      "source_name": "La Tribuna (Los Ángeles)",
+      "source_url": "https://www.latribuna.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:52",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 9,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 1,
+      "error": null
+    },
+    {
+      "source_name": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:27",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 21,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 15,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Alto Biobío",
+      "source_url": "https://munialtobiobio.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:11",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 21,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 2,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/cultura/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:41",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 33,
+      "events_inserted": 32,
+      "events_merged": 1,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Cabrero",
+      "source_url": "https://www.cabrero.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:37",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 2,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Cañete",
+      "source_url": "https://municanete.cl/v2/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:45",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 11,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 3,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Chiguayante",
+      "source_url": "https://chiguayante.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:08",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 5,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Concepción",
+      "source_url": "https://www.concepcion.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:20",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 3,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Contulmo",
+      "source_url": "https://www.contulmo.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:34",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Coronel",
+      "source_url": "https://www.coronel.cl/noticias/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:22",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 4,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Florida",
+      "source_url": "https://muniflorida.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:28",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 3,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Hualpén",
+      "source_url": "http://www.hualpenciudad.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:31",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 18,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Lebu",
+      "source_url": "https://lebu.cl/eventos/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:31",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source_name": "Municipalidad de Los Álamos",
+      "source_url": "https://munilosalamos.cl/categoria/noticias/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:31",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source_name": "Municipalidad de Los Ángeles",
+      "source_url": "https://www.losangeles.cl/category/noticias/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:36",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Lota",
+      "source_url": "https://lota.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:26",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 1,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Mulchén",
+      "source_url": "https://www.munimulchen.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:42",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 4,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 1,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Nacimiento",
+      "source_url": "https://www.nacimiento.cl/actividades",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:48",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 24,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 9,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Negrete",
+      "source_url": "https://www.muninegrete.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:12",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 9,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Penco",
+      "source_url": "https://penco.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:08",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source_name": "Municipalidad de Quilleco",
+      "source_url": "https://municipalidadquilleco.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:49",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Santa Bárbara",
+      "source_url": "https://www.santabarbara.cl/noticias/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:08",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 10,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Talcahuano",
+      "source_url": "https://www.talcahuano.cl/actividades",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:10",
+      "ok": 0,
+      "http_status": null,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "source_name": "Municipalidad de Tomé",
+      "source_url": "https://www.tome.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:52:09",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source_name": "Municipalidad de Yumbel",
+      "source_url": "https://yumbel.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:06",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 4,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Noticias UdeC",
+      "source_url": "https://noticias.udec.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:00",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 8,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 5,
+      "error": null
+    },
+    {
+      "source_name": "Passline",
+      "source_url": "https://www.passline.com/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:41",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source_name": "PrimeTicket",
+      "source_url": "https://www.primeticket.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:52",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 16,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/todos",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:59",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 30,
+      "events_found": 1,
+      "events_inserted": 1,
+      "events_merged": 0,
+      "possible_found": 28,
+      "error": null
+    },
+    {
+      "source_name": "Radio UdeC",
+      "source_url": "https://www.radioudec.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:55:22",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 16,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 5,
+      "error": null
+    },
+    {
+      "source_name": "Sabes.cl",
+      "source_url": "https://sabes.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:54:40",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 47,
+      "error": null
+    },
+    {
+      "source_name": "TVU Prensa",
+      "source_url": "https://www.tvu.cl/prensa/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:55:03",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Teatro Biobío",
+      "source_url": "https://teatrobiobio.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:55:55",
+      "ok": 0,
+      "http_status": null,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "source_name": "Teatro Biobío — Ticketplus",
+      "source_url": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:13",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Ticketplus — Región del Biobío",
+      "source_url": "https://ticketplus.cl/en/states/region-del-bio-bio",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:32",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 30,
+      "events_found": 2,
+      "events_inserted": 2,
+      "events_merged": 0,
+      "possible_found": 27,
+      "error": null
+    },
+    {
+      "source_name": "TuAcceso",
+      "source_url": "https://www.tuacceso.cl/",
+      "started_at": "2026-10-18T12:51:59",
+      "finished_at": "2026-10-18T12:53:45",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    }
+  ],
+  "possible_events": [
+    {
+      "title": "Circo Kai en Santander Arena",
+      "raw_text": "Santander Arena Beaucheff 1204, Santiago Centro Santiago Centro",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/circo-kai-santander-arena-oct-sep-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Campeonato Primera Futsal en Polideportivo La Granja",
+      "raw_text": "Polideportivo La Granja San Gregorio 436, La Granja La Granja",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/campeonato-futsal-clausura-2026-fecha10?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "El encuentro, organizado por la Seremi de las Culturas, se desarrollará el sábado 17 y domingo 18 de octubre, en el Edificio de Ingeniería de la UMAG con entrada liberada.",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/feria-de-artes-visuales-caleidoscopio-reunira-a-42-creadores-locales-este-fin-de-semana-en-punta-arena/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Premios Regionales de Arte y Cultura 2026 aumenta el plazo para postular hasta el 18 de octubre",
+      "raw_text": "Premios Regionales de Arte y Cultura 2026 aumenta el plazo para postular hasta el 18 de octubre",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/fiesta-del-libro-vuelve-a-concepcion-con-mas-de-20-editoriales-y-una-jornada-abierta-a-toda-la-comunidad/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/17/declaran-emergencia-climatica-preventiva-desde-coquimbo-al-biobio-ante-pronostico-de-mal-tiempo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/17/lanzamiento-de-conce-al-plato-2026-festival-reune-los-sabores-del-biobio-en-concepcion/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/17/detienen-a-medicos-acusados-de-vender-mas-de-20-mil-licencias-falsas-cobraban-hasta-120-mil/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/02/uss-concepcion-prepara-la-apertura-del-nuevo-edificio-del-campus-paicavi-con-95-de-avance-y-obras-de-mitigacion-un-icono-en-el-biobio/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/07/20/como-postular-al-programa-4-a-7-que-ahora-llega-a-dos-comunas-mas-del-gran-concepcion/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/06/22/una-decision-aberrante-cierre-del-programa-mujeres-rurales-genera-criticas-por-impacto-en-beneficiarias-y-falta-de-informacion/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/con-shrek-incluido-casa-de-la-cultura-de-chiguayante-revela-su-cartelera-del-mes/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/13/que-es-el-femicidio-para-un-nino-una-obra-imposible-de-nombrar-aborda-el-duelo-infantil-a-traves-del-realismo-magico/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/05/18/colbun-impulsa-el-emprendimiento-local-programas-han-generado-mas-de-150-empleos-y-fortalecido-economias-en-el-biobio/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/10/dg-medios-enoja-a-las-army-con-insolita-restriccion-para-los-conciertos-de-bts-en-chile/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/10/atencion-army-esto-es-todo-lo-que-debes-saber-sobre-los-conciertos-de-bts-en-chile/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/09/28/la-cartelera-de-los-cines-en-concepcion-para-la-semana-del-cine-a-2-000/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/14/armys-acampan-y-hacen-fila-en-el-estadio-nacional-para-el-concierto-de-bts-en-chile/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/01/parte-la-venta-de-entradas-para-viajafest-el-festival-de-viajes-que-tendra-destinos-musica-y-sorteos/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/tag/emergencia-climatica-preventiva/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/08/que-hacer-este-fin-de-semana-en-concepcion-la-aclamada-obra-que-tiene-sus-ultimas-funciones-en-teatro-biobio/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/06/03/suavecita-ambulante-feria-de-arte-y-manufactura-vuelve-a-concepcion-con-sorpresas/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=1",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=2",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/tag/obra/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/tag/concierto",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "18 de Octubre 2026",
+      "raw_text": "18 de Octubre 2026",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Diario Concepción — Cultura",
+      "source_url": "https://www.diarioconcepcion.cl/cultura/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/lista/categorias/region-del-bio-bio",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/lista/categorias/espectaculos-y-tv",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/10/18/con-las-army-no-detienen-a-tres-hombres-acusados-de-estafar-con-pulseras-falsas-en-concierto-de-bts.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Domingo 18 octubre de 2026 | 07:21",
+      "raw_text": "Domingo 18 octubre de 2026 | 07:21",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/10/18/con-las-army-no-detienen-a-tres-hombres-acusados-de-estafar-con-pulseras-falsas-en-concierto-de-bts.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/servicios/beneficios/2026/10/16/estas-sin-trabajo-estos-son-tres-beneficios-que-pueden-cobrar-las-personas-cesantes-en-octubre.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/cine-y-series/2026/10/16/victorias-secret-fashion-show-2026-a-que-hora-y-donde-ver-el-desfile-en-chile.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Documentos Perdidos",
+      "raw_text": "Tras varios años en Nueva York, la pasarela del Victoria’s Secret Fashion Show vuelve este año a Los Ángeles, California, este domingo 18 de octubre, donde se congregarán los clásicos “ángeles” de la marca de lencería.",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/cine-y-series/2026/10/16/victorias-secret-fashion-show-2026-a-que-hora-y-donde-ver-el-desfile-en-chile.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-de-coquimbo/2026/10/17/gobierno-declara-emergencia-preventiva-desde-coquimbo-al-bio-bio-por-condiciones-climaticas.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Documentos Perdidos",
+      "raw_text": "El gobierno de Chile declaró Emergencia Climática Preventiva para la zona central del país, desde Coquimbo hasta el Bío Bío, ante posibles lluvias intensas, granizadas y remociones de masa. La medida, vigente del 18 al 23 de octubre, busca contar con recursos y estado de alerta especial.",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-de-coquimbo/2026/10/17/gobierno-declara-emergencia-preventiva-desde-coquimbo-al-bio-bio-por-condiciones-climaticas.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/nacional/chile/2026/10/16/senapred-activa-alertas-preventivas-por-nuevas-tormentas-desde-atacama-a-los-lagos-con-isoterma-0-alta.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/lista/categorias/notas-espectaculos-tv",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/17/clemente-rodriguez-de-masterchef-junior-a-las-pantallas-y-salas-de-cine-del-mundo.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/a-uno-le-repiten-el-mismo-personaje-el-duro-reclamo-de-silvia-santelices-tras-sus-roles-en-la-tv.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/16/ya-nadie-recuerda-a-diana-ni-yerko-como-fue-el-regreso-vertigo-tras-8-anos-fuera-del-aire.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/denunciante-de-russel-brand-afirma-que-se-volvio-un-monstruo-y-animal-antes-de-la-supuesta-violacion.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/16/cuarto-lugar-marcelo-kiwi-carga-contra-canal-13-por-cambio-de-dia-en-siempre-hay-un-chileno.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/16/a-la-altura-de-yerko-puchento-asi-fue-el-debut-de-kramer-en-vertigo-y-su-beso-a-martin-carcamo.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/16/ivan-torres-vuelve-a-tvn-tras-casi-tres-meses-fuera-por-grave-problema-de-salud-crei-que-no-volvia.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/muere-reconocido-actor-de-pasion-de-gavilanes-y-el-patron-del-mal-a-los-72-anos-de-edad.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/afeccion-cerebral-obliga-billy-joel-a-dejar-los-escenarios-y-deshacerse-de-una-millonaria-coleccion.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/16/de-triunfos-arrolladores-a-finales-infartantes-asi-voto-el-publico-en-los-premios-cordillera-2026.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/15/pollo-fuentes-no-pudo-ir-a-los-premios-cordillera-por-problema-de-salud-estaba-muy-ilusionado.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "V versión de Feria del Libro Quinta Lectores en explanada de Casona Dubois",
+      "raw_text": "En la explanada de Casona Dubois y con más de 50 stands, se llevará a cabo la V Versión de la Feria del Libro de Quinta Lectores este domingo 18 de octubre de 11 a 21 horas. La dirección para el público lector es en Radal 1693, y la entrada es liberada.",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/17/v-version-de-feria-del-libro-quinta-lectores-en-explanada-de-casona-dubois/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Domingo 18 de octubre",
+      "raw_text": "Domingo 18 de octubre",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/17/v-version-de-feria-del-libro-quinta-lectores-en-explanada-de-casona-dubois/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "MIKROESPACIO realiza Taller de Fanzine y obra teatral “Tertulias para tomar té” en el Centro Comunitario de Rodelillo",
+      "raw_text": "El domingo 18 de octubre Mikroespacio Creativo realiza dos actividades en el Centro Comunitario de Rodelillo, conocido popularmente como CECO Rodelillo. A las 15:00 horas Michelle Poblete facilitará el Taller “HAZ TU FANZINE DESDE CERO Y APRENDE A AUTOPUBLICARTE”. A las 18:00 horas se presenta la obra “TERTULIAS PARA TOMAR TÉ: CUANDO LA ABUELA SE PERDIÓ Y LOS INSECTOS SALIERON A BUSCARLA”, el primer montaje escénico de Mikroespacio Creativo. Ambas instancias son con entrada liberada, previa inscripción al correo",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/17/mikroespacio-realiza-taller-de-fanzine-y-obra-teatral-tertulias-para-tomar-te-en-el-centro-comunitario-de-rodelillo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Domingo 18 de octubre",
+      "raw_text": "Domingo 18 de octubre",
+      "date": "2026-10-18",
+      "commune": null,
+      "source": "Radio UdeC",
+      "source_url": "https://www.radioudec.cl/concierto-matinal/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Unión Española vs. Deportes Copiapó en Estadio Santa Laura - Universidad SEK",
+      "raw_text": "Estadio Santa Laura - Universidad SEK Julio Martínez Prádanos 1365, Independencia Independencia",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/union-espanola-copiapo-liga-ascenso-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Edo Caroe No Tiene Show en Bares en Palermo Teatro Bar",
+      "raw_text": "Palermo Teatro Bar José Manuel Infante 1414, Providencia, Región Metropolitana, Chile, Providencia Providencia",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/edocaroe-palermo-octubre?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "El programa impulsado por la Seremi de las Culturas se enfoca en el sector de las artes circenses a partir de los ejes de formación, asociatividad y visibilización. La presentación será el lunes 19 de octubre, en el Centro Cultural Casa Prochelle I de CCM Valdivia.",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/los-rios-territorio-escenico-lanzara-cuarta-fase-e-invitacion-a-residencia-artistica/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Con actividades en distintas regiones del país se conmemorará el lunes 19 de octubre el Día Nacional de la Danza, fecha escogida en homenaje al natalicio de Patricio Bunster (1924-2006), destacado bailarín, coreógrafo, docente y una de las figuras fundamentales de la danza nacional. Esta será la segunda conmemoración desde su promulgación en septiembre de 2025.",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-conmemora-el-dia-nacional-de-la-danza/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Revisión de antecedentes: del 20 al 22 de octubre.",
+      "raw_text": "Revisión de antecedentes: del 20 al 22 de octubre.",
+      "date": "2026-10-20",
+      "commune": "Cañete",
+      "source": "Municipalidad de Cañete",
+      "source_url": "https://municanete.cl/v2/municipalidad-de-canete-abre-postulaciones-para-la-feria-de-todos-los-santos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Colo-Colo vs. D. Puerto Montt en Estadio Monumental",
+      "raw_text": "Estadio Monumental Marathon 5300, Macul Macul",
+      "date": "2026-10-20",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/colo-colo-vs-puerto-montt-copachile-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "SENAPRED declara alerta temprana preventiva en el Biobío por probables tormentas eléctricas",
+      "raw_text": "De acuerdo con el pronóstico, las tormentas eléctricas podrían registrarse entre la tarde del lunes 19 y la noche del martes 20 de octubre. El fenómeno también contempla la posibilidad de granizos y fuertes rachas de viento locales.",
+      "date": "2026-10-20",
+      "commune": "Los Ángeles",
+      "source": "El Contraste (Los Ángeles)",
+      "source_url": "https://elcontraste.cl/region-biobio/2026/10/16/senapred-declara-alerta-temprana-preventiva-en-el-biobio-por-probables-tormentas-electricas/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Universidad de Chile vs. Antofagasta en Estadio Santa Laura - Universidad SEK",
+      "raw_text": "Estadio Santa Laura - Universidad SEK Julio Martínez Prádanos 1365, Independencia Independencia",
+      "date": "2026-10-21",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/universidad-de-chile-vs-antofagasta-copachile?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Fuente Carrasco en Club San Miguel",
+      "raw_text": "Club San Miguel Llano Subercaseaux 3597, San Miguel San Miguel",
+      "date": "2026-10-21",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/fuente-carrasco-club-san-miguel?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Con Shrek incluido: Casa de la Cultura de Chiguayante revela su cartelera del mes",
+      "raw_text": "\"Música basada en obras de Shakespeare\" se exhibirá el miércoles 21 de octubre a las 19 horas. La proyección de Shrek será el jueves 22 a las 19 horas. \"GEA\" se expondrá el sábado 24 a las 12:00. Por último, \"Historia de un Naufragio\" se mostrará el jueves 29 a las 19:30.",
+      "date": "2026-10-21",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/con-shrek-incluido-casa-de-la-cultura-de-chiguayante-revela-su-cartelera-del-mes/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Detectan funcionamiento de local nocturno pese a prohibición sanitaria en Concepción",
+      "raw_text": "Con los antecedentes recopilados durante la fiscalización, la empresa quedó citada para presentar sus descargos el próximo 21 de octubre, en el marco del procedimiento administrativo iniciado por la autoridad sanitaria.",
+      "date": "2026-10-21",
+      "commune": null,
+      "source": "La Tribuna (Los Ángeles)",
+      "source_url": "https://www.latribuna.cl/salud/2026/10/14/detectan-funcionamiento-de-local-nocturno-pese-a-prohibicion-sanitaria-en-concepcion.html",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Edo Caroe No Tiene Show en Bares en Ruta 78",
+      "raw_text": "Ruta 78 Independencia 043, Puente Alto Puente Alto",
+      "date": "2026-10-22",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/edocaroe-ruta-78?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Juantxo Skalari And La Rude Band meets The Skatalites en Teatro Coliseo",
+      "raw_text": "Teatro Coliseo Nataniel Cox 59, Santiago Centro Santiago Centro",
+      "date": "2026-10-22",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/juantxo-skalari-la-rude-band-meets-the-skatalites?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "RHYE - Joy Tour en Club Chocolate, Barrio Bellavista",
+      "raw_text": "Club Chocolate, Barrio Bellavista Ernesto Pinto Lagarrigue 192, Barrio Bellavista, Recoleta Recoleta",
+      "date": "2026-10-22",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/rhye-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": ". El espacio también acogerá intervenciones de estudiantes y paneles de conversación los días 22 y 23 de octubre.",
+      "raw_text": ". El espacio también acogerá intervenciones de estudiantes y paneles de conversación los días 22 y 23 de octubre.",
+      "date": "2026-10-22",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-conmemora-el-dia-nacional-de-la-danza/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Publicación de seleccionados: 23 de octubre.",
+      "raw_text": "Publicación de seleccionados: 23 de octubre.",
+      "date": "2026-10-23",
+      "commune": "Cañete",
+      "source": "Municipalidad de Cañete",
+      "source_url": "https://municanete.cl/v2/municipalidad-de-canete-abre-postulaciones-para-la-feria-de-todos-los-santos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Edo Caroe No Tiene Show en Bares en Bongo Club",
+      "raw_text": "Bongo Club América 670, San Bernardo San Bernardo",
+      "date": "2026-10-23",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/edocaroe-bongo-club?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "DAWN & KENNEDY DAVENPORT LIVE en Freedom",
+      "raw_text": "Freedom Recoleta 345, Recoleta Recoleta",
+      "date": "2026-10-23",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/dawn-kennedy-davenport-live-freedom-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "ARTPOP RAVE en Freedom",
+      "raw_text": "Freedom Recoleta 345, Recoleta Recoleta",
+      "date": "2026-10-23",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/artpop-rave-freedom-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Concepción celebrará el Día Mundial de la Ópera con las grandes voces y obras del repertorio universal",
+      "raw_text": "La gala se realizará el viernes 23 de octubre, a las 19:00 horas, con la participación de solistas invitados, el Coro Sinfónico y la Orquesta Sinfónica Universidad de Concepción, bajo la dirección de Eduardo Díaz.",
+      "date": "2026-10-23",
+      "commune": "Concepción",
+      "source": "Noticias UdeC",
+      "source_url": "https://noticias.udec.cl/concepcion-celebrara-el-dia-mundial-de-la-opera-con-las-grandes-voces-y-obras-del-repertorio-universal/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Declaran Emergencia Climática Preventiva desde Coquimbo al Biobío ante pronóstico de mal tiempo",
+      "raw_text": "La medida, publicada a través del Diario Oficial, rige a partir de este domingo 18 y se mantendrá hasta el viernes 23 de octubre. Esto, con el objetivo central de anticipar medidas de contingencia, disponer de recursos especiales y coordinar a los organismos de auxilio frente a posibles afectaciones en la población y la infraestructura.",
+      "date": "2026-10-23",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/17/declaran-emergencia-climatica-preventiva-desde-coquimbo-al-biobio-ante-pronostico-de-mal-tiempo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Presidente Kast decreta “Emergencia Climática Preventiva” para Biobío y otras seis regiones del país",
+      "raw_text": "En ese contexto, Kast instruyó al ministro del Interior a decretar la medida, que tendrá vigencia entre el 18 y el 23 de octubre. Que abarcará desde la Región de Coquimbo hasta la Región del Biobío, según detalló el jefe de Estado.",
+      "date": "2026-10-23",
+      "commune": "Los Ángeles",
+      "source": "El Contraste (Los Ángeles)",
+      "source_url": "https://elcontraste.cl/region-biobio/2026/10/17/presidente-kast-decreta-emergencia-climatica-preventiva-para-biobio-y-otras-seis-regiones-del-pais/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Gobierno declara Emergencia Climática Preventiva entre las regiones de Coquimbo y el Biobío ante llegada de sistema frontal",
+      "raw_text": "La medida fue instruida por el Presidente de la República, José Antonio Kast y regirá entre el 18 y el 23 de octubre. Además, se ha solicitado a los municipios realizar de manera urgente Comités de Gestión de Riesgo de Desastres (COGRID) comunales para extremar medidas preventivas.",
+      "date": "2026-10-23",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/17/gobierno-declara-emergencia-climatica-preventiva-entre-las-regiones-de-coquimbo-y-el-biobio-ante-llegada-de-sistema-frontal/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Compra tu auto en octubre y empieza a pagarlo en abril de 2027: Movicenter y Mercado Libre vuelven con su evento automotriz",
+      "raw_text": "Del 23 al 25 de octubre, Movicenter, el centro comercial especializado en automóviles más grande de Chile, reunirá ofertas exclusivas en vehículos nuevos y usados, con descuentos de hasta 40% en algunos modelos, financiamiento desde 0% pie y la posibilidad de postergar el pago de la primera cuota por seis meses.",
+      "date": "2026-10-23",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/17/compra-tu-auto-en-octubre-y-empieza-a-pagarlo-en-abril-de-2027-movicenter-y-mercado-libre-vuelven-con-su-evento-automotriz/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Taller Florecer en iF El Bosque",
+      "raw_text": "iF El Bosque Callao 2911, Las Condes Las Condes",
+      "date": "2026-10-24",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/taller-florecer?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Los Jaivas 2026 Gira 45 años alturas de Macchu Picchu en Hotel Antay de Arica",
+      "raw_text": "Hotel Antay de Arica Avenida Velásquez 1108, Arica Arica",
+      "date": "2026-10-24",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/los-jaivas-teatro-antay-arica-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Galván Real en Teatro Caupolicán",
+      "raw_text": "Teatro Caupolicán San Diego 850, Santiago Centro Santiago Centro",
+      "date": "2026-10-24",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/galvan-real-teatro-caupolican-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Los días 24 y 25 de octubre se desarrollará en las localidades de Pica y Matilla el Convite de Cachimbo Regional 2026, encuentro que reunirá a 12 agrupaciones de cachimbo de Iquique, Alto Hospicio, Mamiña, Tarapacá, Matilla y Pica, además de dos bandas de bronces, congregando a cerca de 130 bailarines y 30 músicos en torno a esta tradicional expresión cultural de Tarapacá.",
+      "date": "2026-10-24",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/eventos-actividades/convite-de-cachimbo-regional-reunira-a-mas-de-160-cultores-en-pica-y-matilla/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Bienvenida Primavera Fest en Arena Hipódromo",
+      "raw_text": "Arena Hipódromo Av. Hipodromo Chile 1715, Independencia Independencia",
+      "date": "2026-10-25",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/bienvenida-primavera-fest-arena-hipodromo-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Gran Fiesta del Pollo 60 años y Cumpleaños en Teatro Caupolicán",
+      "raw_text": "Teatro Caupolicán San Diego 850, Santiago Centro Santiago Centro",
+      "date": "2026-10-25",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/gran-fiesta-del-pollo-60-anos-y-cumpleanos-teatro-caupolican-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Chinese Football en Club Chocolate, Barrio Bellavista",
+      "raw_text": "Club Chocolate, Barrio Bellavista Ernesto Pinto Lagarrigue 192, Barrio Bellavista, Recoleta Recoleta",
+      "date": "2026-10-25",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/chinese-football-club-chocolate-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Concepción celebrará el Día Mundial de la Ópera con grandes voces y obras del repertorio universal",
+      "raw_text": "La ópera desplegará toda su fuerza dramática y musical en el Teatro UdeC con Viva la Ópera, una gala que reunirá algunas de las páginas más célebres del repertorio lírico para conmemorar el Día Mundial de la Ópera, que se celebra cada 25 de octubre. La presentación será el viernes 23 de octubre, a las 19:00 horas, con un programa que transita por la pasión de Carmen, la intensidad de Il Trovatore y la emoción de La Traviata, entre otros grandes títulos.",
+      "date": "2026-10-25",
+      "commune": null,
+      "source": "Radio UdeC",
+      "source_url": "https://www.radioudec.cl/concepcion-celebrara-el-dia-mundial-de-la-opera-con-grandes-voces-y-obras-del-repertorio-universal/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Temporada de Ópera 2026 en Teatro Zoco",
+      "raw_text": "Teatro Zoco AVENIDA LA DEHESA 1.500, Lo Barnechea Lo Barnechea",
+      "date": "2026-10-28",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/temporada-de-opera-2026-teatro-zoco-jun-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Encuentros con Kramer - Caja Los Andes en Hotel Gavina",
+      "raw_text": "Hotel Gavina Arturo Prat Chacon 1497, Iquique Iquique",
+      "date": "2026-10-28",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/encuentroskramercla-iquique?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Techno Eventos Presenta: UEBERREST en Centro de Eventos Basel",
+      "raw_text": "Centro de Eventos Basel Av independencia 565, Independencia Independencia",
+      "date": "2026-10-29",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/Ueberrest?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "MUNICIPALIDAD DE CAÑETE ABRE POSTULACIONES PARA LA FERIA DE TODOS LOS SANTOS 2026",
+      "raw_text": "La Ilustre Municipalidad de Cañete informa a la comunidad que se encuentra abierto el proceso de postulación para participar en la Feria de Todos los Santos 2026, actividad que se desarrollará los días 31 de octubre y 1 de noviembre, ofreciendo espacios de comercialización para emprendedores, comerciantes y vecinos de la comuna.",
+      "date": "2026-10-31",
+      "commune": "Cañete",
+      "source": "Municipalidad de Cañete",
+      "source_url": "https://municanete.cl/v2/municipalidad-de-canete-abre-postulaciones-para-la-feria-de-todos-los-santos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "GOTH en Teatro Coliseo",
+      "raw_text": "Teatro Coliseo Nataniel Cox 59, Santiago Centro Santiago Centro",
+      "date": "2026-10-31",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/goth-teatro-coliseo-oct-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Disco Inferno 2026 en Parque de los gasómetros",
+      "raw_text": "Parque de los gasómetros Antofagasta 3424, Estación Central Estación Central",
+      "date": "2026-10-31",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/aerobica-parque-gasometros?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Viña Classic en Sporting Club de Viña del Mar",
+      "raw_text": "Sporting Club de Viña del Mar Av. Los Castaños 404, Viña Del Mar Viña Del Mar",
+      "date": "2026-10-31",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/vina-classic-halloween?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "La programación gratuita se extenderá hasta el 31 de octubre en Concepción, Tomé, Chiguayante y Curanilahue, con obras nacionales e internacionales, residencias artísticas, encuentros y actividades formativas. Esta edición busca ampliar los espacios de circulación de la danza contemporánea y fortalecer su vínculo con los territorios.",
+      "date": "2026-10-31",
+      "commune": "Chiguayante",
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/eventos-actividades/festival-loft-inauguro-su-decimonovena-version-y-desplegara-su-programacion-en-cuatro-comunas-de-la-region/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "La exposición, que reúne fotografías, maquetas y objetos históricos del campamento minero, estará abierta gratuitamente hasta el 31 de octubre en el Palacio Pereira. La inauguración contó con la presencia de autoridades, representantes de Fundación Sewell y miembros de la comunidad sewellina.",
+      "date": "2026-10-31",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/subsecretaria-patrimonio-cultural-inaugura-muestra-que-conmemora-los-20-anos-de-sewell-como-sitio-de-patrimonio-mundial/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Clásica cinta de Carlos Sorín abrirá la 12ª edición de Festival Biobío Cine",
+      "raw_text": "La ópera prima del cineasta argentino “La Película del Rey” inaugurará esta cita cinematográfica penquista, que además dedicará una retrospectiva con algunas de sus películas. El Trapeñi se alza como la nueva imagen de uno de los eventos fílmicos más importantes de la Región. Jornada inaugural será el 2 de noviembre en Teatro UdeC.",
+      "date": "2026-11-02",
+      "commune": null,
+      "source": "Diario Concepción — Cultura",
+      "source_url": "https://www.diarioconcepcion.cl/cultura/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Fechas: 3 al 7 de noviembre.",
+      "raw_text": "Fechas: 3 al 7 de noviembre.",
+      "date": "2026-11-03",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Talleres",
+      "raw_text": "El taller será llevado a cabo desde el 3 al 7 de noviembre en la ciudad Concepción, y finalizará con la entrega de un bello mural para la comunidad.",
+      "date": "2026-11-03",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Fechas: 3 al 7 de noviembre.",
+      "raw_text": "Fechas: 3 al 7 de noviembre.",
+      "date": "2026-11-03",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-de-muralismo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "TALLER DE MURALISMO",
+      "raw_text": "El taller será llevado a cabo desde el 3 al 7 de noviembre en la ciudad Concepción, y finalizará con la entrega de un bello mural para la comunidad.",
+      "date": "2026-11-03",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-de-muralismo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "BAILARINAS INCENDIADAS",
+      "raw_text": "BAILARINAS INCENDIADAS Argentina Miércoles 4 de noviembre / 19:30 / Teatro Biobío / Sala de cámara / +12 años Crónicas sobre cinco bailarinas incendiadas por el fuego de las...",
+      "date": "2026-11-04",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "La XVI versión del Festival FTB, se llevará a cabo en la ciudad de Concepción y Chiguayante durante del 6 al 13 de noviembre, realizando",
+      "raw_text": "La XVI versión del Festival FTB, se llevará a cabo en la ciudad de Concepción y Chiguayante durante del 6 al 13 de noviembre, realizando",
+      "date": "2026-11-06",
+      "commune": "Chiguayante",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "AstroWeek: iniciativa estudiantil ofrecerá una semana llena de panoramas ligados a la ciencia",
+      "raw_text": "Charlas, conversatorios, talleres y observaciones astronómicas abiertas a la comunidad se llevarán a cabo en la Universidad de Concepción desde el 9 al 13 de noviembre.",
+      "date": "2026-11-09",
+      "commune": "Concepción",
+      "source": "Noticias UdeC",
+      "source_url": "https://noticias.udec.cl/astroweek-iniciativa-estudiantil-ofrecera-una-semana-llena-de-panoramas-ligados-a-la-ciencia/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Inscripciones abiertas hasta el 10 de noviembre en",
+      "raw_text": "Inscripciones abiertas hasta el 10 de noviembre en",
+      "date": "2026-11-10",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "El llamado es para que espacios culturales se sumen a la programación del próximo 13 de noviembre, en todo el país. El evento invita a redescubrir el patrimonio en horario nocturno.",
+      "date": "2026-11-13",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": ", iniciativa que se realizará el próximo 13 de noviembre en todo el país.",
+      "raw_text": ", iniciativa que se realizará el próximo 13 de noviembre en todo el país.",
+      "date": "2026-11-13",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas 14 al 18 de noviembre",
+      "raw_text": "Panoramas 14 al 18 de noviembre",
+      "date": "2026-11-14",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Agenda Cultural",
+      "raw_text": "El lunes 14 de noviembre se presentará un concierto en homenaje al artista estadounidense Frank Sinatra, en el marco del aniversario número 59 de la Corporación Cultural Artistas del Acero. La presentación será gratis y abierta a todo el pú",
+      "date": "2026-11-14",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "La jornada corresponde a la segunda Fiesta del Libro realizada durante 2026 en este espacio, luego del encuentro desarrollado en abril, y forma parte de una programación que busca dar continuidad durante el año a instancias de circulación, encuentro y vinculación entre quienes integran el ecosistema del libro y la lectura en Biobío. Una tercera jornada se proyecta para el sábado 21 de noviembre.",
+      "date": "2026-11-21",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/fiesta-del-libro-vuelve-a-concepcion-con-mas-de-20-editoriales-y-una-jornada-abierta-a-toda-la-comunidad/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas lunes 21 de noviembre",
+      "raw_text": "Panoramas lunes 21 de noviembre",
+      "date": "2026-11-21",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Respira Primavera 2026 en Espacio Riesco",
+      "raw_text": "Espacio Riesco Av. El Salto 5000, Huechuraba Huechuraba",
+      "date": "2026-11-22",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/respira-primavera-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Panoramas martes 22 de noviembre",
+      "raw_text": "Panoramas martes 22 de noviembre",
+      "date": "2026-11-22",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas miércoles 23 de noviembre •",
+      "raw_text": "Panoramas miércoles 23 de noviembre •",
+      "date": "2026-11-23",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas jueves 24 de noviembre •",
+      "raw_text": "Panoramas jueves 24 de noviembre •",
+      "date": "2026-11-24",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "25 de nov. de 2026",
+      "raw_text": "25 de nov. de 2026",
+      "date": "2026-11-25",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/actividades/taller-de-calistenia-id-165377",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas viernes 25 de noviembre •",
+      "raw_text": "Panoramas viernes 25 de noviembre •",
+      "date": "2026-11-25",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas sábado 26 de noviembre •",
+      "raw_text": "Panoramas sábado 26 de noviembre •",
+      "date": "2026-11-26",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panoramas domingo 27 de noviembre •",
+      "raw_text": "Panoramas domingo 27 de noviembre •",
+      "date": "2026-11-27",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "COMIENZO en Teatro Zoco",
+      "raw_text": "Teatro Zoco AVENIDA LA DEHESA 1.500, Lo Barnechea Lo Barnechea",
+      "date": "2026-11-29",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/comienzo-teatro-zoco-oct-nov-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "30 de nov. de 2026",
+      "raw_text": "30 de nov. de 2026",
+      "date": "2026-11-30",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/actividades/calendario-de-talleres-deportivos-y-recreativos-20-163744",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Taller de Actualidad en Teatro Zoco",
+      "raw_text": "Teatro Zoco AVENIDA LA DEHESA 1.500, Lo Barnechea Lo Barnechea",
+      "date": "2026-12-01",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/taller-de-actualidad-teatro-zoco-mar-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Parte la venta de entradas para Viaja Fest: el festival de viajes que tendrá destinos, música y sorteos",
+      "raw_text": "• El evento, que se realizará el 5 y 6 de diciembre en SurActivo, anunció a sus primeros artistas confirmados, entre ellos Pedro Ruminot, Javiera Parra, Dulce y Agraz además de Ignacio González y su Big Band. La propuesta combinará destinos, experiencias turísticas, gastronomía y espectáculos en vivo. Venta de entradas ya están disponibles en sistema ticket plus.",
+      "date": "2026-12-05",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/01/parte-la-venta-de-entradas-para-viajafest-el-festival-de-viajes-que-tendra-destinos-musica-y-sorteos/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Actividades Tradicionales",
+      "raw_text": "Mulchén celebra cada año su aniversario, el 28 de diciembre, con diversas actividades para toda la comunidad. En los últimos años, la Municipalidad ha puesto especial énfasis en la gala de reconocimiento, donde se destacan a agrupaciones y ciudadanos distinguidos en la Casa de la Cultura, así como en un show artístico en la Plaza de Armas, que permite a los vecinos disfrutar de música, danza y otras expresiones culturales.",
+      "date": "2026-12-28",
+      "commune": "Mulchén",
+      "source": "Municipalidad de Mulchén",
+      "source_url": "https://www.munimulchen.cl/actividades-tradicionales/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "31 de dic. de 2026",
+      "raw_text": "31 de dic. de 2026",
+      "date": "2026-12-31",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/actividades/beneficios-y-fondos-concursables-id-165310",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Santiago: Viernes 1 de enero en Parque Ciudad Empresarial.",
+      "raw_text": "Santiago: Viernes 1 de enero en Parque Ciudad Empresarial.",
+      "date": "2027-01-01",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Viña del Mar: Sábado 9 de enero en la Quinta Vergara.",
+      "raw_text": "Viña del Mar: Sábado 9 de enero en la Quinta Vergara.",
+      "date": "2027-01-09",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "TRABAJOS PREVENTIVOS ANTE LLUVIAS",
+      "raw_text": "Desde la mañana del dia 30 de enero, equipos municipales se mantienen desplegados en diferentes puntos de la comuna, encabezados por el alcalde Jaime Vásquez y junto a Seguridad Pública y maquinaria municipal, atendiendo directamente situaciones de emergencia provocadas por la tormenta eléctrica que afecto a nuestra comuna.",
+      "date": "2027-01-30",
+      "commune": "Lota",
+      "source": "Municipalidad de Lota",
+      "source_url": "https://lota.cl/trabajos-preventivos-ante-lluvias/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Kidd Voodoo confirma concierto en Concepción en el marco de su gira “Ojitos Verdes Tour”",
+      "raw_text": "En Concepción, el artista urbano se presentará el sábado 30 de enero de 2027 en el Estadio Ester Roa Rebolledo. La fecha marca uno de los hitos más grandes de su recorrido por regiones, donde desplegará una renovada propuesta escénica y técnica.",
+      "date": "2027-01-30",
+      "commune": "Concepción",
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Concepción: Sábado 30 de enero en el Estadio Ester Roa Rebolledo.",
+      "raw_text": "Concepción: Sábado 30 de enero en el Estadio Ester Roa Rebolledo.",
+      "date": "2027-01-30",
+      "commune": "Concepción",
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Siete espectáculos nacionales e internacionales transformarán teatros, calles y plazas de la región entre el 11 y el 30 de enero.",
+      "raw_text": "Siete espectáculos nacionales e internacionales transformarán teatros, calles y plazas de la región entre el 11 y el 30 de enero.",
+      "date": "2027-01-30",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Siete espectáculos nacionales e internacionales transformarán teatros, calles y plazas de la región entre el 11 y el 30 de enero.",
+      "raw_text": "Siete espectáculos nacionales e internacionales transformarán teatros, calles y plazas de la región entre el 11 y el 30 de enero.",
+      "date": "2027-01-30",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=1",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Dichas vacaciones serán entre el 2 de febrero y el 1 de marzo de 2026.",
+      "raw_text": "Dichas vacaciones serán entre el 2 de febrero y el 1 de marzo de 2026.",
+      "date": "2027-02-02",
+      "commune": "Concepción",
+      "source": "Noticias UdeC",
+      "source_url": "https://noticias.udec.cl/calendario-academico-2025-define-fechas-clave-para-actividades-academicas-del-proximo-ano/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "San Francisco de Mostazal: Miércoles 6 de febrero en Gran Arena Monticello.",
+      "raw_text": "San Francisco de Mostazal: Miércoles 6 de febrero en Gran Arena Monticello.",
+      "date": "2027-02-06",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Coquimbo: Sábado 13 de febrero en el Estadio Francisco Sánchez Rumoroso.",
+      "raw_text": "Coquimbo: Sábado 13 de febrero en el Estadio Francisco Sánchez Rumoroso.",
+      "date": "2027-02-13",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "PUBLICADO EL 16 FEBRERO, 2026",
+      "raw_text": "PUBLICADO EL 16 FEBRERO, 2026",
+      "date": "2027-02-16",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/paocc/abierta-convocatoria-continuidad-segundo-llamado-programa-de-apoyo-a-organizaciones-culturales-colaboradores-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "• La convocatoria estará abierta desde el 16 de febrero al 18 de marzo.",
+      "raw_text": "• La convocatoria estará abierta desde el 16 de febrero al 18 de marzo.",
+      "date": "2027-02-16",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/paocc/abierta-convocatoria-continuidad-segundo-llamado-programa-de-apoyo-a-organizaciones-culturales-colaboradores-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Municipalidad de Alto Biobío",
+      "raw_text": "La Dirección de Obras Municipales realizó durante la jornada de este viernes 20 de febrero trabajos de mejoramiento en calle Pitril y calle Callaqui. Las labores contemplaron el paso de la motoniveladora en ambos sectores, con el objetivo de optimizar…",
+      "date": "2027-02-20",
+      "commune": "Alto Biobío",
+      "source": "Municipalidad de Alto Biobío",
+      "source_url": "https://munialtobiobio.cl/categoria/noticias/obras/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Antofagasta: Domingo 28 de febrero en la explanada de Casino Enjoy.",
+      "raw_text": "Antofagasta: Domingo 28 de febrero en la explanada de Casino Enjoy.",
+      "date": "2027-02-28",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Calendario académico 2025 define fechas clave para actividades académicas del próximo año",
+      "raw_text": "El decreto 2024-133 establece que el inicio de las actividades académicas será el 3 de marzo, además de otras fechas relevantes para la actividad académica como inscripción y cierre de asignaturas, recesos, entre otras.",
+      "date": "2027-03-03",
+      "commune": "Concepción",
+      "source": "Noticias UdeC",
+      "source_url": "https://noticias.udec.cl/calendario-academico-2025-define-fechas-clave-para-actividades-academicas-del-proximo-ano/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Calendario de Docencia: clases comenzarán el lunes 4 de marzo",
+      "raw_text": "Calendario de Docencia: clases comenzarán el lunes 4 de marzo",
+      "date": "2027-03-04",
+      "commune": "Concepción",
+      "source": "Noticias UdeC",
+      "source_url": "https://noticias.udec.cl/calendario-academico-2025-define-fechas-clave-para-actividades-academicas-del-proximo-ano/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Temuco: Sábado 6 de marzo en la Cancha 2 del Estadio Germán Becker.",
+      "raw_text": "Temuco: Sábado 6 de marzo en la Cancha 2 del Estadio Germán Becker.",
+      "date": "2027-03-06",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "HORARIOS: 28 de marzo de 10:00 a 12:00 hrs. y 30, 31, 1 de 10:00 a 13:00 hrs.",
+      "raw_text": "HORARIOS: 28 de marzo de 10:00 a 12:00 hrs. y 30, 31, 1 de 10:00 a 13:00 hrs.",
+      "date": "2027-03-28",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "HORARIOS: 28 de marzo de 10:00 a 12:00 hrs. y 30, 31, 1 de 10:00 a 13:00 hrs.",
+      "raw_text": "HORARIOS: 28 de marzo de 10:00 a 12:00 hrs. y 30, 31, 1 de 10:00 a 13:00 hrs.",
+      "date": "2027-03-28",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-artefactos-de-mediacion-artisticadel-objeto-intimo-al-dispositivo-publico/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "HORARIOS: 28 de marzo de 10:00 a 12:00 hrs. y 30, 31, 1 de 10:00 a 13:00 hrs.",
+      "raw_text": "HORARIOS: 28 de marzo de 10:00 a 12:00 hrs. y 30, 31, 1 de 10:00 a 13:00 hrs.",
+      "date": "2027-03-28",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sábado 28 (online), lunes 30, martes 31 de marzo y miércoles 1 de abril presencial.",
+      "raw_text": "Sábado 28 (online), lunes 30, martes 31 de marzo y miércoles 1 de abril presencial.",
+      "date": "2027-03-31",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sábado 28 (online), lunes 30, martes 31 de marzo y miércoles 1 de abril presencial.",
+      "raw_text": "Sábado 28 (online), lunes 30, martes 31 de marzo y miércoles 1 de abril presencial.",
+      "date": "2027-03-31",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-artefactos-de-mediacion-artisticadel-objeto-intimo-al-dispositivo-publico/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Sábado 28 (online), lunes 30, martes 31 de marzo y miércoles 1 de abril presencial.",
+      "raw_text": "Sábado 28 (online), lunes 30, martes 31 de marzo y miércoles 1 de abril presencial.",
+      "date": "2027-03-31",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Fechas sesiones online: Lunes 31 de marzo, miércoles 02 y viernes 04 de abril.",
+      "raw_text": "Fechas sesiones online: Lunes 31 de marzo, miércoles 02 y viernes 04 de abril.",
+      "date": "2027-03-31",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Municipalidad de Nacimiento informa calendario de recolección de residuos domiciliarios en sectores rurales durante abril",
+      "raw_text": "Desde el municipio se informó que, entre el 1 de abril y el 30 de noviembre, la frecuencia del servicio será cada 15 días, permitiendo asegurar una cobertura ordenada y eficiente en los distintos sectores rurales de la comuna. Asimismo, se recordó a la comunidad que no se realizará servicio en feriados irrenunciables, como ocurre el 1 de mayo.",
+      "date": "2027-04-01",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/noticias/municipalidad-de-nacimiento-informa-calendario-de--23367",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "CALENDARIO DE TALLERES DEPORTIVOS Y RECREATIVOS 2026",
+      "raw_text": "A partir del lunes 6 de abril, te invitamos a sumarte, elegir tu clase favorita y disfrutar de una experiencia llena de energía, movimiento y entretención.",
+      "date": "2027-04-06",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/actividades/calendario-de-talleres-deportivos-y-recreativos-20-163744",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Presencial: 7, 8 y 9 de abril, 10 a 13 horas",
+      "raw_text": "Presencial: 7, 8 y 9 de abril, 10 a 13 horas",
+      "date": "2027-04-08",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "PUBLICADO EL 08 ABRIL, 2026",
+      "raw_text": "PUBLICADO EL 08 ABRIL, 2026",
+      "date": "2027-04-08",
+      "commune": null,
+      "source": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/redcultura/publicaciones/municipalidades-y-espacios-culturales-validan-al-programa-red-cultura-como-eje-estrategico-para-la-planificacion-territorial/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "El taller seleccionado será anunciado el día 11 de abril vía correo electrónico y posteriormente publicado en nuestras redes y plataformas.",
+      "raw_text": "El taller seleccionado será anunciado el día 11 de abril vía correo electrónico y posteriormente publicado en nuestras redes y plataformas.",
+      "date": "2027-04-11",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Panorama Musical y Cultural",
+      "raw_text": "Panorama Musical y Cultural - abril 10, 2024 - La Otra Zapatilla presenta sus actividades del 2024. Banda Gran Reserva presenta \"Blanco\", su primer trabajo de estudio. Banda nacional Del Jardín presenta su nuevo single \"Directo a lo indirecto\". Ensamble de bronces \"Low Brass\" en concierto el viernes 12 de abril en Teatro UdeC.",
+      "date": "2027-04-12",
+      "commune": null,
+      "source": "Radio UdeC",
+      "source_url": "https://www.radioudec.cl/panorama-musical-y-cultural/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Viernes 17 de abril:",
+      "raw_text": "Viernes 17 de abril:",
+      "date": "2027-04-17",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/noticias/municipalidad-de-nacimiento-informa-calendario-de--23367",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: martes 14, miércoles 15, jueves 16, viernes 17 y sábado 18 de abril",
+      "raw_text": "FECHAS: martes 14, miércoles 15, jueves 16, viernes 17 y sábado 18 de abril",
+      "date": "2027-04-18",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: martes 14, miércoles 15, jueves 16, viernes 17 y sábado 18 de abril",
+      "raw_text": "FECHAS: martes 14, miércoles 15, jueves 16, viernes 17 y sábado 18 de abril",
+      "date": "2027-04-18",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-de-reutilizacion-textil-biobio-en-tela/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Municipalidad de Alto Biobío",
+      "raw_text": "La Comisión Arbitral tiene un plazo de 20 días para resolver si la empresa continuará o no con la ejecución de los trabajos. Este plazo vence el próximo 25 de abril, fecha en la que se esperan noticias concretas para las comunas.",
+      "date": "2027-04-25",
+      "commune": "Alto Biobío",
+      "source": "Municipalidad de Alto Biobío",
+      "source_url": "https://munialtobiobio.cl/alcalde-felix-vita-junto-a-otros-representantes-comunales-se-reunen-con-ministra-de-obras-publicas/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Lunes 13 y lunes 27 de abril:",
+      "raw_text": "Lunes 13 y lunes 27 de abril:",
+      "date": "2027-04-27",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/noticias/municipalidad-de-nacimiento-informa-calendario-de--23367",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Feria Preventiva en Nacimiento fortaleció la convivencia escolar y promovió estilos de vida saludables",
+      "raw_text": "En el marco de la conmemoración del Día de la Convivencia Escolar, el pasado martes 28 de abril se realizó una Feria Preventiva, instancia orientada a fortalecer factores protectores y promover estilos de vida saludables entre niños, niñas y adolescentes de la comuna.",
+      "date": "2027-04-28",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/noticias/feria-preventiva-en-nacimiento-fortalecio-la-convi-23513",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Miércoles 15 y miércoles 29 de abril:",
+      "raw_text": "Miércoles 15 y miércoles 29 de abril:",
+      "date": "2027-04-29",
+      "commune": "Nacimiento",
+      "source": "Municipalidad de Nacimiento",
+      "source_url": "https://nacimiento.cl/noticias/municipalidad-de-nacimiento-informa-calendario-de--23367",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Evento",
+      "raw_text": "Hasta el 10 de mayo, los artistas visuales Carolina Illanes y Andrés Durán hacen una residencia en Casa Poli. En esta reunión dictan la conferencia para estudiantes de arte y de arquitectura, en el Campus Concepción de la Universidad del Bío-Bío.",
+      "date": "2027-05-10",
+      "commune": "Concepción",
+      "source": "Extensión Universidad del Bío-Bío",
+      "source_url": "https://extension.ubiobio.cl/event/conferencia-de-artes-visuales-y-arquitectura/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: Martes 12 a Sábado 16 de Mayo",
+      "raw_text": "FECHAS: Martes 12 a Sábado 16 de Mayo",
+      "date": "2027-05-16",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: Martes 12 a Sábado 16 de Mayo",
+      "raw_text": "FECHAS: Martes 12 a Sábado 16 de Mayo",
+      "date": "2027-05-16",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/club-taller-de-esculturas-domesticas/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: Lunes y miércoles 4, 6, 11, 13, 18 y 20 de mayo",
+      "raw_text": "FECHAS: Lunes y miércoles 4, 6, 11, 13, 18 y 20 de mayo",
+      "date": "2027-05-18",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: Lunes y miércoles 4, 6, 11, 13, 18 y 20 de mayo",
+      "raw_text": "FECHAS: Lunes y miércoles 4, 6, 11, 13, 18 y 20 de mayo",
+      "date": "2027-05-18",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-de-escritura-creativa-a-traves-del-cuerpo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Evento",
+      "raw_text": "A nivel internacional, cada 18 de mayo se conmemora el Día d elos Museos. Es por esa razón que el Museo Marta Colvin ha preparado recorridos especiales, a través de su staff de estudiantes UBB. Será en cuatro horarios: 10:30, 12:00, 15:30 y 17:00 horas.",
+      "date": "2027-05-18",
+      "commune": "Concepción",
+      "source": "Extensión Universidad del Bío-Bío",
+      "source_url": "https://extension.ubiobio.cl/event/recorridos-por-dia-de-los-museos/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Fechas: Lunes 12, Martes 13, lunes 19 y martes 20 de mayo",
+      "raw_text": "Fechas: Lunes 12, Martes 13, lunes 19 y martes 20 de mayo",
+      "date": "2027-05-20",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Especialista en remociones en masa por eventos de Lota, Arauco y Las Condes: “A nivel municipal, debemos saber cuáles son nuestras áreas de riesgo”",
+      "raw_text": "En lo que respecta al caso de la comuna minera, la remoción en masa afectó una vivienda y cortó por completo el tránsito en la Ruta Fernando Maira, a la altura de la curva 21 de mayo.",
+      "date": "2027-05-21",
+      "commune": null,
+      "source": "Radio UdeC",
+      "source_url": "https://www.radioudec.cl/especialista-en-remociones-en-masa-por-eventos-de-lota-arauco-y-las-condes-a-nivel-municipal-debemos-saber-cuales-son-nuestras-areas-de-riesgo/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Funcionaria del Minsal: el 24 de mayo habían 89 mil casos...",
+      "raw_text": "Funcionaria del Minsal: el 24 de mayo habían 89 mil casos...",
+      "date": "2027-05-24",
+      "commune": "Los Ángeles",
+      "source": "El Contraste (Los Ángeles)",
+      "source_url": "https://elcontraste.cl/Destacados/funcionaria/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "TALLERES",
+      "raw_text": "FECHAS: lunes 25 y miércoles 27 de mayo, lunes 01 y martes 02 de junio. Nº DE SESIONES: 4 HORARIOS: 17:30 a 19:00 horas FORMATO: Presencial. LUGAR: Biblioteca municipal de Concepción José Toribio Medina CUPOS: 30 personas. DIRIGIDO: Adolescente desde los 15 años...",
+      "date": "2027-05-27",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/talleres/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: lunes 25 y miércoles 27 de mayo, lunes 01 y martes 02 de junio.",
+      "raw_text": "FECHAS: lunes 25 y miércoles 27 de mayo, lunes 01 y martes 02 de junio.",
+      "date": "2027-05-27",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/category/talleres-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "FECHAS: lunes 25 y miércoles 27 de mayo, lunes 01 y martes 02 de junio.",
+      "raw_text": "FECHAS: lunes 25 y miércoles 27 de mayo, lunes 01 y martes 02 de junio.",
+      "date": "2027-05-27",
+      "commune": "Concepción",
+      "source": "Festival Internacional de Teatro del Biobío (FTB)",
+      "source_url": "https://ftb.cl/taller-creando-mi-diario-visual-explorando-la-memoria-con-boceto-y-collage/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Martes 27 Mayo, 2025 | 16:26",
+      "raw_text": "Martes 27 Mayo, 2025 | 16:26",
+      "date": "2027-05-27",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/afeccion-cerebral-obliga-billy-joel-a-dejar-los-escenarios-y-deshacerse-de-una-millonaria-coleccion.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Obras de Cámara - 29 mayo - Mikhail Glinka: Grand Sexteto en Mi bemol Mayor",
+      "raw_text": "Obras de Cámara - 29 mayo - Mikhail Glinka: Grand Sexteto en Mi bemol Mayor",
+      "date": "2027-05-29",
+      "commune": null,
+      "source": "Radio UdeC",
+      "source_url": "https://www.radioudec.cl/obras-de-camara/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Suavecita Ambulante: Feria de arte y manufactura vuelve a Concepción con sorpresas",
+      "raw_text": "La feria itinerante de arte, diseño y manufactura Suavecita Ambulante vuelve a la capital penquista con muchas opciones para vitrinear este 6 de junio.",
+      "date": "2027-06-06",
+      "commune": null,
+      "source": "Sabes.cl",
+      "source_url": "https://sabes.cl/2026/06/03/suavecita-ambulante-feria-de-arte-y-manufactura-vuelve-a-concepcion-con-sorpresas/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Rescates en montaña: así funcionan los protocolos ante un sistema frontal",
+      "raw_text": "Fotografía: En pleno “Mes del Mar” en Chile se está desarrollando en la capital penquista la muestra “Nuevos imaginarios: Ser mar en tiempos de cambio” y que estará abierta al público hasta el próximo 8 de junio, fecha en que el planeta celebra el Día Mundial de los Océanos. Se trata de una exposición en la […]",
+      "date": "2027-06-08",
+      "commune": null,
+      "source": "Diario Concepción — Cultura",
+      "source_url": "https://www.diarioconcepcion.cl/ciudad/2026/07/26/rescates-en-montana-asi-funcionan-los-protocolos-ante-un-sistema-frontal.html",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    }
+  ],
+  "source_candidates": [
+    {
+      "url": "http://agenda.concepcion.cl",
+      "domain": "agenda.concepcion.cl",
+      "found_on": "https://www.concepcion.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.bibliotecaspublicas.gob.cl",
+      "domain": "www.bibliotecaspublicas.gob.cl",
+      "found_on": "http://www.hualpenciudad.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.biblioredes.gob.cl/bibliotecas/losangeles",
+      "domain": "www.biblioredes.gob.cl",
+      "found_on": "https://www.losangeles.cl/category/noticias/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.ccmla.cl/",
+      "domain": "www.ccmla.cl",
+      "found_on": "https://www.losangeles.cl/category/noticias/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://agenda.tramitescabrero.cl/",
+      "domain": "agenda.tramitescabrero.cl",
+      "found_on": "https://www.cabrero.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.biblioredes.gob.cl/bibliotecas/mulchen",
+      "domain": "www.biblioredes.gob.cl",
+      "found_on": "https://www.munimulchen.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.biblioredes.gob.cl/bibliotecas/santabarbara",
+      "domain": "www.biblioredes.gob.cl",
+      "found_on": "https://www.santabarbara.cl/noticias/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/nosotros",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/deportes",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/espectaculo/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/ferias/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/festivales/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/corporativos/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/fiestas/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/familiar/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/companies/teatro-biobio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://servicios.ticketplus.cl/",
+      "domain": "servicios.ticketplus.cl",
+      "found_on": "https://ticketplus.cl/en/states/region-del-bio-bio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://culturalareina.cl/cine-sala-nemesio/",
+      "domain": "culturalareina.cl",
+      "found_on": "https://ticketplus.cl/events/membresia-sala-nemesio",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ayuda.puntoticket.cl/helpcenter",
+      "domain": "ayuda.puntoticket.cl",
+      "found_on": "https://www.puntoticket.com/todos",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.ticketmaster.cl/event/viva-la-opera-teatro-universidad-de-concepcion",
+      "domain": "www.ticketmaster.cl",
+      "found_on": "https://noticias.udec.cl/concepcion-celebrara-el-dia-mundial-de-la-opera-con-las-grandes-voces-y-obras-del-repertorio-universal/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.biblioredes.gob.cl/bibliotecas/altobiobio",
+      "domain": "www.biblioredes.gob.cl",
+      "found_on": "https://munialtobiobio.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.fondosdecultura.gob.cl/",
+      "domain": "www.fondosdecultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://programadetrabajocultural.gob.cl/",
+      "domain": "programadetrabajocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ciudadania.cultura.gob.cl/",
+      "domain": "ciudadania.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://repositorio.cultura.gob.cl/",
+      "domain": "repositorio.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://publicosyterritorios.cultura.gob.cl/",
+      "domain": "publicosyterritorios.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://donacionesculturales.gob.cl/",
+      "domain": "donacionesculturales.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://puntos.cultura.gob.cl/",
+      "domain": "puntos.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.bibliotecanacional.gob.cl/",
+      "domain": "www.bibliotecanacional.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.bpdigital.cl/opac/?locale=es",
+      "domain": "www.bpdigital.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/bibliotecas-publicas-0",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/servicios/conoce-nuestros-museos-nacionales",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/museos-regionales-y-especializados",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://planpatrimonio.cultura.gob.cl/",
+      "domain": "planpatrimonio.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://pip.cultura.gob.cl/",
+      "domain": "pip.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://patrimoniodigital.cultura.gob.cl/",
+      "domain": "patrimoniodigital.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://patrimonioinmaterial.patrimoniocultural.gob.cl/",
+      "domain": "patrimonioinmaterial.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/Departamento-de-derechos-intelectuales",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.fondosdecultura.cl/",
+      "domain": "www.fondosdecultura.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://chilecultura.gob.cl/",
+      "domain": "chilecultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://contacto.patrimoniocultural.gob.cl/ES/AtencionCiudadana/OIRS",
+      "domain": "contacto.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.fondosdecultura.cl/convocatoria-para-la-elaboracion-e-implementacion-de-planes-de-gestion-de-espacios-culturales-2025/",
+      "domain": "www.fondosdecultura.cl",
+      "found_on": "https://www.cultura.gob.cl/redcultura/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.bcn.cl/leychile/navegar?i=1110097&f=Diferido",
+      "domain": "www.bcn.cl",
+      "found_on": "https://www.cultura.gob.cl/redcultura/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://educacionycultura.cultura.gob.cl/politica-de-educacion-artistica/",
+      "domain": "educacionycultura.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/redcultura/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://registro.cultura.gob.cl/PAOCC/login",
+      "domain": "registro.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/paocc/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://nochedemuseos.cl/",
+      "domain": "nochedemuseos.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.nochedemuseos.cl",
+      "domain": "www.nochedemuseos.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-abre-inscripciones-para-noche-de-museos-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://teatrovina.cl/",
+      "domain": "teatrovina.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-conmemora-el-dia-nacional-de-la-danza/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://clave.fondosdecultura.cl/",
+      "domain": "clave.fondosdecultura.cl",
+      "found_on": "https://www.cultura.gob.cl/paocc/llamado-para-acceder-a-asesorias-para-la-revision-y-formulacion-de-planes-de-gestion-y-o-proyectos-de-programacion-cultural-paocc-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.diadeloscerros.cl/actividades/descubriendo-el-patrimonio-biocultural-del-jardin-ladera/",
+      "domain": "www.diadeloscerros.cl",
+      "found_on": "https://g5noticias.cl/2026/10/16/siete-panoramas-para-celebrar-el-dia-de-los-cerros-2026-en-la-region-de-valparaiso/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    }
+  ]
+}
