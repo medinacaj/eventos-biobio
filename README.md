@@ -17,6 +17,28 @@ Requiere Python 3.9+. Al arrancar se crea `data/eventos.db` y se cargan los even
 
 Opcional: copia `.env.example` a `.env` (puerto, ruta de la BD, `ADMIN_TOKEN`).
 
+## Actualización automática verificable (desde 18-10-2026)
+
+El repositorio incorpora [`.github/workflows/actualizar-eventos.yml`](.github/workflows/actualizar-eventos.yml).
+GitHub Actions ejecuta diariamente el rastreo desde un entorno con acceso a red,
+después de las pruebas offline. La primera ejecución también se activa por un
+`push` de código y puede iniciarse manualmente desde **Actions**.
+
+El proceso **rechaza el resultado completo** si ninguna fuente presenta respuesta
+HTTP 2xx verificable: no se publican snapshots ni estados inventados.
+Si al menos una fuente respondió, se versionan solo
+`data/crawled_events.json` y `config/sources.json`. La pestaña Actions
+registra fuentes consultadas, fuentes HTTP válidas, fallos, eventos y comunas cubiertas.
+La cifra de comunas cubiertas se basa en eventos realmente extraídos,
+no en URLs de municipios configuradas. GitHub Pages no se usa para este proyecto: la
+app sigue siendo local y descarga el JSON versionado al actualizar el repositorio.
+
+**Importante:** la tabla de resultados del 03-10-2026 de más abajo es
+histórica; para conocer la cifra actual se debe revisar el último workflow
+y el snapshot versionado. Un HTTP 200 no garantiza que una agenda publique
+eventos estructurados. Si GitHub Actions no logra acceder a ninguna fuente,
+el flujo aparecerá con error y no habrá nueva publicación.
+
 ## Estado real del proyecto (2026-10-03)
 
 > Las cifras de esta sección vienen de ejecutar el código, no de estimaciones.

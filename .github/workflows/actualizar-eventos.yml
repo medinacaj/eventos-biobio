@@ -1,0 +1,59 @@
+name: Actualizar eventos verificados del Biobío
+on:
+  workflow_dispatch:
+  schedule:
+    # Todos los días 11:35 UTC; GitHub puede retrasar el cron
+    - cron: '35 11 * * *'
+  push:
+    branches:
+      - claude/eventos-biobio-v1
+    paths:
+      - 'actualizar.py'
+      - 'scrapers/**'
+      - 'discovery.py'
+      - 'metadata.py'
+      - 'db.py'
+      - 'tests/**'
+      - 'scripts/check_snapshot.py'
+      - '.github/workflows/actualizar-eventos.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eventos-biobio-rastreo
+  cancel-in-progress: false
+
+jobs:
+  recopilar:
+    # Nunca volver a rastrear por un commit generado por el propio bot.
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validar código offline
+        run: python3 -m unittest discover -s tests -t . -v
+      - name: Rastreo de fuentes reales
+        run: python3 actualizar.py --workers 4
+      - name: Exigir evidencia de respuestas HTTP verificables
+        run: python3 scripts/check_snapshot.py data/crawled_events.json config/communes.json
+      - name: Registrar solo datos validados
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/crawled_events.json config/sources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: rastreo real de eventos Biobío [skip ci]"
+            git push
+          else
+            echo "Sin diferencias; no se crea commit."
+          fi
