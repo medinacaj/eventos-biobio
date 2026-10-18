@@ -118,6 +118,7 @@ def main(argv=None, fetcher=fetch, crawled_path=CRAWLED_PATH, sources_path=disco
         summary["events_found"], summary["events_inserted"], summary["events_merged"], len(events),
         previous["inserted"] + previous["merged"] + previous["unchanged"]))
     print("Posibles eventos pendientes: %d | fuentes candidatas: %d" % (len(pending), len(candidates)))
+    print("Candidatos derivados a revisión editorial: %d" % summary.get("quarantined_candidates", 0))
     print("Fuentes con estado actualizado en sources.json: %d" % updated)
     for e in summary["errors"][:10]:
         print("  - %s: %s" % (e["source"], e["error"]))
