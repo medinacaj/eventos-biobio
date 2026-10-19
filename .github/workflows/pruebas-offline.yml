@@ -1,0 +1,25 @@
+name: Pruebas offline (PR)
+on:
+  pull_request:
+  push:
+    branches:
+      - claude/eventos-biobio-v1
+    paths:
+      - '**.py'
+      - 'tests/**'
+      - '.github/workflows/pruebas-offline.yml'
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pruebas sin acceso de producción ni rastreo externo
+        run: python3 -m unittest discover -s tests -t . -v
