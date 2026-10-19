@@ -1,4 +1,6 @@
-# Guía para Claude
+@AGENTS.md
 
-## Marco legal-tecnológico
-Leer `docs/ASESOR_LEGAL_TECNOLOGICO.md` en tareas con implicaciones legales, datos, IA, derechos de contenido, seguridad, proveedores, contratos o continuidad. Aplicar solo los controles pertinentes y distinguir requisitos jurídicos verificados de buenas prácticas; registrar evidencia, jurisdicción, riesgo y validación pendiente. Coordinar con `AGENTS.md`.
+# Claude — indicaciones de uso
+Las reglas compartidas, incluidos los criterios jurídico-tecnológicos del proyecto, están en `AGENTS.md`. Para revisiones entre agentes o PR, consultar `docs/agent-workflow.md` según necesidad. Evitar duplicar instrucciones y revisar solo el diff y los archivos relacionados con la tarea.
+
+**Claude Chat (web):** seleccionar explícitamente archivos del repositorio mediante la integración disponible. `@AGENTS.md` no garantiza carga automática en el chat web.
