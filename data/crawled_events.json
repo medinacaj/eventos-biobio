@@ -1,15 +1,16 @@
 {
-  "_notes": "Snapshot real generado por actualizar.py; revisión editorial posterior del 18-10-2026 retiró candidatos sin prueba de evento público regional. No es una nueva corrida.",
-  "generated_at": "2026-10-18T12:55:55",
+  "_notes": "Generado por actualizar.py. Solo contiene lo que las fuentes publicaron en esta corrida y en corridas anteriores; nada se completa a mano.",
+  "generated_at": "2026-10-19T08:54:54",
   "summary": {
     "sources_attempted": 45,
-    "sources_ok": 37,
-    "sources_failed": 8,
-    "events_found": 36,
-    "events_inserted": 35,
-    "events_merged": 1,
-    "possible_events": 205,
-    "candidates": 51,
+    "sources_ok": 36,
+    "sources_failed": 9,
+    "events_found": 1,
+    "events_inserted": 1,
+    "events_merged": 0,
+    "possible_events": 38,
+    "quarantined_candidates": 35,
+    "candidates": 3,
     "errors": [
       {
         "source": "Municipalidad de Penco",
@@ -32,6 +33,10 @@
         "error": "HTTP 403"
       },
       {
+        "source": "Municipalidad de Santa Bárbara",
+        "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      },
+      {
         "source": "Passline",
         "error": "HTTP 403"
       },
@@ -40,7 +45,7 @@
         "error": "HTTP 403"
       },
       {
-        "source": "Teatro Biobío",
+        "source": "Municipalidad de Alto Biobío",
         "error": "URLError: <urlopen error timed out>"
       }
     ]
@@ -50,22 +55,22 @@
     {
       "source_name": "BioBioChile — Región del Biobío",
       "source_url": "https://www.biobiochile.cl/lista/categorias/region-del-bio-bio",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:51",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:18",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 23,
+      "possible_found": 7,
       "error": null
     },
     {
       "source_name": "Biobío Cultura (Seremi) — RSS",
       "source_url": "https://www.cultura.gob.cl/feed/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:55:04",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:27",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
@@ -78,8 +83,8 @@
     {
       "source_name": "Corcudec (Teatro UdeC)",
       "source_url": "https://www.corcudec.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:20",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:49",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 8,
@@ -92,8 +97,8 @@
     {
       "source_name": "Corcudec / Teatro Universidad de Concepción — Ticketplus",
       "source_url": "https://ticketplus.cl/c/corporacion-cultural-universidad-de-concepcion",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:13",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:27",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
@@ -106,109 +111,67 @@
     {
       "source_name": "Diario Concepción — Cultura",
       "source_url": "https://www.diarioconcepcion.cl/cultura",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:47",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:15",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 3,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "El Contraste (Los Ángeles)",
       "source_url": "https://elcontraste.cl/los_angeles/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:55",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:26",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 5,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 3,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Extensión Universidad del Bío-Bío",
       "source_url": "https://extension.ubiobio.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:31",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:51",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 2,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Festival Internacional de Teatro del Biobío (FTB)",
       "source_url": "https://ftb.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:27",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:43",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 15,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 25,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "G5 Noticias",
       "source_url": "https://g5noticias.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:55:03",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:21",
       "ok": 1,
       "http_status": 200,
-      "pages_fetched": 12,
-      "events_found": 0,
-      "events_inserted": 0,
-      "events_merged": 0,
-      "possible_found": 5,
-      "error": null
-    },
-    {
-      "source_name": "La Tribuna (Los Ángeles)",
-      "source_url": "https://www.latribuna.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:52",
-      "ok": 1,
-      "http_status": 200,
-      "pages_fetched": 9,
-      "events_found": 0,
-      "events_inserted": 0,
-      "events_merged": 0,
-      "possible_found": 1,
-      "error": null
-    },
-    {
-      "source_name": "Ministerio de las Culturas — Agenda cultural",
-      "source_url": "https://www.cultura.gob.cl/agendacultural/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:27",
-      "ok": 1,
-      "http_status": 200,
-      "pages_fetched": 21,
-      "events_found": 0,
-      "events_inserted": 0,
-      "events_merged": 0,
-      "possible_found": 15,
-      "error": null
-    },
-    {
-      "source_name": "Municipalidad de Alto Biobío",
-      "source_url": "https://munialtobiobio.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:11",
-      "ok": 1,
-      "http_status": 200,
-      "pages_fetched": 21,
+      "pages_fetched": 11,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
@@ -216,24 +179,66 @@
       "error": null
     },
     {
+      "source_name": "La Tribuna (Los Ángeles)",
+      "source_url": "https://www.latribuna.cl/",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:20",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 9,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Ministerio de las Culturas — Agenda cultural",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:51",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 21,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": null
+    },
+    {
+      "source_name": "Municipalidad de Alto Biobío",
+      "source_url": "https://munialtobiobio.cl/",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:54",
+      "ok": 0,
+      "http_status": null,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
       "source_name": "Municipalidad de Arauco",
       "source_url": "https://muniarauco.cl/cultura/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:41",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:34",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
-      "events_found": 33,
-      "events_inserted": 32,
-      "events_merged": 1,
+      "events_found": 1,
+      "events_inserted": 1,
+      "events_merged": 0,
       "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Municipalidad de Cabrero",
       "source_url": "https://www.cabrero.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:37",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:33",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 2,
@@ -246,22 +251,22 @@
     {
       "source_name": "Municipalidad de Cañete",
       "source_url": "https://municanete.cl/v2/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:45",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:42",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 11,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 3,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Municipalidad de Chiguayante",
       "source_url": "https://chiguayante.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:08",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:50:53",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 5,
@@ -274,8 +279,8 @@
     {
       "source_name": "Municipalidad de Concepción",
       "source_url": "https://www.concepcion.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:20",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:11",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 3,
@@ -288,8 +293,8 @@
     {
       "source_name": "Municipalidad de Contulmo",
       "source_url": "https://www.contulmo.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:34",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:30",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
@@ -302,8 +307,8 @@
     {
       "source_name": "Municipalidad de Coronel",
       "source_url": "https://www.coronel.cl/noticias/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:22",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:09",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 4,
@@ -316,8 +321,8 @@
     {
       "source_name": "Municipalidad de Florida",
       "source_url": "https://muniflorida.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:28",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:20",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 3,
@@ -330,8 +335,8 @@
     {
       "source_name": "Municipalidad de Hualpén",
       "source_url": "http://www.hualpenciudad.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:31",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:22",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 18,
@@ -344,8 +349,8 @@
     {
       "source_name": "Municipalidad de Lebu",
       "source_url": "https://lebu.cl/eventos/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:31",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:23",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -358,8 +363,8 @@
     {
       "source_name": "Municipalidad de Los Álamos",
       "source_url": "https://munilosalamos.cl/categoria/noticias/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:31",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:25",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -372,8 +377,8 @@
     {
       "source_name": "Municipalidad de Los Ángeles",
       "source_url": "https://www.losangeles.cl/category/noticias/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:36",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:30",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
@@ -386,50 +391,50 @@
     {
       "source_name": "Municipalidad de Lota",
       "source_url": "https://lota.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:26",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:23",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 1,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Municipalidad de Mulchén",
       "source_url": "https://www.munimulchen.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:42",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:39",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 4,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 1,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Municipalidad de Nacimiento",
       "source_url": "https://www.nacimiento.cl/actividades",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:48",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:48",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 24,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 9,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Municipalidad de Negrete",
       "source_url": "https://www.muninegrete.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:12",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:11",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 9,
@@ -442,8 +447,8 @@
     {
       "source_name": "Municipalidad de Penco",
       "source_url": "https://penco.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:08",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:50:54",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -456,8 +461,8 @@
     {
       "source_name": "Municipalidad de Quilleco",
       "source_url": "https://municipalidadquilleco.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:49",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:51:47",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
@@ -470,22 +475,22 @@
     {
       "source_name": "Municipalidad de Santa Bárbara",
       "source_url": "https://www.santabarbara.cl/noticias/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:08",
-      "ok": 1,
-      "http_status": 200,
-      "pages_fetched": 10,
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:05",
+      "ok": 0,
+      "http_status": null,
+      "pages_fetched": 0,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
       "possible_found": 0,
-      "error": null
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "source_name": "Municipalidad de Talcahuano",
       "source_url": "https://www.talcahuano.cl/actividades",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:10",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:50:58",
       "ok": 0,
       "http_status": null,
       "pages_fetched": 0,
@@ -498,8 +503,8 @@
     {
       "source_name": "Municipalidad de Tomé",
       "source_url": "https://www.tome.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:52:09",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:50:55",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -512,8 +517,8 @@
     {
       "source_name": "Municipalidad de Yumbel",
       "source_url": "https://yumbel.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:06",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:07",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 4,
@@ -526,22 +531,22 @@
     {
       "source_name": "Noticias UdeC",
       "source_url": "https://noticias.udec.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:00",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:19",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 8,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 5,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Passline",
       "source_url": "https://www.passline.com/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:41",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:05",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -554,8 +559,8 @@
     {
       "source_name": "PrimeTicket",
       "source_url": "https://www.primeticket.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:52",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:16",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 16,
@@ -568,50 +573,50 @@
     {
       "source_name": "PuntoTicket — todos los eventos",
       "source_url": "https://www.puntoticket.com/todos",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:59",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:36",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 30,
-      "events_found": 1,
-      "events_inserted": 1,
+      "events_found": 0,
+      "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 28,
+      "possible_found": 2,
       "error": null
     },
     {
       "source_name": "Radio UdeC",
       "source_url": "https://www.radioudec.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:55:22",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:48",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 16,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 5,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Sabes.cl",
       "source_url": "https://sabes.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:54:40",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:06",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 47,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "TVU Prensa",
       "source_url": "https://www.tvu.cl/prensa/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:55:03",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:54:35",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
@@ -624,22 +629,22 @@
     {
       "source_name": "Teatro Biobío",
       "source_url": "https://teatrobiobio.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:55:55",
-      "ok": 0,
-      "http_status": null,
-      "pages_fetched": 0,
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:24",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 2,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
       "possible_found": 0,
-      "error": "URLError: <urlopen error timed out>"
+      "error": null
     },
     {
       "source_name": "Teatro Biobío — Ticketplus",
       "source_url": "https://ticketplus.cl/en/companies/teatro-biobio",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:13",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:52:25",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
@@ -652,13 +657,13 @@
     {
       "source_name": "Ticketplus — Región del Biobío",
       "source_url": "https://ticketplus.cl/en/states/region-del-bio-bio",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:32",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:07",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 30,
-      "events_found": 2,
-      "events_inserted": 2,
+      "events_found": 0,
+      "events_inserted": 0,
       "events_merged": 0,
       "possible_found": 27,
       "error": null
@@ -666,8 +671,8 @@
     {
       "source_name": "TuAcceso",
       "source_url": "https://www.tuacceso.cl/",
-      "started_at": "2026-10-18T12:51:59",
-      "finished_at": "2026-10-18T12:53:45",
+      "started_at": "2026-10-19T08:50:47",
+      "finished_at": "2026-10-19T08:53:08",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -679,501 +684,6 @@
     }
   ],
   "possible_events": [
-    {
-      "title": "Circo Kai en Santander Arena",
-      "raw_text": "Santander Arena Beaucheff 1204, Santiago Centro Santiago Centro",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "PuntoTicket — todos los eventos",
-      "source_url": "https://www.puntoticket.com/evento/circo-kai-santander-arena-oct-sep-2026?utm_medium=organic&utm_source=microformat",
-      "reason": "Evento estructurado sin comuna del Biobío identificable"
-    },
-    {
-      "title": "Campeonato Primera Futsal en Polideportivo La Granja",
-      "raw_text": "Polideportivo La Granja San Gregorio 436, La Granja La Granja",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "PuntoTicket — todos los eventos",
-      "source_url": "https://www.puntoticket.com/evento/campeonato-futsal-clausura-2026-fecha10?utm_medium=organic&utm_source=microformat",
-      "reason": "Evento estructurado sin comuna del Biobío identificable"
-    },
-    {
-      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
-      "raw_text": "El encuentro, organizado por la Seremi de las Culturas, se desarrollará el sábado 17 y domingo 18 de octubre, en el Edificio de Ingeniería de la UMAG con entrada liberada.",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Ministerio de las Culturas — Agenda cultural",
-      "source_url": "https://www.cultura.gob.cl/agendacultural/feria-de-artes-visuales-caleidoscopio-reunira-a-42-creadores-locales-este-fin-de-semana-en-punta-arena/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Premios Regionales de Arte y Cultura 2026 aumenta el plazo para postular hasta el 18 de octubre",
-      "raw_text": "Premios Regionales de Arte y Cultura 2026 aumenta el plazo para postular hasta el 18 de octubre",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Ministerio de las Culturas — Agenda cultural",
-      "source_url": "https://www.cultura.gob.cl/agendacultural/fiesta-del-libro-vuelve-a-concepcion-con-mas-de-20-editoriales-y-una-jornada-abierta-a-toda-la-comunidad/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/17/declaran-emergencia-climatica-preventiva-desde-coquimbo-al-biobio-ante-pronostico-de-mal-tiempo/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/17/lanzamiento-de-conce-al-plato-2026-festival-reune-los-sabores-del-biobio-en-concepcion/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/17/detienen-a-medicos-acusados-de-vender-mas-de-20-mil-licencias-falsas-cobraban-hasta-120-mil/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/16/kidd-voodoo-confirma-concierto-en-concepcion-en-el-marco-de-su-gira-ojitos-verdes-tour/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/noticias/agenda-cultural/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/02/uss-concepcion-prepara-la-apertura-del-nuevo-edificio-del-campus-paicavi-con-95-de-avance-y-obras-de-mitigacion-un-icono-en-el-biobio/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/07/20/como-postular-al-programa-4-a-7-que-ahora-llega-a-dos-comunas-mas-del-gran-concepcion/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/06/22/una-decision-aberrante-cierre-del-programa-mujeres-rurales-genera-criticas-por-impacto-en-beneficiarias-y-falta-de-informacion/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/16/con-shrek-incluido-casa-de-la-cultura-de-chiguayante-revela-su-cartelera-del-mes/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/13/que-es-el-femicidio-para-un-nino-una-obra-imposible-de-nombrar-aborda-el-duelo-infantil-a-traves-del-realismo-magico/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/05/18/colbun-impulsa-el-emprendimiento-local-programas-han-generado-mas-de-150-empleos-y-fortalecido-economias-en-el-biobio/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/10/dg-medios-enoja-a-las-army-con-insolita-restriccion-para-los-conciertos-de-bts-en-chile/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/10/atencion-army-esto-es-todo-lo-que-debes-saber-sobre-los-conciertos-de-bts-en-chile/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/09/28/la-cartelera-de-los-cines-en-concepcion-para-la-semana-del-cine-a-2-000/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/14/armys-acampan-y-hacen-fila-en-el-estadio-nacional-para-el-concierto-de-bts-en-chile/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/01/parte-la-venta-de-entradas-para-viajafest-el-festival-de-viajes-que-tendra-destinos-musica-y-sorteos/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/tag/emergencia-climatica-preventiva/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/10/08/que-hacer-este-fin-de-semana-en-concepcion-la-aclamada-obra-que-tiene-sus-ultimas-funciones-en-teatro-biobio/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/2026/06/03/suavecita-ambulante-feria-de-arte-y-manufactura-vuelve-a-concepcion-con-sorpresas/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=1",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=2",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/noticias/agenda-cultural/?page=19",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/tag/obra/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "raw_text": "Sun, 18 Oct 2026 00:23:17 +0000",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Sabes.cl",
-      "source_url": "https://sabes.cl/tag/concierto",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "18 de Octubre 2026",
-      "raw_text": "18 de Octubre 2026",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Diario Concepción — Cultura",
-      "source_url": "https://www.diarioconcepcion.cl/cultura/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/lista/categorias/region-del-bio-bio",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/lista/categorias/espectaculos-y-tv",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/10/18/con-las-army-no-detienen-a-tres-hombres-acusados-de-estafar-con-pulseras-falsas-en-concierto-de-bts.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Domingo 18 octubre de 2026 | 07:21",
-      "raw_text": "Domingo 18 octubre de 2026 | 07:21",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2026/10/18/con-las-army-no-detienen-a-tres-hombres-acusados-de-estafar-con-pulseras-falsas-en-concierto-de-bts.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/servicios/beneficios/2026/10/16/estas-sin-trabajo-estos-son-tres-beneficios-que-pueden-cobrar-las-personas-cesantes-en-octubre.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/cine-y-series/2026/10/16/victorias-secret-fashion-show-2026-a-que-hora-y-donde-ver-el-desfile-en-chile.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Documentos Perdidos",
-      "raw_text": "Tras varios años en Nueva York, la pasarela del Victoria’s Secret Fashion Show vuelve este año a Los Ángeles, California, este domingo 18 de octubre, donde se congregarán los clásicos “ángeles” de la marca de lencería.",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/cine-y-series/2026/10/16/victorias-secret-fashion-show-2026-a-que-hora-y-donde-ver-el-desfile-en-chile.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-de-coquimbo/2026/10/17/gobierno-declara-emergencia-preventiva-desde-coquimbo-al-bio-bio-por-condiciones-climaticas.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Documentos Perdidos",
-      "raw_text": "El gobierno de Chile declaró Emergencia Climática Preventiva para la zona central del país, desde Coquimbo hasta el Bío Bío, ante posibles lluvias intensas, granizadas y remociones de masa. La medida, vigente del 18 al 23 de octubre, busca contar con recursos y estado de alerta especial.",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/nacional/region-de-coquimbo/2026/10/17/gobierno-declara-emergencia-preventiva-desde-coquimbo-al-bio-bio-por-condiciones-climaticas.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/nacional/chile/2026/10/16/senapred-activa-alertas-preventivas-por-nuevas-tormentas-desde-atacama-a-los-lagos-con-isoterma-0-alta.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/lista/categorias/notas-espectaculos-tv",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/17/clemente-rodriguez-de-masterchef-junior-a-las-pantallas-y-salas-de-cine-del-mundo.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/a-uno-le-repiten-el-mismo-personaje-el-duro-reclamo-de-silvia-santelices-tras-sus-roles-en-la-tv.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/16/ya-nadie-recuerda-a-diana-ni-yerko-como-fue-el-regreso-vertigo-tras-8-anos-fuera-del-aire.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/denunciante-de-russel-brand-afirma-que-se-volvio-un-monstruo-y-animal-antes-de-la-supuesta-violacion.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/16/cuarto-lugar-marcelo-kiwi-carga-contra-canal-13-por-cambio-de-dia-en-siempre-hay-un-chileno.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/16/a-la-altura-de-yerko-puchento-asi-fue-el-debut-de-kramer-en-vertigo-y-su-beso-a-martin-carcamo.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/16/ivan-torres-vuelve-a-tvn-tras-casi-tres-meses-fuera-por-grave-problema-de-salud-crei-que-no-volvia.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/muere-reconocido-actor-de-pasion-de-gavilanes-y-el-patron-del-mal-a-los-72-anos-de-edad.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/16/afeccion-cerebral-obliga-billy-joel-a-dejar-los-escenarios-y-deshacerse-de-una-millonaria-coleccion.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/16/de-triunfos-arrolladores-a-finales-infartantes-asi-voto-el-publico-en-los-premios-cordillera-2026.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "raw_text": "La memoria del 18 de octubre: entre el dolor local y la deuda pendiente",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "BioBioChile — Región del Biobío",
-      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/tv/2026/10/15/pollo-fuentes-no-pudo-ir-a-los-premios-cordillera-por-problema-de-salud-estaba-muy-ilusionado.shtml",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "V versión de Feria del Libro Quinta Lectores en explanada de Casona Dubois",
-      "raw_text": "En la explanada de Casona Dubois y con más de 50 stands, se llevará a cabo la V Versión de la Feria del Libro de Quinta Lectores este domingo 18 de octubre de 11 a 21 horas. La dirección para el público lector es en Radal 1693, y la entrada es liberada.",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "G5 Noticias",
-      "source_url": "https://g5noticias.cl/2026/10/17/v-version-de-feria-del-libro-quinta-lectores-en-explanada-de-casona-dubois/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Domingo 18 de octubre",
-      "raw_text": "Domingo 18 de octubre",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "G5 Noticias",
-      "source_url": "https://g5noticias.cl/2026/10/17/v-version-de-feria-del-libro-quinta-lectores-en-explanada-de-casona-dubois/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "MIKROESPACIO realiza Taller de Fanzine y obra teatral “Tertulias para tomar té” en el Centro Comunitario de Rodelillo",
-      "raw_text": "El domingo 18 de octubre Mikroespacio Creativo realiza dos actividades en el Centro Comunitario de Rodelillo, conocido popularmente como CECO Rodelillo. A las 15:00 horas Michelle Poblete facilitará el Taller “HAZ TU FANZINE DESDE CERO Y APRENDE A AUTOPUBLICARTE”. A las 18:00 horas se presenta la obra “TERTULIAS PARA TOMAR TÉ: CUANDO LA ABUELA SE PERDIÓ Y LOS INSECTOS SALIERON A BUSCARLA”, el primer montaje escénico de Mikroespacio Creativo. Ambas instancias son con entrada liberada, previa inscripción al correo",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "G5 Noticias",
-      "source_url": "https://g5noticias.cl/2026/10/17/mikroespacio-realiza-taller-de-fanzine-y-obra-teatral-tertulias-para-tomar-te-en-el-centro-comunitario-de-rodelillo/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "Domingo 18 de octubre",
-      "raw_text": "Domingo 18 de octubre",
-      "date": "2026-10-18",
-      "commune": null,
-      "source": "Radio UdeC",
-      "source_url": "https://www.radioudec.cl/concierto-matinal/",
-      "reason": "Texto con fecha futura sin datos estructurados"
-    },
     {
       "title": "Unión Española vs. Deportes Copiapó en Estadio Santa Laura - Universidad SEK",
       "raw_text": "Estadio Santa Laura - Universidad SEK Julio Martínez Prádanos 1365, Independencia Independencia",
@@ -1211,6 +721,42 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "Lunes 19 Octubre, 2026",
+      "raw_text": "Lunes 19 Octubre, 2026",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/lista/categorias/espectaculos-y-tv",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Lunes 19 octubre de 2026 | 00:47",
+      "raw_text": "Lunes 19 octubre de 2026 | 00:47",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/19/maria-jose-quintanilla-suspende-otro-show-por-lluvias-lo-primero-es-cuidarnos.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Lunes 19 Octubre, 2026 | 00:47",
+      "raw_text": "Lunes 19 Octubre, 2026 | 00:47",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/lista/categorias/notas-espectaculos-tv",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "19 octubre 2026",
+      "raw_text": "19 octubre 2026",
+      "date": "2026-10-19",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/19/ministra-wulf-recuerda-que-el-plan-protege-calle-funciona-los-365-dias-del-ano-y-llama-a-prepararse-ante-nuevas-lluvias/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
       "title": "Revisión de antecedentes: del 20 al 22 de octubre.",
       "raw_text": "Revisión de antecedentes: del 20 al 22 de octubre.",
       "date": "2026-10-20",
@@ -1235,6 +781,15 @@
       "commune": "Los Ángeles",
       "source": "El Contraste (Los Ángeles)",
       "source_url": "https://elcontraste.cl/region-biobio/2026/10/16/senapred-declara-alerta-temprana-preventiva-en-el-biobio-por-probables-tormentas-electricas/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "Ahora, la voz de “El Regalito” optó por lo mismo con su presentación programada para este martes 20 de octubre.",
+      "raw_text": "Ahora, la voz de “El Regalito” optó por lo mismo con su presentación programada para este martes 20 de octubre.",
+      "date": "2026-10-20",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/19/maria-jose-quintanilla-suspende-otro-show-por-lluvias-lo-primero-es-cuidarnos.shtml",
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
@@ -1274,6 +829,15 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "Encuentro nacional de seguridad municipal pondrá el foco en la violencia hacia los funcionarios, crimen organizado y reinserción",
+      "raw_text": "A ocho meses de la promulgación de la Ley de Seguridad Municipal y mientras continúa la revisión de su reglamento, la Asociación Chilena de Municipalidades (ACHM), junto a la Subsecretaría de Prevención del Delito, desarrollará entre el 19 y el 21 de octubre la Escuela de Seguridad Municipal 2026, instancia que pondrá sobre la mesa desafíos como la protección de funcionarios, el combate al crimen organizado, la prevención del delito desde la infancia y la reinserción social.",
+      "date": "2026-10-21",
+      "commune": null,
+      "source": "G5 Noticias",
+      "source_url": "https://g5noticias.cl/2026/10/18/encuentro-nacional-de-seguridad-municipal-pondra-el-foco-en-la-violencia-hacia-los-funcionarios-crimen-organizado-y-reinsercion/",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
       "title": "Edo Caroe No Tiene Show en Bares en Ruta 78",
       "raw_text": "Ruta 78 Independencia 043, Puente Alto Puente Alto",
       "date": "2026-10-22",
@@ -1308,6 +872,15 @@
       "source": "Ministerio de las Culturas — Agenda cultural",
       "source_url": "https://www.cultura.gob.cl/agendacultural/ministerio-de-las-culturas-conmemora-el-dia-nacional-de-la-danza/",
       "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "ELECCIÓN COMITÉ API ARAUCO",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-22",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
     },
     {
       "title": "Publicación de seleccionados: 23 de octubre.",
@@ -1427,6 +1000,15 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "ELECCIÓN AGRUPACIÓN SOCIAL DE TRADICIONES CAMPESINAS LOS BUENOS AMIGOS",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-24",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
       "title": "Bienvenida Primavera Fest en Arena Hipódromo",
       "raw_text": "Arena Hipódromo Av. Hipodromo Chile 1715, Independencia Independencia",
       "date": "2026-10-25",
@@ -1463,6 +1045,33 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "ELECCIÓN AGRUPACIÓN DE MUJERES MARISCADORAS DE ORILLA PERLAS DE LA COSTA",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-26",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN TALLER LABORAL REFLEJO DE MAR",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-27",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN TALLER LABORAL REFLEJO DE MAR",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-27",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar-2/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
       "title": "Temporada de Ópera 2026 en Teatro Zoco",
       "raw_text": "Teatro Zoco AVENIDA LA DEHESA 1.500, Lo Barnechea Lo Barnechea",
       "date": "2026-10-28",
@@ -1488,6 +1097,24 @@
       "source": "PuntoTicket — todos los eventos",
       "source_url": "https://www.puntoticket.com/evento/Ueberrest?utm_medium=organic&utm_source=microformat",
       "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS SOL NACIENTE, TUBUL.",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-30",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "Documentos Perdidos",
+      "raw_text": "María José Quintanilla tuvo que suspender por segunda vez en menos de una semana un concierto debido a las lluvias en la región Metropolitana. La cantante optó por reprogramar el show para el 30 de octubre para salvaguardar la seguridad de sus seguidores.",
+      "date": "2026-10-30",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/19/maria-jose-quintanilla-suspende-otro-show-por-lluvias-lo-primero-es-cuidarnos.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
       "title": "MUNICIPALIDAD DE CAÑETE ABRE POSTULACIONES PARA LA FERIA DE TODOS LOS SANTOS 2026",
@@ -1544,6 +1171,42 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "ELECCIÓN CLUB DEPORTIVO LLICO",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-10-31",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "Circo Pastelito y Tachuela Chico en Mall Cenco Florida",
+      "raw_text": "Compra tus entradas para Circo Pastelito y Tachuela Chico en PuntoTicket.com",
+      "date": "2026-11-01",
+      "commune": "Florida",
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
+      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
+    },
+    {
+      "title": "Alex Serra en Club Chocolate, Barrio Bellavista",
+      "raw_text": "Club Chocolate, Barrio Bellavista Ernesto Pinto Lagarrigue 192, Barrio Bellavista, Recoleta Recoleta",
+      "date": "2026-11-01",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/alex-serra-club-chocolate-nov-2026?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Dillom en Cúpula Parque O'Higgins",
+      "raw_text": "Cúpula Parque O'Higgins Fábrica 1503, Santiago Centro Santiago Centro",
+      "date": "2026-11-01",
+      "commune": null,
+      "source": "PuntoTicket — todos los eventos",
+      "source_url": "https://www.puntoticket.com/evento/FNA387?utm_medium=organic&utm_source=microformat",
+      "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
       "title": "Clásica cinta de Carlos Sorín abrirá la 12ª edición de Festival Biobío Cine",
       "raw_text": "La ópera prima del cineasta argentino “La Película del Rey” inaugurará esta cita cinematográfica penquista, que además dedicará una retrospectiva con algunas de sus películas. El Trapeñi se alza como la nueva imagen de uno de los eventos fílmicos más importantes de la Región. Jornada inaugural será el 2 de noviembre en Teatro UdeC.",
       "date": "2026-11-02",
@@ -1589,6 +1252,15 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "ELECCIÓN «CGPA JARDIN INFANTIL CECI YANI»",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-03",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
       "title": "BAILARINAS INCENDIADAS",
       "raw_text": "BAILARINAS INCENDIADAS Argentina Miércoles 4 de noviembre / 19:30 / Teatro Biobío / Sala de cámara / +12 años Crónicas sobre cinco bailarinas incendiadas por el fuego de las...",
       "date": "2026-11-04",
@@ -1605,6 +1277,24 @@
       "source": "Festival Internacional de Teatro del Biobío (FTB)",
       "source_url": "https://ftb.cl/",
       "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS PUNTA CARAMPANGUE",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-08",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
+    },
+    {
+      "title": "ELECCIÓN JUNTA DE VECINOS VILLA EL BOSQUE",
+      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
+      "date": "2026-11-08",
+      "commune": "Arauco",
+      "source": "Municipalidad de Arauco",
+      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
+      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
     },
     {
       "title": "AstroWeek: iniciativa estudiantil ofrecerá una semana llena de panoramas ligados a la ciencia",
@@ -1776,6 +1466,15 @@
       "source": "PuntoTicket — todos los eventos",
       "source_url": "https://www.puntoticket.com/evento/taller-de-actualidad-teatro-zoco-mar-2026?utm_medium=organic&utm_source=microformat",
       "reason": "Evento estructurado sin comuna del Biobío identificable"
+    },
+    {
+      "title": "Cabe mencionar que ‘Behemoth!’ se estrena en Chile el 3 de diciembre en las salas de cine.",
+      "raw_text": "Cabe mencionar que ‘Behemoth!’ se estrena en Chile el 3 de diciembre en las salas de cine.",
+      "date": "2026-12-03",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/celebridades/2026/10/18/pedro-pascal-sorprendio-con-pregunta-sobre-aluvion-en-las-condes-y-fija-fecha-para-volver-a-chile.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
       "title": "Parte la venta de entradas para Viaja Fest: el festival de viajes que tendrá destinos, música y sorteos",
@@ -2264,6 +1963,15 @@
       "reason": "Texto con fecha futura sin datos estructurados"
     },
     {
+      "title": "Documentos Perdidos",
+      "raw_text": "Recordar que tanto Presley como Kaia son hijos del matrimonio de Crawford con el empresario estadounidense Rande Gerber, con quien se casó el 29 de mayo de 1998 en Bahamas.",
+      "date": "2027-05-29",
+      "commune": null,
+      "source": "BioBioChile — Región del Biobío",
+      "source_url": "https://www.biobiochile.cl/noticias/espectaculos-y-tv/notas-espectaculos-tv/2026/10/18/cindy-crawford-rompe-el-silencio-tras-muerte-de-su-hijo-nuestro-dulce-nino-te-amaremos-por-siempre.shtml",
+      "reason": "Texto con fecha futura sin datos estructurados"
+    },
+    {
       "title": "Suavecita Ambulante: Feria de arte y manufactura vuelve a Concepción con sorpresas",
       "raw_text": "La feria itinerante de arte, diseño y manufactura Suavecita Ambulante vuelve a la capital penquista con muchas opciones para vitrinear este 6 de junio.",
       "date": "2027-06-06",
@@ -2280,114 +1988,6 @@
       "source": "Diario Concepción — Cultura",
       "source_url": "https://www.diarioconcepcion.cl/ciudad/2026/07/26/rescates-en-montana-asi-funcionan-los-protocolos-ante-un-sistema-frontal.html",
       "reason": "Texto con fecha futura sin datos estructurados"
-    },
-    {
-      "title": "?Unete a la Famiglia! ? Campana de Abonados Audax Italiano",
-      "raw_text": "¡Únete a la Famiglia! – Campaña de Abonados Audax Italiano, Estadio Bicentenario de La Florida - Enrique Olivares 1003, La Florida, Chile, 11/06/2025",
-      "date": "2025-06-11",
-      "commune": "Florida",
-      "source": "Ticketplus — Región del Biobío",
-      "source_url": "https://ticketplus.cl/events/abono-famiglia-audina",
-      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
-    },
-    {
-      "title": "Abonados Basquet UdeC 2026",
-      "raw_text": "Abonados Basquet UdeC 2026 , Casa del Deporte UdeC, Concepción, Chile, 11/03/2026",
-      "date": "2026-03-11",
-      "commune": "Concepción",
-      "source": "Ticketplus — Región del Biobío",
-      "source_url": "https://ticketplus.cl/events/abonados-basket-udec-2026",
-      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
-    },
-    {
-      "title": "ELECCIÓN COMITÉ API ARAUCO",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-22",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-comite-api-arauco/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN AGRUPACIÓN SOCIAL DE TRADICIONES CAMPESINAS LOS BUENOS AMIGOS",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-24",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-social-de-tradiciones-campesinas-los-buenos-amigos/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN AGRUPACIÓN DE MUJERES MARISCADORAS DE ORILLA PERLAS DE LA COSTA",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-26",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-agrupacion-de-mujeres-mariscadoras-de-orilla-perlas-de-la-costa/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN TALLER LABORAL REFLEJO DE MAR",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-27",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-taller-laboral-reflejo-de-mar/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN JUNTA DE VECINOS SOL NACIENTE, TUBUL.",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-30",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-sol-naciente-tubul/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN CLUB DEPORTIVO LLICO",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-10-31",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-club-deportivo-llico/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "Circo Pastelito y Tachuela Chico en Mall Cenco Florida",
-      "raw_text": "Compra tus entradas para Circo Pastelito y Tachuela Chico en PuntoTicket.com",
-      "date": "2026-11-01",
-      "commune": "Florida",
-      "source": "PuntoTicket — todos los eventos",
-      "source_url": "https://www.puntoticket.com/evento/circo-pastelito-festival-de-circo?utm_medium=organic&utm_source=microformat",
-      "reason": "Ticketera sin comuna fija: posible homónimo fuera de Biobío; revisar región y recinto"
-    },
-    {
-      "title": "ELECCIÓN «CGPA JARDIN INFANTIL CECI YANI»",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-11-03",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-cgpa-jardin-infantil-ceci-yani/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN JUNTA DE VECINOS PUNTA CARAMPANGUE",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-11-08",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-punta-carampangue-2/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
-    },
-    {
-      "title": "ELECCIÓN JUNTA DE VECINOS VILLA EL BOSQUE",
-      "raw_text": "&lt;p&gt;Artículo 21 bis de la ley 19.418. &quot;La comisión electoral deberá comunicar al secretario municipal la realización de la elección del directorio con al menos quince días hábiles de anticipación a la fecha fijada para ella. En caso de omitir esta comunicación, la elección no tendrá validez. Esta información deberá ser publicada por el secretario [&hellip;]&lt;/p&gt;\\n",
-      "date": "2026-11-08",
-      "commune": "Arauco",
-      "source": "Municipalidad de Arauco",
-      "source_url": "https://muniarauco.cl/evento/eleccion-junta-de-vecinos-villa-el-bosque/",
-      "reason": "Proceso electoral/administrativo interno: verificar acceso público antes de difundir"
     }
   ],
   "source_candidates": [
@@ -2696,12 +2296,24 @@
       "domain": "www.diadeloscerros.cl",
       "found_on": "https://g5noticias.cl/2026/10/16/siete-panoramas-para-celebrar-el-dia-de-los-cerros-2026-en-la-region-de-valparaiso/",
       "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://blog.teatrobiobio.cl/fernanda-castillo-es-la-nueva-directora-ejecutiva-de-teatro-biobio/",
+      "domain": "blog.teatrobiobio.cl",
+      "found_on": "https://teatrobiobio.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://blog.teatrobiobio.cl/smiljan-radic-arquitecto-de-teatro-biobio-obtiene-el-premio-pritzker-2026/",
+      "domain": "blog.teatrobiobio.cl",
+      "found_on": "https://teatrobiobio.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://blog.teatrobiobio.cl/",
+      "domain": "blog.teatrobiobio.cl",
+      "found_on": "https://teatrobiobio.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
     }
-  ],
-  "quality_review": {
-    "date": "2026-10-18",
-    "reason": "Filtro conservador: avisos electorales internos y ticketing nacional sin evidencia regional",
-    "moved_to_review": 12,
-    "original_generated_at": "2026-10-18T12:55:55"
-  }
+  ]
 }
