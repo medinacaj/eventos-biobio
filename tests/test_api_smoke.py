@@ -86,7 +86,20 @@ class ApiSmokeTest(unittest.TestCase):
         _, ev = self.get_json("/api/events")
         self.assertEqual(st["events_total"], ev["count"])
         self.assertEqual(st["communes_total"], 33)
-        self.assertEqual(st["sources_verified_live"], 0)
+        # Esta métrica refleja verificaciones persistidas en config/sources.json,
+        # no resultados de un rastreo HTTP ejecutado por este smoke test.
+        expected_verified = sum(1 for source in self.httpd.ctx.sources if source.get("verified_live"))
+        self.assertEqual(st["sources_verified_live"], expected_verified)
+        # El endpoint reporta ejecuciones exitosas persistidas en la BD de
+        # esta prueba; no se debe asumir 0 ni igualarlas a un HTTP en vivo.
+        expected_success = self.httpd.ctx.conn.execute(
+            "SELECT COUNT(DISTINCT source_name) FROM source_runs WHERE ok = 1"
+        ).fetchone()[0]
+        self.assertEqual(st["sources_with_successful_run"], expected_success)
+        expected_run_count = self.httpd.ctx.conn.execute(
+            "SELECT COUNT(*) FROM source_runs"
+        ).fetchone()[0]
+        self.assertEqual(st["source_runs_total"], expected_run_count)
         _, cov = self.get_json("/api/coverage")
         self.assertEqual(len(cov["communes"]), 33)
         self.assertEqual(sum(c["events_total"] for c in cov["communes"]), st["events_total"])
