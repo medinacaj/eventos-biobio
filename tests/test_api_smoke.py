@@ -86,7 +86,12 @@ class ApiSmokeTest(unittest.TestCase):
         _, ev = self.get_json("/api/events")
         self.assertEqual(st["events_total"], ev["count"])
         self.assertEqual(st["communes_total"], 33)
-        self.assertEqual(st["sources_verified_live"], 0)
+        # Esta métrica refleja verificaciones persistidas en config/sources.json,
+        # no resultados de un rastreo HTTP ejecutado por este smoke test.
+        expected_verified = sum(1 for source in self.httpd.ctx.sources if source.get("verified_live"))
+        self.assertEqual(st["sources_verified_live"], expected_verified)
+        # La BD temporal de la prueba no tiene verificaciones ejecutadas por ella.
+        self.assertEqual(st["sources_with_successful_run"], 0)
         _, cov = self.get_json("/api/coverage")
         self.assertEqual(len(cov["communes"]), 33)
         self.assertEqual(sum(c["events_total"] for c in cov["communes"]), st["events_total"])
