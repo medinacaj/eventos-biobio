@@ -6,12 +6,17 @@ Uso:
     python3 actualizar.py                    # todas las fuentes habilitadas
     python3 actualizar.py --only "Teatro Biobío"
     python3 actualizar.py --no-update-sources
+    python3 actualizar.py --nacional         # fuentes del resto de Chile
 
 Escribe:
     data/crawled_events.json   eventos rastreados + historial, corridas,
                                posibles eventos y fuentes candidatas
     config/sources.json        verified_live / last_live_check según la
                                respuesta REAL de cada fuente en esta corrida
+
+Con --nacional usa config/national_sources.json y las 346 comunas de
+config/chile_communes.json, y escribe data/national_events.json. Cada evento
+lleva la región de su comuna. El flujo del Biobío no cambia.
 """
 import argparse
 import json
@@ -28,6 +33,7 @@ from scrapers import runner  # noqa: E402
 from scrapers.common import fetch  # noqa: E402
 
 CRAWLED_PATH = os.path.join(BASE_DIR, "data", "crawled_events.json")
+NATIONAL_PATH = os.path.join(BASE_DIR, "data", "national_events.json")
 _STATUS_PREFIX = re.compile(
     r"^(No verificada en vivo:.*?contra esta URL\.|Verificada en vivo el [^.]*\.|"
     r"Última verificación en vivo [^.]*\.(?: Error: [^\n]*?\.)?)\s*", re.S)
@@ -71,16 +77,30 @@ def update_sources_file(path, runs):
     return changed
 
 
-def main(argv=None, fetcher=fetch, crawled_path=CRAWLED_PATH, sources_path=discovery.SOURCES_PATH):
+def with_regions(items, communes):
+    """Agrega la región de la comuna (si el listado de comunas la conoce)."""
+    region = {c["name"]: c.get("region") for c in communes}
+    for item in items:
+        item["region"] = region.get(item.get("commune"))
+    return items
+
+
+def main(argv=None, fetcher=fetch, crawled_path=None, sources_path=None, communes_path=None):
     ap = argparse.ArgumentParser(description="Rastrea las fuentes y guarda data/crawled_events.json")
     ap.add_argument("--only", action="append", help="nombre exacto de una fuente (repetible)")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--no-update-sources", action="store_true",
                     help="no modificar config/sources.json")
+    ap.add_argument("--nacional", action="store_true",
+                    help="fuentes del resto de Chile -> data/national_events.json")
     args = ap.parse_args(argv)
+    national = args.nacional
+    crawled_path = crawled_path or (NATIONAL_PATH if national else CRAWLED_PATH)
+    sources_path = sources_path or (discovery.NATIONAL_SOURCES_PATH if national else discovery.SOURCES_PATH)
+    communes_path = communes_path or (discovery.CHILE_COMMUNES_PATH if national else discovery.COMMUNES_PATH)
 
     sources = discovery.load_sources(sources_path)
-    communes = discovery.load_communes()
+    communes = discovery.load_communes(communes_path)
     conn = db.connect(":memory:")
     db.init_db(conn)
     previous = db.load_crawled(conn, crawled_path, communes)  # continuidad del historial
@@ -100,9 +120,12 @@ def main(argv=None, fetcher=fetch, crawled_path=CRAWLED_PATH, sources_path=disco
     candidates = [dict(r) for r in conn.execute(
         "SELECT url, domain, found_on, reason FROM source_candidates ORDER BY id LIMIT 500")]
     events = db.export_crawled(conn)
+    if national:
+        with_regions(events, communes)
+        with_regions(pending, communes)
     _write_json(crawled_path, {
-        "_notes": "Generado por actualizar.py. Solo contiene lo que las fuentes publicaron en esta "
-                  "corrida y en corridas anteriores; nada se completa a mano.",
+        "_notes": "Generado por actualizar.py%s. Solo contiene lo que las fuentes publicaron en esta "
+                  "corrida y en corridas anteriores; nada se completa a mano." % (" --nacional" if national else ""),
         "generated_at": db.now_iso(),
         "summary": summary,
         "events": events,

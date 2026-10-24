@@ -9,6 +9,8 @@ import db
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SOURCES_PATH = os.path.join(BASE_DIR, "config", "sources.json")
 COMMUNES_PATH = os.path.join(BASE_DIR, "config", "communes.json")
+NATIONAL_SOURCES_PATH = os.path.join(BASE_DIR, "config", "national_sources.json")
+CHILE_COMMUNES_PATH = os.path.join(BASE_DIR, "config", "chile_communes.json")
 
 REQUIRED_FIELDS = ("name", "url", "enabled", "source_type", "source_priority", "official",
                    "deep_crawl", "max_pages", "max_depth", "timeout", "radar_only", "commune",

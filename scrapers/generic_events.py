@@ -68,6 +68,13 @@ def _location(obj):
     return venue, address, " ".join([venue, address, locality])
 
 
+def _locality(obj):
+    loc = obj.get("location")
+    loc = loc[0] if isinstance(loc, list) and loc else loc
+    addr = loc.get("address") if isinstance(loc, dict) else None
+    return (addr.get("addressLocality") or "") if isinstance(addr, dict) else ""
+
+
 def _price(obj):
     if obj.get("isAccessibleForFree") in (True, "true", "True"):
         return 0, "free"
@@ -115,7 +122,10 @@ def events_from_jsonld(html, page_url, source, communes):
         d, t = _iso_parts(o.get("startDate"))
         ed, et = _iso_parts(o.get("endDate"))
         venue, address, loc_text = _location(o)
-        commune = metadata.detect_commune(loc_text, names) or source.get("commune")
+        # addressLocality es el dato más preciso: evita que un recinto como
+        # «Plaza de la Independencia» de Concepción se lea como la comuna Independencia.
+        commune = (metadata.detect_commune(_locality(o), names)
+                   or metadata.detect_commune(loc_text, names) or source.get("commune"))
         url = urljoin(page_url, o.get("url") or page_url)
         if not title or not d:
             continue
