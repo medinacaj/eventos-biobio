@@ -8,6 +8,8 @@ Política de publicación:
   dato faltante con un valor supuesto.
 """
 from datetime import date, timedelta
+import html
+import re
 from urllib.parse import urljoin
 
 import metadata
@@ -38,6 +40,14 @@ def _is_event(obj):
     return any(isinstance(x, str) and x.endswith("Event") for x in types)
 
 
+def _plain(value):
+    """Texto plano: algunos sitios (p. ej. GAM) publican HTML escapado en el JSON-LD."""
+    text = str(value or "")
+    for _ in range(2):  # «&amp;lt;p&amp;gt;» necesita dos pasadas
+        text = html.unescape(text)
+    return " ".join(re.sub(r"<[^>]*>", " ", text).split())
+
+
 def _text(v):
     if isinstance(v, str):
         return v
@@ -53,17 +63,18 @@ def _location(obj):
     if isinstance(loc, list):
         loc = loc[0] if loc else None
     if isinstance(loc, str):
+        loc = _plain(loc)
         return loc, "", loc
     if not isinstance(loc, dict):
         return "", "", ""
-    venue = loc.get("name") or ""
+    venue = _plain(loc.get("name"))
     addr = loc.get("address")
     if isinstance(addr, dict):
-        parts = [addr.get("streetAddress"), addr.get("addressLocality"), addr.get("addressRegion")]
+        parts = [_plain(addr.get(k)) for k in ("streetAddress", "addressLocality", "addressRegion")]
         address = ", ".join(p for p in parts if p)
-        locality = addr.get("addressLocality") or ""
+        locality = _plain(addr.get("addressLocality"))
     else:
-        address = addr or ""
+        address = _plain(addr)
         locality = ""
     return venue, address, " ".join([venue, address, locality])
 
@@ -118,7 +129,7 @@ def events_from_jsonld(html, page_url, source, communes):
     events, possibles = [], []
     objs = [o for o in _jsonld_objects(html) if _is_event(o)]
     for o in objs:
-        title = " ".join(_text(o.get("name")).split())
+        title = _plain(_text(o.get("name")))
         d, t = _iso_parts(o.get("startDate"))
         ed, et = _iso_parts(o.get("endDate"))
         venue, address, loc_text = _location(o)
@@ -139,7 +150,7 @@ def events_from_jsonld(html, page_url, source, communes):
         img = o.get("image")
         img = img[0] if isinstance(img, list) and img else img
         img = img.get("url") if isinstance(img, dict) else img
-        desc = " ".join(_text(o.get("description")).split())[:1200]
+        desc = _plain(_text(o.get("description")))[:1200]
         events.append({
             "title": title, "description": desc or None, "date": d,
             "end_date": ed if ed and ed != d else None, "time": t,
