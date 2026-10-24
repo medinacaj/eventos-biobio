@@ -1,6 +1,6 @@
 # Cobertura verificada · Eventos Región del Biobío
 
-Snapshot: `2026-10-24T10:28:00`
+Snapshot: `2026-10-24T10:39:52`
 
 Solo se consideran **eventos publicados** los incluidos en `events`. Una fuente HTTP 2xx o un candidato no equivalen a un evento verificado.
 
