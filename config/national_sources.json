@@ -1,5 +1,5 @@
 {
-  "_notes": "Fuentes nacionales (fuera del Biobío) para data/national_events.json. verified_live=true solo tras una respuesta HTTP 2xx real de actualizar.py --nacional. url_evidence indica de dónde salió la URL (búsqueda web del 2026-10-24).",
+  "_notes": "verified_live=true solo si la URL respondió (HTTP 2xx) a una petición real hecha por actualizar.py en su última corrida; ver last_live_check. url_evidence indica de dónde salió la URL.",
   "sources": [
     {
       "name": "ChileCultura (Ministerio de las Culturas)",
@@ -19,7 +19,13 @@
       "parser": "generic",
       "verified_live": false,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Plataforma oficial colaborativa donde organizaciones culturales y municipios publican actividades de todas las regiones (según prensa regional, 2026). Sin comuna fija: solo se publican eventos cuya ubicación estructurada identifique una comuna de Chile."
+      "notes": "Última verificación en vivo 2026-10-24: falló. Error: HTTP 403. Plataforma oficial colaborativa donde organizaciones culturales y municipios publican actividades de todas las regiones (según prensa regional, 2026). Sin comuna fija: solo se publican eventos cuya ubicación estructurada identifique una comuna de Chile.",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:06",
+        "ok": false,
+        "http_status": 403,
+        "error": "HTTP 403"
+      }
     },
     {
       "name": "Agenda Cultural del Ministerio de las Culturas",
@@ -37,9 +43,15 @@
       "province": null,
       "region": null,
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Sección agendacultural de cultura.gob.cl observada en resultados de búsqueda (notas de 2013 a 2026). Sin comuna fija."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 19 página(s), 0 evento(s)). Sección agendacultural de cultura.gob.cl observada en resultados de búsqueda (notas de 2013 a 2026). Sin comuna fija.",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:44",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Centro Cultural Gabriela Mistral (GAM)",
@@ -57,9 +69,15 @@
       "province": "Santiago",
       "region": "Metropolitana",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Dominio gam.cl observado en búsqueda (páginas institucionales y sala de prensa)."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 3 evento(s)). Dominio gam.cl observado en búsqueda (páginas institucionales y sala de prensa).",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:52",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Centro Cultural La Moneda",
@@ -77,9 +95,15 @@
       "province": "Santiago",
       "region": "Metropolitana",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Sección 'Calendario de actividades' de cclm.cl observada en búsqueda."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 0 evento(s)). Sección 'Calendario de actividades' de cclm.cl observada en búsqueda.",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:17",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Teatro Municipal de Santiago",
@@ -97,9 +121,15 @@
       "province": "Santiago",
       "region": "Metropolitana",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Dominio municipal.cl citado como sitio oficial (Wikipedia)."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 3 evento(s)). Dominio municipal.cl citado como sitio oficial (Wikipedia).",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:27",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Matucana 100",
@@ -117,9 +147,15 @@
       "province": "Santiago",
       "region": "Metropolitana",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Dominio m100.cl citado en prensa (El Mostrador, 2020) para venta de entradas. La dirección Matucana 100 está en Estación Central según conocimiento previo; verificar."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 0 evento(s)). Dominio m100.cl citado en prensa (El Mostrador, 2020) para venta de entradas. La dirección Matucana 100 está en Estación Central según conocimiento previo; verificar.",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:39",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Parque Cultural de Valparaíso",
@@ -137,9 +173,15 @@
       "province": "Valparaíso",
       "region": "Valparaíso",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Dominio parquecultural.cl citado por la Universidad de Valparaíso y en su memoria 2024."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 0 evento(s)). Dominio parquecultural.cl citado por la Universidad de Valparaíso y en su memoria 2024.",
+      "last_live_check": {
+        "at": "2026-10-24T10:29:48",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Teatro Regional del Maule",
@@ -157,9 +199,15 @@
       "province": "Talca",
       "region": "Maule",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "observado_en_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Dominio teatroregional.cl observado en búsqueda (memorias institucionales) y en el directorio de Opera Latinoamérica."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 16 página(s), 0 evento(s)). Dominio teatroregional.cl observado en búsqueda (memorias institucionales) y en el directorio de Opera Latinoamérica.",
+      "last_live_check": {
+        "at": "2026-10-24T10:29:04",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Teatro Municipal de Temuco",
@@ -177,9 +225,15 @@
       "province": "Cautín",
       "region": "La Araucanía",
       "parser": "generic",
-      "verified_live": false,
+      "verified_live": true,
       "url_evidence": "resumen_de_busqueda",
-      "notes": "No verificada en vivo: el scraper NUNCA se ejecutó contra esta URL. Dominio indicado por el directorio IbsenStage; confianza baja hasta verificar."
+      "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 1 página(s), 0 evento(s)). Dominio indicado por el directorio IbsenStage; confianza baja hasta verificar.",
+      "last_live_check": {
+        "at": "2026-10-24T10:28:48",
+        "ok": true,
+        "http_status": 200,
+        "error": null
+      }
     },
     {
       "name": "Teatro del Lago",

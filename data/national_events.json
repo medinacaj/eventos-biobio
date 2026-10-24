@@ -1,0 +1,2309 @@
+{
+  "_notes": "Generado por actualizar.py --nacional. Solo contiene lo que las fuentes publicaron en esta corrida y en corridas anteriores; nada se completa a mano.",
+  "generated_at": "2026-10-24T10:29:48",
+  "summary": {
+    "sources_attempted": 9,
+    "sources_ok": 8,
+    "sources_failed": 1,
+    "events_found": 6,
+    "events_inserted": 4,
+    "events_merged": 0,
+    "possible_events": 138,
+    "quarantined_candidates": 0,
+    "candidates": 110,
+    "errors": [
+      {
+        "source": "ChileCultura (Ministerio de las Culturas)",
+        "error": "HTTP 403"
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Trueque de Novelas",
+      "description": "¡Trae hasta tres novelas y cámbialas por otras! En esta actividad, podrás hacer circular tus historias de ficción, conocer nuevos autores y novelistas, y hac...",
+      "date": "2026-10-24",
+      "end_date": "2026-11-21",
+      "time": "10:00",
+      "end_time": null,
+      "venue": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Plaza Central&lt;/b&gt;&lt;/p&gt;",
+      "address": "Av. Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana",
+      "commune": "Santiago",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": 0,
+      "price_status": "free",
+      "status": "Confirmado",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/trueque-novelas-2026/",
+      "source_type": "venue",
+      "source_priority": 1,
+      "official": true,
+      "image_url": "https://gam.cl/media/images/PORTADA_3.2e16d0ba.fill-1200x630.png",
+      "discovered_at": "2026-10-24T10:28:52",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Centro Cultural Gabriela Mistral (GAM)",
+          "url": "https://gam.cl/es/que-hacer-en-gam/actividades/trueque-novelas-2026/",
+          "type": "venue",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-24T10:28:52"
+        }
+      ],
+      "changes": [],
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Laboratorio Ciudadano de Danza 2026: Presentado por SURA",
+      "description": "El Laboratorio Ciudadano de Danza llega en su segunda versión como un espacio de encuentro y creación colectiva que invita a personas de distintas edades y t...",
+      "date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "time": "17:00",
+      "end_time": null,
+      "venue": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Sala N2&lt;/b&gt; (Edificio B, piso 2)&lt;/p&gt;",
+      "address": "Av. Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana",
+      "commune": "Santiago",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": 0,
+      "price_status": "free",
+      "status": "Confirmado",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/laboratorio-ciudadano-danza-2026/",
+      "source_type": "venue",
+      "source_priority": 1,
+      "official": true,
+      "image_url": "https://gam.cl/media/images/PortadaLabdanzaGAM.2e16d0ba.fill-1200x630.png",
+      "discovered_at": "2026-10-24T10:28:52",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Centro Cultural Gabriela Mistral (GAM)",
+          "url": "https://gam.cl/es/que-hacer-en-gam/actividades/laboratorio-ciudadano-danza-2026/",
+          "type": "venue",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-24T10:28:52"
+        }
+      ],
+      "changes": [],
+      "region": "Metropolitana"
+    },
+    {
+      "title": "GAM y Periscopio presenta: Juegos de Mesa en BiblioGAM",
+      "description": "Un ciclo de encuentros gratuitos para descubrir el mundo de los juegos de mesa, desde los clásicos modernos hasta la creación nacional, celebrando el tablero...",
+      "date": "2026-11-14",
+      "end_date": null,
+      "time": "11:00",
+      "end_time": "11:00",
+      "venue": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;BiblioGAM&lt;/b&gt; (Edificio A, piso 3)&lt;/p&gt;",
+      "address": "Av. Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana",
+      "commune": "Santiago",
+      "category": "Cultura",
+      "audience": null,
+      "access": null,
+      "price_value": 0,
+      "price_status": "free",
+      "status": "Confirmado",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/gam-y-periscopio-presentan-juegos-de-mesa-en-bibliogam/",
+      "source_type": "venue",
+      "source_priority": 1,
+      "official": true,
+      "image_url": "https://gam.cl/media/images/PortadaPerioscopioGAM.2e16d0ba.fill-1200x630.png",
+      "discovered_at": "2026-10-24T10:28:52",
+      "changed_at": null,
+      "tags": [],
+      "sources": [
+        {
+          "name": "Centro Cultural Gabriela Mistral (GAM)",
+          "url": "https://gam.cl/es/que-hacer-en-gam/actividades/gam-y-periscopio-presentan-juegos-de-mesa-en-bibliogam/",
+          "type": "venue",
+          "priority": 1,
+          "official": true,
+          "seen_at": "2026-10-24T10:28:52"
+        }
+      ],
+      "changes": [],
+      "region": "Metropolitana"
+    }
+  ],
+  "runs": [
+    {
+      "source_name": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:44",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 19,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 21,
+      "error": null
+    },
+    {
+      "source_name": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:52",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 3,
+      "events_inserted": 3,
+      "events_merged": 0,
+      "possible_found": 6,
+      "error": null
+    },
+    {
+      "source_name": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:17",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 18,
+      "error": null
+    },
+    {
+      "source_name": "ChileCultura (Ministerio de las Culturas)",
+      "source_url": "https://chilecultura.gob.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:06",
+      "ok": 0,
+      "http_status": 403,
+      "pages_fetched": 0,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source_name": "Matucana 100",
+      "source_url": "https://www.m100.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:39",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 5,
+      "error": null
+    },
+    {
+      "source_name": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:29:48",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 19,
+      "error": null
+    },
+    {
+      "source_name": "Teatro Municipal de Santiago",
+      "source_url": "https://www.municipal.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:27",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 25,
+      "events_found": 3,
+      "events_inserted": 1,
+      "events_merged": 0,
+      "possible_found": 50,
+      "error": null
+    },
+    {
+      "source_name": "Teatro Municipal de Temuco",
+      "source_url": "https://www.teatromunicipaltemuco.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:28:48",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 1,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 6,
+      "error": null
+    },
+    {
+      "source_name": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/",
+      "started_at": "2026-10-24T10:28:02",
+      "finished_at": "2026-10-24T10:29:04",
+      "ok": 1,
+      "http_status": 200,
+      "pages_fetched": 16,
+      "events_found": 0,
+      "events_inserted": 0,
+      "events_merged": 0,
+      "possible_found": 13,
+      "error": null
+    }
+  ],
+  "possible_events": [
+    {
+      "title": "Información importante: Daniil Trifonov",
+      "raw_text": "Por motivos de salud tras sufrir un accidente, el pianista Daniil Trifonov debió posponer su gira por América Latina, incluido su recital del 24 de octubre en el Teatro Municipal de Santiago. Conoce los detalles sobre tus entradas y opciones de reembolso aquí.",
+      "date": "2026-10-24",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 24 de octubre – 16:00 horas / Función familiar",
+      "raw_text": "Sábado 24 de octubre – 16:00 horas / Función familiar",
+      "date": "2026-10-24",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/teatro-musical-estacion-opera/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Jinny Jopler, Los Costinos, Tierra Linda de Paredones y Kala kala ká son parte de la cartelera. Los conciertos se realizarán el 24 de octubre en Paredones y el 30 de octubre en San Vicente de Tagua Tagua.",
+      "date": "2026-10-24",
+      "commune": "San Vicente",
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/paredones-y-san-vicente-celebraran-el-mes-de-la-musica-con-conciertos-gratuitos-de-cumbia-rock-y-cueca-brava/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "O'Higgins"
+    },
+    {
+      "title": "Roberto Bravo con Musica de Peliculas – 24 de Octubre 19:00 hrs.",
+      "raw_text": "Roberto Bravo con Musica de Peliculas – 24 de Octubre 19:00 hrs.",
+      "date": "2026-10-24",
+      "commune": "Temuco",
+      "source": "Teatro Municipal de Temuco",
+      "source_url": "https://ww2.teatromunicipaltemuco.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "La Araucanía"
+    },
+    {
+      "title": "SÁBADO 24 DE OCTUBRE DE 2026",
+      "raw_text": "SÁBADO 24 DE OCTUBRE DE 2026",
+      "date": "2026-10-24",
+      "commune": "Talca",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28521",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Domingo 25 de octubre – 12:00 horas / Función familiar",
+      "raw_text": "Domingo 25 de octubre – 12:00 horas / Función familiar",
+      "date": "2026-10-25",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/teatro-musical-estacion-opera/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Cada 25 de octubre se conmemora el Día Mundial de la Ópera, una iniciativa internacional que busca relevar el valor de esta arte escénica y su aporte a la sociedad. La celebración se realiza desde 2019 y su fecha recuerda el nacimiento de los compositores Georges Bizet y Johann Strauss II.",
+      "date": "2026-10-25",
+      "commune": "Nacimiento",
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/dia-mundial-de-la-opera-se-celebra-con-actividades-que-buscan-acercar-esta-arte-escenica-a-nuevos-publicos/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Biobío"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "La celebración se realizará el sábado 24 y domingo 25 de octubre. Impulsada por la Seremi de las Culturas y el SERPAT, junto a diversas organizaciones, la edición de este año pondrá un especial énfasis en valorar el legado de la comunidad chilota en la zona austral.",
+      "date": "2026-10-25",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/dia-del-patrimonio-cultural-regional-de-magallanes-ofrecera-mas-de-50-actividades-este-fin-de-semana/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "La Elvira – 26 Octubre, 19:30 hrs.",
+      "raw_text": "La Elvira – 26 Octubre, 19:30 hrs.",
+      "date": "2026-10-26",
+      "commune": "Temuco",
+      "source": "Teatro Municipal de Temuco",
+      "source_url": "https://ww2.teatromunicipaltemuco.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "La Araucanía"
+    },
+    {
+      "title": "27 al 30 de octubre ·",
+      "raw_text": "27 al 30 de octubre ·",
+      "date": "2026-10-27",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Desde el 27 al 30 de octubre",
+      "raw_text": "Desde el 27 al 30 de octubre",
+      "date": "2026-10-27",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Martes 27 de octubre – 19:00 horas / Serie B1",
+      "raw_text": "Martes 27 de octubre – 19:00 horas / Serie B1",
+      "date": "2026-10-27",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/noche-de-grandes-coreografos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "27/10/26 al 24/01/27",
+      "raw_text": "27/10/26 al 24/01/27",
+      "date": "2026-10-27",
+      "commune": "Estación Central",
+      "source": "Matucana 100",
+      "source_url": "https://www.m100.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "27/10/26 al 24/01/27",
+      "raw_text": "27/10/26 al 24/01/27",
+      "date": "2026-10-27",
+      "commune": "Estación Central",
+      "source": "Matucana 100",
+      "source_url": "https://www.m100.cl/programacion/artes-visuales/odisea-del-espacio-25-anos-de-matucana-100/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Del 27/10/26 al 24/01/27",
+      "raw_text": "Del 27/10/26 al 24/01/27",
+      "date": "2026-10-27",
+      "commune": "Estación Central",
+      "source": "Matucana 100",
+      "source_url": "https://www.m100.cl/programacion/artes-visuales/odisea-del-espacio-25-anos-de-matucana-100/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "27/10/26 al 24/01/27",
+      "raw_text": "27/10/26 al 24/01/27",
+      "date": "2026-10-27",
+      "commune": "Estación Central",
+      "source": "Matucana 100",
+      "source_url": "https://www.m100.cl/programacion/artes-visuales/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "FECHA 📆 MIÉRCOLES 21, JUEVES 22 Y MARTES 27 DE OCTUBRE DE 2026 LUGAR 📍 TEATRO REGIONAL...",
+      "raw_text": "FECHA 📆 MIÉRCOLES 21, JUEVES 22 Y MARTES 27 DE OCTUBRE DE 2026 LUGAR 📍 TEATRO REGIONAL...",
+      "date": "2026-10-27",
+      "commune": "Talca",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/category/eventos-especiales",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Dialogo realizado el 28 de octubre, 2020",
+      "raw_text": "Dialogo realizado el 28 de octubre, 2020",
+      "date": "2026-10-28",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/ciudades-nordicas-sustentables/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Miércoles 28 de octubre – 19:00 horas / Serie B2",
+      "raw_text": "Miércoles 28 de octubre – 19:00 horas / Serie B2",
+      "date": "2026-10-28",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/noche-de-grandes-coreografos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Entre el 28 de octubre y el 7 de noviembre, el Ballet Folklórico Nacional BAFONA, elenco estable del Ministerio de las Culturas, las Artes y el Patrimonio, realizará una itinerancia por las regiones de Los Ríos y Los Lagos. Su programa considera el estreno de “Cahuach”, montaje que homenajea la devoción popular que se manifiesta en aquella apartada isla chilota, conmemorando así los 200 años de la incorporación del archipiélago de Chiloé a la República de Chile.",
+      "date": "2026-10-28",
+      "commune": "Los Lagos",
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Los Ríos"
+    },
+    {
+      "title": "Miércoles 28 de octubre a las 19:00 horas",
+      "raw_text": "Miércoles 28 de octubre a las 19:00 horas",
+      "date": "2026-10-28",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "En el marco del Día de la Música Chilena y los Músicos Chilenos 2026, la actividad se realizará el miércoles 28 de octubre en el Auditorio Manuel Sanhueza Cruz y contempla instancias de formación, diálogo y trabajo colaborativo para el sector musical del Biobío.",
+      "date": "2026-10-28",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/eventos-actividades/jornada-biobio-musical-reunira-a-musicos-sellos-y-gestores-culturales-para-fortalecer-el-trabajo-de-la-escena-regional/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Gala de la Orquesta Infantil Juvenil, 28 de octubre 20:00 hrs.",
+      "raw_text": "Gala de la Orquesta Infantil Juvenil, 28 de octubre 20:00 hrs.",
+      "date": "2026-10-28",
+      "commune": "Temuco",
+      "source": "Teatro Municipal de Temuco",
+      "source_url": "https://ww2.teatromunicipaltemuco.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "La Araucanía"
+    },
+    {
+      "title": "Hasta el 28 de octubre estará disponible la exposi",
+      "raw_text": "Hasta el 28 de octubre estará disponible la exposi",
+      "date": "2026-10-28",
+      "commune": "Temuco",
+      "source": "Teatro Municipal de Temuco",
+      "source_url": "https://ww2.teatromunicipaltemuco.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "La Araucanía"
+    },
+    {
+      "title": "Jueves 29 de octubre – 19:00 horas / Serie B3",
+      "raw_text": "Jueves 29 de octubre – 19:00 horas / Serie B3",
+      "date": "2026-10-29",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/noche-de-grandes-coreografos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Fechas: 21, 22, 28, 29 y 31 de octubre.",
+      "raw_text": "Fechas: 21, 22, 28, 29 y 31 de octubre.",
+      "date": "2026-10-29",
+      "commune": "Estación Central",
+      "source": "Matucana 100",
+      "source_url": "https://www.m100.cl/programacion/teatro/girlsboys/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Jueves 29 de octubre a las 19:00 HORAS",
+      "raw_text": "Jueves 29 de octubre a las 19:00 HORAS",
+      "date": "2026-10-29",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Alberto Plaza, Sinfónico, 29 de Octubre a las 19:30",
+      "raw_text": "Alberto Plaza, Sinfónico, 29 de Octubre a las 19:30",
+      "date": "2026-10-29",
+      "commune": "Temuco",
+      "source": "Teatro Municipal de Temuco",
+      "source_url": "https://ww2.teatromunicipaltemuco.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "La Araucanía"
+    },
+    {
+      "title": "29 Oct al 15 Nov 2026",
+      "raw_text": "29 Oct al 15 Nov 2026",
+      "date": "2026-10-29",
+      "commune": "Santiago",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 30 de octubre – 19:00 horas / Serie B4",
+      "raw_text": "Viernes 30 de octubre – 19:00 horas / Serie B4",
+      "date": "2026-10-30",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/noche-de-grandes-coreografos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 30 de octubre a las 19:00 horas",
+      "raw_text": "Viernes 30 de octubre a las 19:00 horas",
+      "date": "2026-10-30",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Sábado 31 de octubre – 16:00 horas /",
+      "raw_text": "Sábado 31 de octubre – 16:00 horas /",
+      "date": "2026-10-31",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/teatro-musical-estacion-opera/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 31 de octubre a las 19:00 horas",
+      "raw_text": "Sábado 31 de octubre a las 19:00 horas",
+      "date": "2026-10-31",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Domingo 1 de noviembre – 12:00 horas /",
+      "raw_text": "Domingo 1 de noviembre – 12:00 horas /",
+      "date": "2026-11-01",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/teatro-musical-estacion-opera/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Lunes 2 de noviembre a las 19:00 horas",
+      "raw_text": "Lunes 2 de noviembre a las 19:00 horas",
+      "date": "2026-11-02",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Martes 3 de noviembre a las 19:00 horas",
+      "raw_text": "Martes 3 de noviembre a las 19:00 horas",
+      "date": "2026-11-03",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "3 al 19 Nov 2026",
+      "raw_text": "3 al 19 Nov 2026",
+      "date": "2026-11-03",
+      "commune": "Santiago",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Miércoles 4 de noviembre a las 19:00 horas",
+      "raw_text": "Miércoles 4 de noviembre a las 19:00 horas",
+      "date": "2026-11-04",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Jueves 5 de noviembre a las 19:30 horas",
+      "raw_text": "Jueves 5 de noviembre a las 19:30 horas",
+      "date": "2026-11-05",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Una de las novedades de este año es la denominada “Estación Diseño”, un espacio que se desplegará en el Centro Cultural Gabriela Mistral (GAM), entre el 5 y 15 de noviembre, y que servirá como centro neurálgico del Mes del Diseño. En éste se ofrecerán talleres, charlas, presentaciones y encuentros, desarrollados en colaboración con diversas organizaciones, como ChileDiseño, ChileModa, la Cámara de Diseño Sustentable, escuelas de diseño, VIDEO GAMES CHILE, entre otras.",
+      "date": "2026-11-05",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/mes-del-diseno-2026-revela-su-programacion-con-mas-de-50-actividades-en-ocho-regiones-del-pais/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Antártica: La última página en blanco de la Tierra 05 de Noviembre",
+      "raw_text": "Antártica: La última página en blanco de la Tierra 05 de Noviembre",
+      "date": "2026-11-05",
+      "commune": "Antártica",
+      "source": "Teatro Municipal de Temuco",
+      "source_url": "https://ww2.teatromunicipaltemuco.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Magallanes"
+    },
+    {
+      "title": "FECHA 📆 JUEVES 05 DE NOVIEMBRE DE 2026 HORA 🕣 18:00 HRS. LUGAR 📍 CENTRO CULTURAL EL...",
+      "raw_text": "FECHA 📆 JUEVES 05 DE NOVIEMBRE DE 2026 HORA 🕣 18:00 HRS. LUGAR 📍 CENTRO CULTURAL EL...",
+      "date": "2026-11-05",
+      "commune": "Talca",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/category/talleres-y-masterclases",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "05 AL 12 DE NOVIEMBRE DE 2026",
+      "raw_text": "05 AL 12 DE NOVIEMBRE DE 2026",
+      "date": "2026-11-05",
+      "commune": "Talca",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Jueves 5 de noviembre | 10:00 horas — Teatro Regional del Maule",
+      "raw_text": "Jueves 5 de noviembre | 10:00 horas — Teatro Regional del Maule",
+      "date": "2026-11-05",
+      "commune": "Maule",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Viernes 6 de noviembre a las 19:00 horas",
+      "raw_text": "Viernes 6 de noviembre a las 19:00 horas",
+      "date": "2026-11-06",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "El festival se realizará el 6 y 7 de noviembre en el Museo Regional de La Araucanía. Su directora, Brenda Lizama Farfán, participó como delegada chilena en el 13 Festival Internacional de Teatro Córdoba para la Infancia y la Juventud: FIT Córdoba, Argentina.",
+      "date": "2026-11-06",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/manojo-reunira-artes-escenicas-y-experiencias-de-juego-para-las-infancias-en-temuco/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Viernes 6 de noviembre | 10:00 horas — Teatro Regional del Maule",
+      "raw_text": "Viernes 6 de noviembre | 10:00 horas — Teatro Regional del Maule",
+      "date": "2026-11-06",
+      "commune": "Maule",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Viernes 6 de noviembre | 19:30 horas — Teatro Regional del Maule",
+      "raw_text": "Viernes 6 de noviembre | 19:30 horas — Teatro Regional del Maule",
+      "date": "2026-11-06",
+      "commune": "Maule",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Sábado 7 de noviembre a las 19:00 horas",
+      "raw_text": "Sábado 7 de noviembre a las 19:00 horas",
+      "date": "2026-11-07",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/bafona-anuncia-gira-por-las-regiones-de-los-rios-y-los-lagos-con-estreno-de-obra-dedicada-al-bicentenario-de-chiloe/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "8 al 29 Nov 2026",
+      "raw_text": "8 al 29 Nov 2026",
+      "date": "2026-11-08",
+      "commune": "Santiago",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Martes 10 de noviembre | 11:00 horas — Teatro Municipal de Linares",
+      "raw_text": "Martes 10 de noviembre | 11:00 horas — Teatro Municipal de Linares",
+      "date": "2026-11-10",
+      "commune": "Linares",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Miércoles 11 de noviembre | 11:00 horas — Teatro Municipal de Constitución",
+      "raw_text": "Miércoles 11 de noviembre | 11:00 horas — Teatro Municipal de Constitución",
+      "date": "2026-11-11",
+      "commune": "Constitución",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Jueves 12 de noviembre | 11:00 horas — Teatro Provincial de Curicó",
+      "raw_text": "Jueves 12 de noviembre | 11:00 horas — Teatro Provincial de Curicó",
+      "date": "2026-11-12",
+      "commune": "Curicó",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28422",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Desde el 17 al 29 de noviembre ·",
+      "raw_text": "Desde el 17 al 29 de noviembre ·",
+      "date": "2026-11-17",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Martes 17 de noviembre – 18:00 horas / Ó1",
+      "raw_text": "Martes 17 de noviembre – 18:00 horas / Ó1",
+      "date": "2026-11-17",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Jueves 19 de noviembre ·",
+      "raw_text": "Jueves 19 de noviembre ·",
+      "date": "2026-11-19",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Jueves 19 de noviembre – 19:00 horas / Serie SB",
+      "raw_text": "Jueves 19 de noviembre – 19:00 horas / Serie SB",
+      "date": "2026-11-19",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ciclo-beethoven-iii-boris-giltburg/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Ministerio de las Culturas, las Artes y el Patrimonio",
+      "raw_text": "Concluida la revisión de las postulaciones, veintitrés concursantes continúan el proceso que premiará a los tres ganadores de este año, el 19 de noviembre.",
+      "date": "2026-11-19",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/agendacultural/seremi-de-las-culturas-selecciona-candidatos-para-los-premios-regionales-linterna-de-papel-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Desde el 20 hasta el 28 de noviembre ·",
+      "raw_text": "Desde el 20 hasta el 28 de noviembre ·",
+      "date": "2026-11-20",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 20 de noviembre – 18:00 horas / Ó3",
+      "raw_text": "Viernes 20 de noviembre – 18:00 horas / Ó3",
+      "date": "2026-11-20",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 20 de noviembre – 20:00 horas",
+      "raw_text": "Viernes 20 de noviembre – 20:00 horas",
+      "date": "2026-11-20",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/radioteatro-martin-rivas-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "20 y 21 Nov 2026",
+      "raw_text": "20 y 21 Nov 2026",
+      "date": "2026-11-20",
+      "commune": "Santiago",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 21 de noviembre – 18:00 horas",
+      "raw_text": "Sábado 21 de noviembre – 18:00 horas",
+      "date": "2026-11-21",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/radioteatro-martin-rivas-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sá — 16 h | Sá 21 Nov — 12 h",
+      "raw_text": "Sá — 16 h | Sá 21 Nov — 12 h",
+      "date": "2026-11-21",
+      "commune": "Santiago",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 22 de noviembre",
+      "raw_text": "Domingo 22 de noviembre",
+      "date": "2026-11-22",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 22 de noviembre – 17:00 horas / Serie SB",
+      "raw_text": "Domingo 22 de noviembre – 17:00 horas / Serie SB",
+      "date": "2026-11-22",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ciclo-beethoven-iv-boris-giltburg/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Lunes 23 de noviembre – 18:00 horas / Ó2",
+      "raw_text": "Lunes 23 de noviembre – 18:00 horas / Ó2",
+      "date": "2026-11-23",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Jueves 26 de noviembre – 18:00 horas / Ó5 y Ó6",
+      "raw_text": "Jueves 26 de noviembre – 18:00 horas / Ó5 y Ó6",
+      "date": "2026-11-26",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 27 de noviembre – 20:00 horas",
+      "raw_text": "Viernes 27 de noviembre – 20:00 horas",
+      "date": "2026-11-27",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/radioteatro-martin-rivas-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "VIERNES 27 DE NOVIEMBRE 2026",
+      "raw_text": "VIERNES 27 DE NOVIEMBRE 2026",
+      "date": "2026-11-27",
+      "commune": "Talca",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28546",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "Orquesta Infantil y Juvenil del TRM es seleccionada por segunda vez para participar en el Festival Fernando Rosas",
+      "raw_text": "La agrupación formativa del Teatro Regional del Maule regresará al Teatro Municipal de Santiago el próximo 27 de noviembre, luego de ser seleccionada entre 25 orquestas postulantes de distintas partes del país. Será su segunda participación en este importante encuentro, tras haber formado parte de la edición 2024.",
+      "date": "2026-11-27",
+      "commune": "Santiago",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/archivo/28463",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 28 de noviembre – 18:00 horas",
+      "raw_text": "Sábado 28 de noviembre – 18:00 horas",
+      "date": "2026-11-28",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/radioteatro-martin-rivas-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 29 de noviembre – 17:00 horas / Ó4",
+      "raw_text": "Domingo 29 de noviembre – 17:00 horas / Ó4",
+      "date": "2026-11-29",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "5 y 6 de diciembre",
+      "raw_text": "5 y 6 de diciembre",
+      "date": "2026-12-05",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 5 de diciembre – 19:00 horas / Serie C1",
+      "raw_text": "Sábado 5 de diciembre – 19:00 horas / Serie C1",
+      "date": "2026-12-05",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/c7-requiem-de-guerra-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 6 de diciembre –",
+      "raw_text": "Domingo 6 de diciembre –",
+      "date": "2026-12-06",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/c7-requiem-de-guerra-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Mis tickets",
+      "raw_text": "Brasil, Colombia, Costa Rica, Ecuador, El Salvador, España, Guatemala, México, Perú y Uruguay. La muestra iniciará el día 9 de diciembre con la realización de un panel transmitido vía facebook live, en el que participarán los directores y directoras de los países participantes y que tendrá como tema central la producción cinematográfica iberoamericana, los efectos de la pandemia y las posibilidades que esta contingencia presenta.",
+      "date": "2026-12-09",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Miércoles 9 de diciembre, 19:00 horas.",
+      "raw_text": "Miércoles 9 de diciembre, 19:00 horas.",
+      "date": "2026-12-09",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "9 al 19 de diciembre | 2020",
+      "raw_text": "9 al 19 de diciembre | 2020",
+      "date": "2026-12-09",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Jueves 10 de diciembre",
+      "raw_text": "Jueves 10 de diciembre",
+      "date": "2026-12-10",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 11 de diciembre",
+      "raw_text": "Viernes 11 de diciembre",
+      "date": "2026-12-11",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 12 de diciembre",
+      "raw_text": "Sábado 12 de diciembre",
+      "date": "2026-12-12",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Desde el 12 al 19 de diciembre",
+      "raw_text": "Desde el 12 al 19 de diciembre",
+      "date": "2026-12-12",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 12 de diciembre – 12:00 horas / Función familiar",
+      "raw_text": "Sábado 12 de diciembre – 12:00 horas / Función familiar",
+      "date": "2026-12-12",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 12 de diciembre – 16:00 horas / Función familiar",
+      "raw_text": "Sábado 12 de diciembre – 16:00 horas / Función familiar",
+      "date": "2026-12-12",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "12 y 13 Dic 2026",
+      "raw_text": "12 y 13 Dic 2026",
+      "date": "2026-12-12",
+      "commune": "Santiago",
+      "source": "Centro Cultural Gabriela Mistral (GAM)",
+      "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 13 de diciembre",
+      "raw_text": "Domingo 13 de diciembre",
+      "date": "2026-12-13",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 13 de diciembre – 12:00 horas / Función familiar",
+      "raw_text": "Domingo 13 de diciembre – 12:00 horas / Función familiar",
+      "date": "2026-12-13",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Domingo 13 de diciembre – 16:00 horas / Función familiar",
+      "raw_text": "Domingo 13 de diciembre – 16:00 horas / Función familiar",
+      "date": "2026-12-13",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Lunes 14 de diciembre",
+      "raw_text": "Lunes 14 de diciembre",
+      "date": "2026-12-14",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Lunes 14 de diciembre – 19:00 horas /",
+      "raw_text": "Lunes 14 de diciembre – 19:00 horas /",
+      "date": "2026-12-14",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Martes 15 de diciembre",
+      "raw_text": "Martes 15 de diciembre",
+      "date": "2026-12-15",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Desde el 15 al 30 de diciembre",
+      "raw_text": "Desde el 15 al 30 de diciembre",
+      "date": "2026-12-15",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Martes 15 de diciembre – 19:00 horas / Serie B1",
+      "raw_text": "Martes 15 de diciembre – 19:00 horas / Serie B1",
+      "date": "2026-12-15",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Miércoles 16 de diciembre",
+      "raw_text": "Miércoles 16 de diciembre",
+      "date": "2026-12-16",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Jueves 17 de diciembre",
+      "raw_text": "Jueves 17 de diciembre",
+      "date": "2026-12-17",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 18 de diciembre",
+      "raw_text": "Viernes 18 de diciembre",
+      "date": "2026-12-18",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "18 al 31 de diciembre | 2020",
+      "raw_text": "18 al 31 de diciembre | 2020",
+      "date": "2026-12-18",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/regala-reutilizando/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Viernes 18 de diciembre – 19:00 horas / Serie B2",
+      "raw_text": "Viernes 18 de diciembre – 19:00 horas / Serie B2",
+      "date": "2026-12-18",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 19 de diciembre",
+      "raw_text": "Sábado 19 de diciembre",
+      "date": "2026-12-19",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/14-muestra-de-cine-iberoamericano/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 19 de diciembre – 19:00 horas / Serie B3",
+      "raw_text": "Sábado 19 de diciembre – 19:00 horas / Serie B3",
+      "date": "2026-12-19",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 19 de diciembre – 12:00 horas / Función familiar",
+      "raw_text": "Sábado 19 de diciembre – 12:00 horas / Función familiar",
+      "date": "2026-12-19",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 19 de diciembre – 16:00 horas / Función familiar",
+      "raw_text": "Sábado 19 de diciembre – 16:00 horas / Función familiar",
+      "date": "2026-12-19",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Lunes 21 de diciembre – 19:00 horas / Serie B4",
+      "raw_text": "Lunes 21 de diciembre – 19:00 horas / Serie B4",
+      "date": "2026-12-21",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Martes 22 de diciembre – 19:00 horas / Fuera de abono",
+      "raw_text": "Martes 22 de diciembre – 19:00 horas / Fuera de abono",
+      "date": "2026-12-22",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Miércoles 23 de diciembre – 19:00 horas / Fuera de abono",
+      "raw_text": "Miércoles 23 de diciembre – 19:00 horas / Fuera de abono",
+      "date": "2026-12-23",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Sábado 26 de diciembre – 19:00 horas / Fuera de abono",
+      "raw_text": "Sábado 26 de diciembre – 19:00 horas / Fuera de abono",
+      "date": "2026-12-26",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Lunes 28 de diciembre – 19:00 horas / Fuera de abono",
+      "raw_text": "Lunes 28 de diciembre – 19:00 horas / Fuera de abono",
+      "date": "2026-12-28",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Miércoles 30 de diciembre – 19:00 horas/ Fuera de abono",
+      "raw_text": "Miércoles 30 de diciembre – 19:00 horas/ Fuera de abono",
+      "date": "2026-12-30",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Mis tickets",
+      "raw_text": "La primera exposición individual en Europa de Seba Calfuqueo se presenta en el Museo Nacional Thyssen-Bornemisza de Madrid hasta el 17 de enero de 2027. Producida por TBA21 Thyssen-Bornemisza Art Contemporary y el museo español, en colaboración co...",
+      "date": "2027-01-17",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Esta obra fue estrenada originalmente el 20 de enero de 1996, Ballet Frankfurt, Ópera de Frankfurt, Alemania.",
+      "raw_text": "Esta obra fue estrenada originalmente el 20 de enero de 1996, Ballet Frankfurt, Ópera de Frankfurt, Alemania.",
+      "date": "2027-01-20",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/noche-de-grandes-coreografos-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Elektra",
+      "raw_text": "Ópera en un acto con música de Richard Strauss y libreto de Hugo von Hofmannsthal. Basado en la tragedia homónima de Sófocles, se estrenó en la Ópera Real de Dresde el 25 de enero de 1909.",
+      "date": "2027-01-25",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Del 15 al 28 de febrero | 2021",
+      "raw_text": "Del 15 al 28 de febrero | 2021",
+      "date": "2027-02-15",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/verano-para-ti/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "PUBLICADO EL 16 FEBRERO, 2026",
+      "raw_text": "PUBLICADO EL 16 FEBRERO, 2026",
+      "date": "2027-02-16",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/paocc/abierta-convocatoria-continuidad-segundo-llamado-programa-de-apoyo-a-organizaciones-culturales-colaboradores-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "• La convocatoria estará abierta desde el 16 de febrero al 18 de marzo.",
+      "raw_text": "• La convocatoria estará abierta desde el 16 de febrero al 18 de marzo.",
+      "date": "2027-02-16",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/paocc/abierta-convocatoria-continuidad-segundo-llamado-programa-de-apoyo-a-organizaciones-culturales-colaboradores-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Todos los miércoles (excepto el martes 23 de febrero), de febrero y marzo de 2021, de 15.00 a 17.00 horas.",
+      "raw_text": "Todos los miércoles (excepto el martes 23 de febrero), de febrero y marzo de 2021, de 15.00 a 17.00 horas.",
+      "date": "2027-02-23",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Todos los miércoles (excepto el martes 23 de febrero), de febrero y marzo de 2021, de 15.00 a 17.00 horas.",
+      "raw_text": "Todos los miércoles (excepto el martes 23 de febrero), de febrero y marzo de 2021, de 15.00 a 17.00 horas.",
+      "date": "2027-02-23",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/tardes-mayores-2021-02-10/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Todos los miércoles (excepto el martes 23 de febrero), de febrero y marzo de 2021, de 15.00 a 17.00 horas.",
+      "raw_text": "Todos los miércoles (excepto el martes 23 de febrero), de febrero y marzo de 2021, de 15.00 a 17.00 horas.",
+      "date": "2027-02-23",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/tardes-mayores-2021-03-24/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Ópera: La Traviata",
+      "raw_text": "Ópera en tres actos con música de Giuseppe Verdi y libreto en italiano de Francesco Maria Piave, basado en la novela de Alejandro Dumas La dama de las camelias. Fue estrenada el 6 de marzo de 1853 en el Teatro La Fenice de Venecia.",
+      "date": "2027-03-06",
+      "commune": "Santiago",
+      "source": "Teatro Municipal de Santiago",
+      "source_url": "https://municipal.cl/espectaculos/opera-la-traviata-municipal-delivery-2026/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Mis tickets",
+      "raw_text": ", la Cineteca Nacional de Chile, realizará una función online de Rara (2016). La película, que estará disponible a partir del 27 de marzo a las 20:00 horas y por un periodo de 24 horas, contará con una presentación de su directora, Pepa San Martín.",
+      "date": "2027-03-27",
+      "commune": "Santiago",
+      "source": "Centro Cultural La Moneda",
+      "source_url": "https://www.cclm.cl/actividades/rara/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Metropolitana"
+    },
+    {
+      "title": "Estreno: 30 de marzo de 202",
+      "raw_text": "Estreno: 30 de marzo de 202",
+      "date": "2027-03-30",
+      "commune": "Talca",
+      "source": "Teatro Regional del Maule",
+      "source_url": "https://www.teatroregional.cl/podcast-en-concierto-con-la-ocm",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Maule"
+    },
+    {
+      "title": "PUBLICADO EL 08 ABRIL, 2026",
+      "raw_text": "PUBLICADO EL 08 ABRIL, 2026",
+      "date": "2027-04-08",
+      "commune": null,
+      "source": "Agenda Cultural del Ministerio de las Culturas",
+      "source_url": "https://www.cultura.gob.cl/redcultura/publicaciones/municipalidades-y-espacios-culturales-validan-al-programa-red-cultura-como-eje-estrategico-para-la-planificacion-territorial/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": null
+    },
+    {
+      "title": "Víctor Ahumada (folclore latinoamericano): Sábado 17 abril",
+      "raw_text": "Víctor Ahumada (folclore latinoamericano): Sábado 17 abril",
+      "date": "2027-04-17",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Branko Luksic (Música latinoamericana): Viernes 23 abril",
+      "raw_text": "Branko Luksic (Música latinoamericana): Viernes 23 abril",
+      "date": "2027-04-23",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Javier Parra (blues y jazz): Sábado 24 abril",
+      "raw_text": "Javier Parra (blues y jazz): Sábado 24 abril",
+      "date": "2027-04-24",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Rodolfo Jorquera (solista en Bandoneón): Viernes 30 abril",
+      "raw_text": "Rodolfo Jorquera (solista en Bandoneón): Viernes 30 abril",
+      "date": "2027-04-30",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Las inscripciones para ambas actividades estarán abiertas hasta el 10 de Mayo en el sitio www.festivalsintesisteatralvalparaiso.cl",
+      "raw_text": "Las inscripciones para ambas actividades estarán abiertas hasta el 10 de Mayo en el sitio www.festivalsintesisteatralvalparaiso.cl",
+      "date": "2027-05-10",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/dia-nacional-del-teatro-festival-sintesis-teatral-valparaiso-realizara-segunda-version-en-linea/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "La segunda versión en línea del Festival Síntesis Teatral Valparaíso se extenderá desde el 11 al 13 de mayo, a través de su sitio web y plataforma Escenix, para conmemorar el Día Nacional del Teatro.",
+      "date": "2027-05-11",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/dia-nacional-del-teatro-festival-sintesis-teatral-valparaiso-realizara-segunda-version-en-linea/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "Este sábado 15 de mayo a las 20 hrs. se exhibirá la tercera fecha de este ciclo que trae las presentaciones de Jaïa Rose (Francia) y Sofía Correa (Chile)y lo podrás ver por el Facebook Live del Parque Cultural de Valparaíso.",
+      "date": "2027-05-15",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/tercera-fecha-del-ciclo-rendez-vous/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "#LaMetamorfosisDeLoAnálogo desde el 25 al 28 de mayo, la Mesa Territorial Centro Norte con apoyo de la Seremi de las Culturas de Valparaíso, como una medida para hacer frente a la crisis que aún persiste en el rubro, solidarizando con los y las trabajadoras de las Artes Escénicas de la región de Valparaíso, en conmemoración del mes del Teatro y el natalicio de Andrés Pérez.",
+      "date": "2027-05-25",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/la-metamorfosis-de-lo-analogo/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "2 de junio, 19:00 hrs.",
+      "raw_text": "2 de junio, 19:00 hrs.",
+      "date": "2027-06-02",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/la-critica-y-lo-politicamente-correcto/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "Este tercer capítulo se transmitirá el jueves 3 de junio, a las 17:00 horas, a través del canal de Youtube y de InstagramTV del Parque Cultural de Valparaíso. En esta oportunidad, se relatará el libro Verde Verde de la autora Penélope Peralta Furet, quien invita a adentrarse en la vida de un jardín verde verde, que sólo puede ser verde verde… pero, ¿qué pasa cuando alguien tiene otros colores? Los invitamos a descubrir esta historia y por supuesto a conocer las recomendaciones de los niños y niñas.",
+      "date": "2027-06-03",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/tercer-capitulo-de-la-tarde-de-los-cuentos-2021/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "La actividad se realizará el viernes 4 de junio, a las 19:00 hrs, a través de Zoom, previa inscripción en",
+      "raw_text": "La actividad se realizará el viernes 4 de junio, a las 19:00 hrs, a través de Zoom, previa inscripción en",
+      "date": "2027-06-04",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/lanzamiento-del-area-de-creacion-e-investigacion-en-artes-escenicas-del-parque-cultural-de-valparaiso-masterclass-el-camino-actoral-hacia-la-verdad-escenica-de-naldy-hernandez/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "Este viernes 4 de junio, a las 12:30 horas, en la Sala Laboratorio del Parque Cultural de Valparaíso, se reinaugura esta muestra de la artista visual Ximena Bórquez, luego de permanecer en pausa durante la cuarentena (y que había sido inaugurada el 10 de marzo).",
+      "date": "2027-06-04",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/reinauguracion-de-la-exposicion-geografia-sensorial-relaciones-entre-lenguajes-graficos-sonoros-y-geometricos-en-humedales-de-la-v-region/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Este sábado 5 y domingo 6 de junio a las 12 hrs, a través del canal de youtube e instagramTV del Parque Cultural de Valparaíso.",
+      "raw_text": "Este sábado 5 y domingo 6 de junio a las 12 hrs, a través del canal de youtube e instagramTV del Parque Cultural de Valparaíso.",
+      "date": "2027-06-06",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/viaje-a-la-mar-espectaculo-de-narracion-con-munecos/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "Este 16, 17 y 18 de junio se realizará, entre las 10.00 y 16.30 horas, la versión número 34 de la Feria del Libro Independiente de Valparaíso en la explanada del Parque Cultural, cuyo objetivo principal es apoyar a las editoriales y a la cadena del libro por la compleja situación sanitaria y económica en que se encuentran muchos y muchas creadoras, quienes han visto mermadas sus posibilidades laborales de manera presencial.",
+      "date": "2027-06-17",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/parque-cultural-de-valparaiso-vuelve-con-feria-del-libro-presencial/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "ActividadesRelacionadas",
+      "raw_text": "Los cuatro capítulos de Cocina Indígena Aymara serán exhibidos por el canal de Youtube e InstagramTV del Parque Cultural de Valparaíso desde el 21 al 24 de junio, a las 12:00 hrs., donde se podrá ver la preparación de las distintas recetas, que se describen a continuación:",
+      "date": "2027-06-21",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/cocina-indigena-aymara/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    },
+    {
+      "title": "Lunes 21 de junio",
+      "raw_text": "Lunes 21 de junio",
+      "date": "2027-06-21",
+      "commune": "Valparaíso",
+      "source": "Parque Cultural de Valparaíso",
+      "source_url": "https://parquecultural.cl/events/cocina-indigena-aymara/",
+      "reason": "Texto con fecha futura sin datos estructurados",
+      "region": "Valparaíso"
+    }
+  ],
+  "source_candidates": [
+    {
+      "url": "https://ticketera.municipal.cl/",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://www.municipal.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/visitas-guiadas",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://www.municipal.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/entradas",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://www.municipal.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.culturallascondes.cl",
+      "domain": "www.culturallascondes.cl",
+      "found_on": "https://www.municipal.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://culturaprovidencia.cl",
+      "domain": "culturaprovidencia.cl",
+      "found_on": "https://www.municipal.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-PM-ESTACIONOPERA/sin-numerar?funcion=2026-PM-ESTACIONOPERA-20261017-16H",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/teatro-musical-estacion-opera/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-B-COREOGRAFOS",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/noche-de-grandes-coreografos-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-O-ELEKTRA",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/elektra-de-richard-strauss-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-CBE-SONATA3",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/ciclo-beethoven-iii-boris-giltburg/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-CBE-SONATA3?funcion=2026-CBE-SONATA3-20261119-19H",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/ciclo-beethoven-iii-boris-giltburg/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-T-MARTINRIVAS/sin-numerar",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/radioteatro-martin-rivas-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-B-CASCANUECES",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-B-CASCANUECES?funcion=2026-B-CASCANUECES-20261215-19H",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/cascanueces-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-C-REQUIEMGUERRA",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/c7-requiem-de-guerra-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-PM-CLARITACASCANUECES/sin-numerar?funcion=2026-PM-CLARITACASCANUECES-20261212-12H",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/ballet-familiar-clarita-y-su-amigo-cascanueces-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-CBE-SONATA4",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/ciclo-beethoven-iv-boris-giltburg/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-C-FISCHER/sin-numerar",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/edith-fischer-recital-de-piano-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketera.municipal.cl/2026-C-DANZASSINFONICAS",
+      "domain": "ticketera.municipal.cl",
+      "found_on": "https://municipal.cl/espectaculos/c6-danzas-sinfonicas-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://m100.ticketplus.cl/",
+      "domain": "m100.ticketplus.cl",
+      "found_on": "https://www.m100.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://circuitocultural.cl/",
+      "domain": "circuitocultural.cl",
+      "found_on": "https://www.m100.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://redsalasdeteatro.cl/",
+      "domain": "redsalasdeteatro.cl",
+      "found_on": "https://www.m100.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/solo-nos-queda-cantar-2026-11-05-19-30-00-0300",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/teatro/solo-nos-queda-cantar/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/25-anos-25-bandas",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/musica/25-anos-25-bandas/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/girls-boys-2026-09-30-10-21-00-0300",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/teatro/girlsboys/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/hangar-rojo",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/cine/hangar-rojo/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/vigia",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/danza-circo/vigia/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/intra-accion",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/teatro/intra-accion-2/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/alba",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/danza-circo/alba/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/donde-va-a-morir-sara",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/danza-circo/donde-va-a-morir-sara/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/krapp",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/teatro/krapp/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/ser-humano",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/teatro/ser-humano/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/funeral-para-un-amigo-imaginario",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/teatro/funeral-para-un-amigo-imaginario/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/bum-dia-nacional-de-la-danza-en-m100",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/dia-nacional-de-la-danza-en-m100/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ticketplus.cl/events/la-sobremesa",
+      "domain": "ticketplus.cl",
+      "found_on": "https://www.m100.cl/programacion/dia-nacional-de-la-danza-en-m100/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.fondosdecultura.gob.cl/",
+      "domain": "www.fondosdecultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://programadetrabajocultural.gob.cl/",
+      "domain": "programadetrabajocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ciudadania.cultura.gob.cl/",
+      "domain": "ciudadania.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://repositorio.cultura.gob.cl/",
+      "domain": "repositorio.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://publicosyterritorios.cultura.gob.cl/",
+      "domain": "publicosyterritorios.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://donacionesculturales.gob.cl/",
+      "domain": "donacionesculturales.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://puntos.cultura.gob.cl/",
+      "domain": "puntos.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.bibliotecanacional.gob.cl/",
+      "domain": "www.bibliotecanacional.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.bpdigital.cl/opac/?locale=es",
+      "domain": "www.bpdigital.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/bibliotecas-publicas-0",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/servicios/conoce-nuestros-museos-nacionales",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/museos-regionales-y-especializados",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://planpatrimonio.cultura.gob.cl/",
+      "domain": "planpatrimonio.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://pip.cultura.gob.cl/",
+      "domain": "pip.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://patrimoniodigital.cultura.gob.cl/",
+      "domain": "patrimoniodigital.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://patrimonioinmaterial.patrimoniocultural.gob.cl/",
+      "domain": "patrimonioinmaterial.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.patrimoniocultural.gob.cl/Departamento-de-derechos-intelectuales",
+      "domain": "www.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.fondosdecultura.cl/",
+      "domain": "www.fondosdecultura.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://contacto.patrimoniocultural.gob.cl/ES/AtencionCiudadana/OIRS",
+      "domain": "contacto.patrimoniocultural.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/agendacultural/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.fondosdecultura.cl/convocatoria-para-la-elaboracion-e-implementacion-de-planes-de-gestion-de-espacios-culturales-2025/",
+      "domain": "www.fondosdecultura.cl",
+      "found_on": "https://www.cultura.gob.cl/redcultura/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.bcn.cl/leychile/navegar?i=1110097&f=Diferido",
+      "domain": "www.bcn.cl",
+      "found_on": "https://www.cultura.gob.cl/redcultura/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://educacionycultura.cultura.gob.cl/politica-de-educacion-artistica/",
+      "domain": "educacionycultura.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/redcultura/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://registro.cultura.gob.cl/PAOCC/login",
+      "domain": "registro.cultura.gob.cl",
+      "found_on": "https://www.cultura.gob.cl/paocc/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://clave.fondosdecultura.cl/",
+      "domain": "clave.fondosdecultura.cl",
+      "found_on": "https://www.cultura.gob.cl/paocc/llamado-para-acceder-a-asesorias-para-la-revision-y-formulacion-de-planes-de-gestion-y-o-proyectos-de-programacion-cultural-paocc-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/cartelera-mensual/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/todos-los-eventos/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/programas-de-mano/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/noticias-tmt/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/historia/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/nosotros-2/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://proyectos.teatromunicipaltemuco.cl/",
+      "domain": "proyectos.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/arriendos/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/auspiciadores/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/biografia/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/documentacion-oft/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/orquesta-infantil-juvenil/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/coro/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/coro-infantil/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/bafote/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/bafotito/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/galeria-de-fotografias/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/documentos-corporacion-temuco/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/transparencia%20/index.html",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/contacto/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product-category/comedia/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product-category/concierto/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product-category/danza/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/todos-los-eventos/?filtering=1&filter_product_cat=105",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product-category/teatro/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product-category/todos-los-eventos/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product/concierto-viii-un-canto-por-la-paz-23-octubre-2000-hrs/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product/roberto-bravo-con-musica-de-peliculas-24-de-octubre-1900-hrs/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product/la-elvira-26-octubre-1930-hrs/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product/gala-de-la-orquesta-infantil-juvenil-28-de-octubre-2000-hrs/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/?add-to-cart=9881",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product/alberto-plaza-sinfonico-29-de-octubre-a-las-1930/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/product/antartica-la-ultima-pagina-en-blanco-de-la-tierra-05-de-noviembre/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/?add-to-cart=10220",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/2026/10/20/exposicion-de-carlos-raposo-fue-inaugurada-en-el-teatro-municipal-de-temuco/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/2026/10/19/invitan-a-establecimientos-de-la-region-al-concierto-educacional-acerquemonos-a-la-musica-de-la-orquesta-filarmonica-de-temuco/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/2026/10/15/el-teatro-municipal-camilo-salvo-sera-el-escenario-del-x-encuentro-de-coros-escolares-temuco-2026/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/2026/10/09/el-teatro-municipal-de-temuco-abrio-sus-puertas-a-estudiantes-con-recorridos-en-visitas-guiadas/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/2026/09/29/musica-humor-y-artes-escenicas-marcan-la-cartelera-de-octubre-del-teatro-municipal-de-temuco/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/my-account/lost-password/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://ww2.teatromunicipaltemuco.cl/my-account/",
+      "domain": "ww2.teatromunicipaltemuco.cl",
+      "found_on": "https://www.teatromunicipaltemuco.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://gam.ticketplus.cl/",
+      "domain": "gam.ticketplus.cl",
+      "found_on": "https://gam.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.eldinamo.cl/entretencion/cultura/2026/08/06/remodelacion-de-la-plaza-poniente-del-gam-busca-convertirla-en-un-nuevo-polo-de-encuentro-ciudadano/",
+      "domain": "www.eldinamo.cl",
+      "found_on": "https://gam.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://gam.ticketplus.cl/events/festival-django-cl?referal_name=gamcl",
+      "domain": "gam.ticketplus.cl",
+      "found_on": "https://gam.cl/es/que-hacer-en-gam/musica-popular/festival-django-2026/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://WWW.VIVOTICKET.CL",
+      "domain": "www.vivoticket.cl",
+      "found_on": "https://www.teatroregional.cl/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.vivoticket.cl",
+      "domain": "www.vivoticket.cl",
+      "found_on": "https://www.teatroregional.cl/podcast-en-concierto-con-la-ocm",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://vivoticket.cl",
+      "domain": "vivoticket.cl",
+      "found_on": "https://www.teatroregional.cl/archivo/28533",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://www.vivoticket.cl/web/sonidos-del-sur",
+      "domain": "www.vivoticket.cl",
+      "found_on": "https://www.teatroregional.cl/archivo/28546",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "https://uplatv.cl/",
+      "domain": "uplatv.cl",
+      "found_on": "https://parquecultural.cl/events/universidad-de-playa-ancha-conmemora-el-orgullo-gay-con-programacion-critica-y-reflexiva/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    },
+    {
+      "url": "http://www.festivalsintesisteatralvalparaiso.cl",
+      "domain": "www.festivalsintesisteatralvalparaiso.cl",
+      "found_on": "https://parquecultural.cl/events/dia-nacional-del-teatro-festival-sintesis-teatral-valparaiso-realizara-segunda-version-en-linea/",
+      "reason": "Enlace externo con pinta de agenda/eventos"
+    }
+  ]
+}
