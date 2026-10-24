@@ -46,7 +46,11 @@ class ChileCommunesTests(unittest.TestCase):
             self.assertIn("url_evidence", s)
             if s["commune"]:
                 self.assertEqual(by_name[s["commune"]]["region"], s["region"], s["name"])
-            self.assertFalse(s["verified_live"], "solo actualizar.py puede marcar verified_live")
+            if s["verified_live"]:
+                # Solo actualizar.py lo marca, tras una respuesta HTTP 2xx registrada.
+                check = s.get("last_live_check") or {}
+                self.assertTrue(check.get("ok"), s["name"])
+                self.assertTrue(200 <= (check.get("http_status") or 0) < 300, s["name"])
 
 
 class LocalityTests(unittest.TestCase):
@@ -56,6 +60,20 @@ class LocalityTests(unittest.TestCase):
         src = {"name": "Agregador", "commune": None, "source_type": "aggregator"}
         events, _ = generic_events.events_from_jsonld(page, "https://a.cl/", src, CHILE)
         self.assertEqual(events[0]["commune"], "Concepción")
+
+
+class PlainTextTests(unittest.TestCase):
+    def test_escaped_html_in_jsonld_becomes_plain_text(self):
+        # Caso real de GAM (rastreo del 2026-10-24).
+        page = """<script type="application/ld+json">{"@type":"Event","name":"Trueque &amp;amp; Novelas",
+        "startDate":"2030-10-24T10:00:00-03:00","description":"&lt;p&gt;Trae un &lt;b&gt;libro&lt;/b&gt;&lt;/p&gt;",
+        "location":{"name":"Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Plaza Central&lt;/b&gt;&lt;/p&gt;",
+        "address":{"addressLocality":"Santiago"}}}</script>"""
+        src = {"name": "GAM", "commune": "Santiago", "source_type": "venue"}
+        [event], _ = generic_events.events_from_jsonld(page, "https://gam.cl/", src, CHILE)
+        self.assertEqual(event["venue"], "Centro Gabriela Mistral - GAM - Plaza Central")
+        self.assertEqual(event["title"], "Trueque & Novelas")
+        self.assertEqual(event["description"], "Trae un libro")
 
 
 class NationalRunTests(unittest.TestCase):
