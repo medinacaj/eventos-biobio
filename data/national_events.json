@@ -1,16 +1,16 @@
 {
   "_notes": "Generado por actualizar.py --nacional. Solo contiene lo que las fuentes publicaron en esta corrida y en corridas anteriores; nada se completa a mano.",
-  "generated_at": "2026-10-24T10:29:48",
+  "generated_at": "2026-10-24T10:41:39",
   "summary": {
     "sources_attempted": 9,
     "sources_ok": 8,
     "sources_failed": 1,
     "events_found": 6,
-    "events_inserted": 4,
-    "events_merged": 0,
-    "possible_events": 138,
+    "events_inserted": 1,
+    "events_merged": 3,
+    "possible_events": 0,
     "quarantined_candidates": 0,
-    "candidates": 110,
+    "candidates": 0,
     "errors": [
       {
         "source": "ChileCultura (Ministerio de las Culturas)",
@@ -26,7 +26,7 @@
       "end_date": "2026-11-21",
       "time": "10:00",
       "end_time": null,
-      "venue": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Plaza Central&lt;/b&gt;&lt;/p&gt;",
+      "venue": "Centro Gabriela Mistral - GAM - Plaza Central",
       "address": "Av. Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana",
       "commune": "Santiago",
       "category": "Cultura",
@@ -42,7 +42,7 @@
       "official": true,
       "image_url": "https://gam.cl/media/images/PORTADA_3.2e16d0ba.fill-1200x630.png",
       "discovered_at": "2026-10-24T10:28:52",
-      "changed_at": null,
+      "changed_at": "2026-10-24T10:40:52",
       "tags": [],
       "sources": [
         {
@@ -51,10 +51,19 @@
           "type": "venue",
           "priority": 1,
           "official": true,
-          "seen_at": "2026-10-24T10:28:52"
+          "seen_at": "2026-10-24T10:39:53"
         }
       ],
-      "changes": [],
+      "changes": [
+        {
+          "field": "venue",
+          "old_value": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Plaza Central&lt;/b&gt;&lt;/p&gt;",
+          "new_value": "Centro Gabriela Mistral - GAM - Plaza Central",
+          "source": "Centro Cultural Gabriela Mistral (GAM)",
+          "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/trueque-novelas-2026/",
+          "changed_at": "2026-10-24T10:40:52"
+        }
+      ],
       "region": "Metropolitana"
     },
     {
@@ -64,7 +73,7 @@
       "end_date": "2026-10-25",
       "time": "17:00",
       "end_time": null,
-      "venue": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Sala N2&lt;/b&gt; (Edificio B, piso 2)&lt;/p&gt;",
+      "venue": "Centro Gabriela Mistral - GAM - Sala N2 (Edificio B, piso 2)",
       "address": "Av. Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana",
       "commune": "Santiago",
       "category": "Cultura",
@@ -80,7 +89,7 @@
       "official": true,
       "image_url": "https://gam.cl/media/images/PortadaLabdanzaGAM.2e16d0ba.fill-1200x630.png",
       "discovered_at": "2026-10-24T10:28:52",
-      "changed_at": null,
+      "changed_at": "2026-10-24T10:40:52",
       "tags": [],
       "sources": [
         {
@@ -89,10 +98,19 @@
           "type": "venue",
           "priority": 1,
           "official": true,
-          "seen_at": "2026-10-24T10:28:52"
+          "seen_at": "2026-10-24T10:39:53"
         }
       ],
-      "changes": [],
+      "changes": [
+        {
+          "field": "venue",
+          "old_value": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;Sala N2&lt;/b&gt; (Edificio B, piso 2)&lt;/p&gt;",
+          "new_value": "Centro Gabriela Mistral - GAM - Sala N2 (Edificio B, piso 2)",
+          "source": "Centro Cultural Gabriela Mistral (GAM)",
+          "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/laboratorio-ciudadano-danza-2026/",
+          "changed_at": "2026-10-24T10:40:52"
+        }
+      ],
       "region": "Metropolitana"
     },
     {
@@ -102,7 +120,7 @@
       "end_date": null,
       "time": "11:00",
       "end_time": "11:00",
-      "venue": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;BiblioGAM&lt;/b&gt; (Edificio A, piso 3)&lt;/p&gt;",
+      "venue": "Centro Gabriela Mistral - GAM - BiblioGAM (Edificio A, piso 3)",
       "address": "Av. Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana",
       "commune": "Santiago",
       "category": "Cultura",
@@ -118,7 +136,7 @@
       "official": true,
       "image_url": "https://gam.cl/media/images/PortadaPerioscopioGAM.2e16d0ba.fill-1200x630.png",
       "discovered_at": "2026-10-24T10:28:52",
-      "changed_at": null,
+      "changed_at": "2026-10-24T10:40:52",
       "tags": [],
       "sources": [
         {
@@ -127,10 +145,19 @@
           "type": "venue",
           "priority": 1,
           "official": true,
-          "seen_at": "2026-10-24T10:28:52"
+          "seen_at": "2026-10-24T10:39:53"
         }
       ],
-      "changes": [],
+      "changes": [
+        {
+          "field": "venue",
+          "old_value": "Centro Gabriela Mistral - GAM - &lt;p&gt;&lt;b&gt;BiblioGAM&lt;/b&gt; (Edificio A, piso 3)&lt;/p&gt;",
+          "new_value": "Centro Gabriela Mistral - GAM - BiblioGAM (Edificio A, piso 3)",
+          "source": "Centro Cultural Gabriela Mistral (GAM)",
+          "source_url": "https://gam.cl/es/que-hacer-en-gam/actividades/gam-y-periscopio-presentan-juegos-de-mesa-en-bibliogam/",
+          "changed_at": "2026-10-24T10:40:52"
+        }
+      ],
       "region": "Metropolitana"
     }
   ],
@@ -138,50 +165,50 @@
     {
       "source_name": "Agenda Cultural del Ministerio de las Culturas",
       "source_url": "https://www.cultura.gob.cl/agendacultural/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:44",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:40:09",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 19,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 21,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Centro Cultural Gabriela Mistral (GAM)",
       "source_url": "https://gam.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:52",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:40:52",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 3,
-      "events_inserted": 3,
-      "events_merged": 0,
-      "possible_found": 6,
+      "events_inserted": 0,
+      "events_merged": 3,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Centro Cultural La Moneda",
       "source_url": "https://www.cclm.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:17",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:39:58",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 18,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "ChileCultura (Ministerio de las Culturas)",
       "source_url": "https://chilecultura.gob.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:06",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:39:56",
       "ok": 0,
       "http_status": 403,
       "pages_fetched": 0,
@@ -194,71 +221,71 @@
     {
       "source_name": "Matucana 100",
       "source_url": "https://www.m100.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:39",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:40:18",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 5,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Parque Cultural de Valparaíso",
       "source_url": "https://parquecultural.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:29:48",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:41:39",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 19,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Teatro Municipal de Santiago",
       "source_url": "https://www.municipal.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:27",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:40:20",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 25,
       "events_found": 3,
       "events_inserted": 1,
       "events_merged": 0,
-      "possible_found": 50,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Teatro Municipal de Temuco",
       "source_url": "https://www.teatromunicipaltemuco.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:28:48",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:40:25",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 1,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 6,
+      "possible_found": 0,
       "error": null
     },
     {
       "source_name": "Teatro Regional del Maule",
       "source_url": "https://www.teatroregional.cl/",
-      "started_at": "2026-10-24T10:28:02",
-      "finished_at": "2026-10-24T10:29:04",
+      "started_at": "2026-10-24T10:39:53",
+      "finished_at": "2026-10-24T10:40:42",
       "ok": 1,
       "http_status": 200,
       "pages_fetched": 16,
       "events_found": 0,
       "events_inserted": 0,
       "events_merged": 0,
-      "possible_found": 13,
+      "possible_found": 0,
       "error": null
     }
   ],

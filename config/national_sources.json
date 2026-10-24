@@ -21,7 +21,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Última verificación en vivo 2026-10-24: falló. Error: HTTP 403. Plataforma oficial colaborativa donde organizaciones culturales y municipios publican actividades de todas las regiones (según prensa regional, 2026). Sin comuna fija: solo se publican eventos cuya ubicación estructurada identifique una comuna de Chile.",
       "last_live_check": {
-        "at": "2026-10-24T10:28:06",
+        "at": "2026-10-24T10:39:56",
         "ok": false,
         "http_status": 403,
         "error": "HTTP 403"
@@ -47,7 +47,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 19 página(s), 0 evento(s)). Sección agendacultural de cultura.gob.cl observada en resultados de búsqueda (notas de 2013 a 2026). Sin comuna fija.",
       "last_live_check": {
-        "at": "2026-10-24T10:28:44",
+        "at": "2026-10-24T10:40:09",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -73,7 +73,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 3 evento(s)). Dominio gam.cl observado en búsqueda (páginas institucionales y sala de prensa).",
       "last_live_check": {
-        "at": "2026-10-24T10:28:52",
+        "at": "2026-10-24T10:40:52",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -99,7 +99,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 0 evento(s)). Sección 'Calendario de actividades' de cclm.cl observada en búsqueda.",
       "last_live_check": {
-        "at": "2026-10-24T10:28:17",
+        "at": "2026-10-24T10:39:58",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -125,7 +125,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 3 evento(s)). Dominio municipal.cl citado como sitio oficial (Wikipedia).",
       "last_live_check": {
-        "at": "2026-10-24T10:28:27",
+        "at": "2026-10-24T10:40:20",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -151,7 +151,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 0 evento(s)). Dominio m100.cl citado en prensa (El Mostrador, 2020) para venta de entradas. La dirección Matucana 100 está en Estación Central según conocimiento previo; verificar.",
       "last_live_check": {
-        "at": "2026-10-24T10:28:39",
+        "at": "2026-10-24T10:40:18",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -177,7 +177,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 25 página(s), 0 evento(s)). Dominio parquecultural.cl citado por la Universidad de Valparaíso y en su memoria 2024.",
       "last_live_check": {
-        "at": "2026-10-24T10:29:48",
+        "at": "2026-10-24T10:41:39",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -203,7 +203,7 @@
       "url_evidence": "observado_en_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 16 página(s), 0 evento(s)). Dominio teatroregional.cl observado en búsqueda (memorias institucionales) y en el directorio de Opera Latinoamérica.",
       "last_live_check": {
-        "at": "2026-10-24T10:29:04",
+        "at": "2026-10-24T10:40:42",
         "ok": true,
         "http_status": 200,
         "error": null
@@ -229,7 +229,7 @@
       "url_evidence": "resumen_de_busqueda",
       "notes": "Verificada en vivo el 2026-10-24 (HTTP 200; 1 página(s), 0 evento(s)). Dominio indicado por el directorio IbsenStage; confianza baja hasta verificar.",
       "last_live_check": {
-        "at": "2026-10-24T10:28:48",
+        "at": "2026-10-24T10:40:25",
         "ok": true,
         "http_status": 200,
         "error": null
