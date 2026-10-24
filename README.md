@@ -90,6 +90,22 @@ Verifícalos con el organizador antes de difundirlos.
 
 No se hace scraping de Instagram (requiere login; no se evade login, CAPTCHA ni se usan cookies). Si hace falta contenido de Instagram, quien administre el proyecto debe aportar capturas de pantalla y cargarlas manualmente, por ejemplo con el formulario «Publica tu evento».
 
+## Eventos nacionales (desde 24-10-2026)
+
+`python3 actualizar.py --nacional` usa el mismo recolector y la misma política de calidad con
+`config/national_sources.json` (fuentes fuera del Biobío: ChileCultura, la agenda cultural del
+Ministerio de las Culturas y teatros o centros culturales de varias regiones) y las 346 comunas de
+`config/chile_communes.json` (fuente: paquete npm `chilean-territorial-divisions@1.0.1`, licencia MIT).
+Escribe `data/national_events.json`; cada evento y posible evento lleva la región de su comuna.
+El flujo del Biobío, su app local y `data/crawled_events.json` no cambian.
+
+- Ninguna fuente nacional está verificada en vivo todavía: los dominios salieron de búsquedas web
+  del 2026-10-24 (`url_evidence`) y se confirmarán en la primera corrida de GitHub Actions.
+- La comuna se toma primero de `addressLocality` del JSON-LD, para no confundir recintos como
+  «Plaza de la Independencia» con la comuna Independencia.
+- El workflow diario ejecuta el rastreo nacional después del regional y lo registra en un commit
+  aparte; si el nacional falla, el snapshot del Biobío ya quedó guardado.
+
 ## Actualizar desde la nube (o desde cualquier equipo)
 
 `python3 actualizar.py` rastrea las fuentes habilitadas sin abrir la interfaz y escribe dos archivos **versionables**:

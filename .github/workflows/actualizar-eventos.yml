@@ -16,6 +16,8 @@ on:
       - 'tests/**'
       - 'scripts/check_snapshot.py'
       - 'scripts/report_coverage.py'
+      - 'config/national_sources.json'
+      - 'config/chile_communes.json'
       - '.github/workflows/actualizar-eventos.yml'
 
 permissions:
@@ -59,4 +61,20 @@ jobs:
             git push
           else
             echo "Sin diferencias; no se crea commit."
+          fi
+      # Rastreo nacional separado: si falla, el snapshot del Biobío ya quedó registrado.
+      - name: Rastreo nacional de fuentes reales
+        run: python3 actualizar.py --nacional --workers 4
+      - name: Exigir evidencia HTTP del rastreo nacional
+        run: python3 scripts/check_snapshot.py data/national_events.json config/chile_communes.json
+      - name: Registrar solo datos nacionales validados
+        shell: bash
+        run: |
+          git add -- data/national_events.json config/national_sources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: rastreo real de eventos nacionales [skip ci]"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "Sin diferencias nacionales; no se crea commit."
           fi
